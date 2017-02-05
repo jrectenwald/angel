@@ -1,0 +1,290 @@
+---
+:faqs:
+- :question: What are the first steps to get started with my Raden?
+  :answer: See our User Guide!
+- :question: How do I pair my case?
+  :answer: |-
+    Before pairing your case for the first time, make sure your
+      battery is turned on by pulling out the “Pull to start” tab
+      that sits between the battery and the Bluetooth docking station.
+      Once your case is fully charged, open the Raden app and tap
+      "Pair My Raden.” Your phone will confirm when your case is
+      paired. If you have any issues, contact our customer experience
+      team here.
+- :question: How do I charge my case?
+  :answer: |-
+    Use your Raden mUSB to USB cable to plug your case into a
+    charging outlet. To charge your case, put the mUSB plug into
+    its designated port on the USB faceplate, and the USB plug into
+    a computer or wall adapter. If you remove the battery from the
+    case, you can charge your battery by directly plugging in
+    the mUSB into the internal Powerbank and USB into a computer
+    or wall adapter.
+- :question: How do I get the Raden app?
+  :answer: |-
+    You can download the app for iOS here.
+      Within the app, you can log in with your Raden account that you
+      created when you purchased your case. If you haven’t created
+      an account yet, you can sign up within the app.
+- :question: How do I weigh my case?
+  :answer: |-
+    Make sure the case is resting on flat ground on all four wheels.
+    On the app’s weight dashboard, click "Calibrate". The weight
+    sensor will take a few seconds to calibrate. Once calibrated,
+    click the “Weigh my Case” button. You may now lift the case from
+    the center of the top handle. Hold still and ensure case is
+    dangling freely. Your case’s weight will appear on the dashboard.
+- :question: What do the LED lights represent?
+  :answer: |-
+    There are two LED colors with various blinking patterns. The blue light
+      is associated with bluetooth, while the white light is associated with the
+      battery. There are various blinking patterns for each color. The tables below
+      summarizes each state:
+    BLUE (bluetooth)
+
+      Solid (not blinking): case is paired
+      Blinking fast (2 second intervals): case is looking to pair.
+      The case will revert to blinking slow after 30 seconds
+      (see below)
+      Blinking slow (4 second intervals): case is looking to
+      pair, but the  process may take a few seconds longer
+
+    WHITE (battery)
+
+      Fast blinking: this “heartbeat” represents the battery is on low power mode (battery <20%)
+      One second white light: represents that the case has been connected to a
+        power source and is charging
+- :question: If someone wants to borrow my case, how do they pair it with the app?
+  :answer: |-
+    You can either share access to your case or reset your electronics.
+    To Share Access: In the Raden app, select "Your Account" and click on your case. Tap the “Share case” button. Your case will provide a password prompt before letting you (or your friend) access it.
+    To Reset Electronics: Insert a long, thin instrument (a paper clip works great!) into the "Reset" hole on the Bluetooth Dock. Push the instrument until you feel the click of a button, and hold for 5-10 seconds until all five LED lights on the Powerbank flash. Once the LEDs have flashed, your case has successfully been reset.
+- :question: How do I use the location features?
+  :answer: On the Raden app’s home screen, click the "Location" link to enter your
+    Location Dashboard. Here, you will see proximity (how far your Raden is to your
+    phone), the number of cities and countries traveled to with your Raden, and historic
+    map views that show your case’s last known locations. The map views are dependent
+    upon the case being within Bluetooth range of a phone that has the Raden app.
+- :question: How do Raden’s location features work?
+  :answer: Raden’s location awareness feature leverages Crowd GPS technology. Crowd
+    GPS is a no-subscription alternative to traditional GPS, consuming substantially
+    less power and creating less radio-frequency interference than standard GPS modules.
+    The technology uses low-powered Bluetooth signals (Bluetooth Low Energy, or BLE)
+    to send out a signal with a range of 100 feet / 30 meters. When a case's signal
+    is picked up by any nearby user's smartphone with the Raden app, a time-stamped
+    set of coordinates are sent to Raden's Crowd GPS server. This allows the case's
+    owner to see a full history of their case's previously known locations in the
+    Raden app. But don't worry - only the case's owner can view the case's location,
+    and this is not public information that is only accessible by anyone but the owner
+    of the case.
+- :question: What is the Bluetooth range?
+  :answer: The proximity range is approximately 100 feet / 30 meters. Digital or physical
+    objects like buildings, walls, radio antennas and devices that produce radio frequency
+    signals may interfere from time to time.
+- :question: How long does it take to charge the battery?
+  :answer: Depending on the power source, Raden’s battery will recharge from 0% to
+    100% in about 5 to 10 hours.
+- :question: What happens if the electronics break?
+  :answer: The electronics in your case are protected through Raden’s warranty policy.
+    Review our policy here or contact our customer experience team here.
+- :question: Are the electronics waterproof?
+  :answer: The electronics are NOT waterproof.
+- :question: Do the electronics work internationally?
+  :answer: |-
+    Yes! Take Raden anywhere in the world - you'll be able to charge on the go,
+      determine the weight of your case and track its location using the Raden app.
+- :question: How many charges can I get out of the battery?
+  :answer: Raden's powerful 7800mAh battery can fully charge a standard iPhone 6 four
+    to five times.
+- :question: How do I recharge the battery?
+  :answer: |-
+    Plug your case into a USB or wall outlet. You may use the cable provided
+      by Raden or any mUSB to USB cord. Charge for a minimum of 60 minutes.
+- :question: Can I use the battery outside the case?
+  :answer: The battery works just like an external charger, so you can remove the
+    battery from your Raden case and use it to charge your phone anytime, anywhere.
+    To remove your battery from the case, unzip the interior lining and locate a small
+    black pouch. Unzip the pouch to locate the battery. Take out the battery and use
+    it like any other portable powerbank!
+- :question: What happens if my airline isn't listed as an option to check the weight
+    limit of my case?
+  :answer: |-
+    The Raden app is continuously working to include weight limitations for
+      every airline. If your carrier or flight isn’t listed, please contact us
+      here
+      and we’ll get on the case.
+- :question: Why is the Raden case so affordable?
+  :answer: |-
+    We believe better products lead to better experiences - and better doesn’t
+      necessarily have to cost more. By avoiding middle men and third parties, Raden
+      offers a high-quality case at a reasonable price without paying a million people
+      along the way.
+- :question: What are the dimensions of the case?
+  :answer: The A22 Carry is 22" x 14" x 9". These are the maximum allowable dimensions
+    for carry-on luggage. The A28 Check is 28" x 21" x 13". The A22 Carry has an interior
+    capacity of 35 Liters. The A28 Check has an interior capacity of 106.7 Liters.
+- :question: How much does the case weigh?
+  :answer: The A22 Carry weighs 8.4 lbs. The A28 Check weighs 13 lbs.  It’s among
+    the lightest in the luggage industry for German polycarbonate hard-shell cases.
+- :question: What materials are used in the case?
+  :answer: |-
+    Raden’s exterior shells are made with a Makrolon® ET German Polycarbonate.
+      The wheels are a mix of nylon and PU/PP plastics. The side handle is a Polyurethane,
+      while the top handle is a blend of PC+ABS, ABS and zinc alloy. Our interior
+      linings are polyester.
+- :question: Can I use my case as a carry-on?
+  :answer: |-
+    Of course. The A22 Carry is 22" x 14" x 9", which is the maximum size
+      and allowable volume for most U.S. airlines.
+- :question: What is a TSA lock and how do I use it?
+  :answer: |-
+    In the U.S., the Transportation Security Administration (TSA) requires access to luggage without the passenger being present. Raden's integrated TSA lock uses zipper pulls without any additional accessories, making it easy for authorized TSA personnel to access to your case for inspection (if necessary).
+    To unzip your newly delivered Raden case, first open your TSA lock by following these steps: Set the number wheel to read “0-0-0.” With the front of the case facing you and the two zippers locked into the faceplate, slide the unlocking mechanism to the right (hint: the unlocking mechanism looks like a slim, vertical rectangle and is right next to the TSA keyhole).
+- :question: How do I clean my case?
+  :answer: |-
+    To remove dirt and small scuffs, Raden recommends to use a non-abrasive agent such as Isopropanol alcohol, which is commonly available at drug stores. Apply a few milliliters of Isopropanol to a cloth or directly onto the dirt or residue marks left on your shell, and wipe away until clean. Repeat as needed.
+    DO NOT USE:
+
+      Scouring detergents or abrasive cloths/sponges (i.e. steel wool)
+      Window cleaning agents, vinegar-based cleaners, or disinfectants including Goo Gone.
+      Solvents, dilutions, or aggressive alcohols
+      Petroleum distillates (white spirit/petrol based agents) including nail polisher remover
+
+    Note that above agents will damage your Raden.
+- :question: How do I set or reset my own TSA lock combination?
+  :answer: |-
+    For initial setting, ensure the combination is set to "0-0-0". Then,
+      using a pen tip, push the lock faceplate’s silver reset button so that it
+      stays down. Slide each number wheel to the 3-digit combination of your choice.
+      Slide the unlocking mechanism so that the reset button pops back to its
+      starting place. Your lock is now reset to your chosen 3-digit combination.
+- :question: Is the case scratch-resistant?
+  :answer: |-
+    Raden applies a post-production resin to its polycarbonate
+    shells, which helps prevent scuffing and scratching during
+    transit. That being said, marks will make their way onto the
+    case, regardless of the specific finish. Wear and tear is a
+    natural sign of more travel memories and frequent flier miles.
+- :question: My case is damaged. What should I do?
+  :answer: |-
+    Raden is committed to providing the highest level of service for its
+      customers. Your case is protected under our warranty policy, which you can review
+      here
+    Raden keeps a full inventory of replacement parts, including
+      handles, wheels, zipper pulls, electronic modules and USB cables. If you
+      need assistance with a repair or replacement part, contact our customer
+      experience team
+      here.
+- :question: Is the case waterproof?
+  :answer: |-
+    Absolutely. Raden’s shells are waterproof, as are the reverse-coated
+      Polyurethane zippers which provide a waterproof layer to the zippered seams.
+- :question: Has the case undergone any regulatory certifications?
+  :answer: |-
+    Raden’s cases have undergone critical regulatory certifications. Raden is
+      listed under Standard 60950, a globally recognized testing standard for product
+      safety, and we’re officially deemed as Safe Technology Equipment. The rest of
+      our certifications are listed below - if you’re looking for more details,
+      feel free to contact our customer experience team
+      here.
+
+      FCC testing as Declaration of Conformity.
+      IC (CE declaration).
+      UN 38.3 for battery certification.
+      IEC/EN 62133 for EMC certification.
+      Bluetooth Smart certification.
+      RoHS (Restriction of Hazardous Substances) testing.
+- :question: Is there a warranty?
+  :answer: Yes! Raden offers a 5-year case warranty and a 1-year electronics warranty.
+    To exercise your warranty, please contact our customer experience team here.
+- :question: Does my Raden comply with regulatory requirements set by the travel industry?
+  :answer: |-
+    Raden complies with all the relevant safety standards set forth by the
+      FAA, TSA and IATA. Raden contains a battery with Watt-hour rating 28.3Wh
+      which has passed all safety & testing requirements of standard UN38.3, and
+      meets the requirements outlined by IATA Packing Instructions 966 and 967.
+- :question: Where can I buy the case?
+  :answer: Currently, Raden cases are sold exclusively through our website. We're
+    rolling out a few partnerships for the holidays, so keep your eyes peeled!
+- :question: Which forms of payment does Raden accept?
+  :answer: |-
+    Raden accepts all major credit cards, including American Express, Visa,
+      MasterCard and Discover.
+- :question: Do I need to pay sales tax?
+  :answer: |-
+    Sales tax varies from state to state. Enter your shipping zip code upon
+      checkout to calculate taxes.
+- :question: How do I use a gift card?
+  :answer: |-
+    Got your gift code? Simply enter it at checkout. If you can’t locate your
+      gift card code, contact us here.
+- :question: How do I place a large order?
+  :answer: We’d be happy to arrange. Please contact us here.
+- :question: What's the status of my order?
+  :answer: |-
+    To check the status of your order, log into your account
+      here and visit the orders page.
+- :question: What's your return and exchange policy?
+  :answer: We’re pretty sure you’re going to love your new Raden case, but if you
+    don’t, we offer a 30-day return policy on unused cases. To initiate a return,
+    please contact us here.
+- :question: How do I repair my case?
+  :answer: |-
+    Most frequent travelers run into issues with their luggage. Whether it
+      be the handle, wheels or electronics, Raden is happy to help coordinate
+      repairs. To begin the repair process, contact Raden’s customer experience team
+      here.
+- :question: Can I change my order?
+  :answer: Of course. To make changes to your order, email our customer experience
+    team here.
+- :question: Can I cancel my order?
+  :answer: |-
+    You can cancel your order anytime prior to shipment. Note that we do our
+      best to ship products within one business day. If you are unable to cancel
+      your order in time, please click here
+      to contact Raden’s customer service team.
+- :question: Can I change the shipping address on my order?
+  :answer: |-
+    To change your shipping address prior to shipment, contact Raden’s customer
+      experience team here.
+- :question: How much does shipping cost?
+  :answer: |-
+    Like the best things in life, shipping within the US is free.
+    Shipping to Canada costs $50 USD. This covers the cost of duties, taxes, and fees associated with international shipping.
+- :question: Can I expedite my order?
+  :answer: Of course. You can purchase overnight shipping at checkout. This will ensure
+    that once your order will be delivered in one day from time of shipment. If you
+    want to purchase overnight shipping after checkout, just send us an email here
+- :question: What if I'm not home when my order is delivered?
+  :answer: |-
+    Raden doesn’t require a signature upon delivery. The package will be left
+      at your door unless noted otherwise by the shipping carrier. If you need
+      help tracking your package or rescheduling a delivery, visit your account page
+      here
+      or contact Raden’s customer experience team
+      here.
+- :question: How big is the shipping box?
+  :answer: |-
+    Raden packaging is engineered to be environmentally conscious and customer
+      friendly. Your case fits perfectly into the packaging and has a convenient
+      carry handle on the top. The packaging dimensions for the A22 Carry are 23” x 15” x 10”. The packaging dimensions for the A28 Check and A50 Set are 31” x 21” x 14”.
+- :question: Do you ship internationally?
+  :answer: |-
+    Raden currently ships to the US and Canada, with additional countries
+      rolling out shortly. Standby.
+    Please email our customer support team here if you’d like us to prioritize your country.
+- :question: How long does shipping take in the US?
+  :answer: |-
+    Our warehouse will process and ship your order within 1
+    business day.
+
+    Our free shipping option is dispatched via UPS Ground and will
+    arrive in 1-5 business days once the order leaves the
+    warehouse.
+
+    Our Overnight Shipping option costs $50 and will arrive in 1
+    business day once the order leaves the warehouse.
+
+    We also offer same day delivery. If you select Same Day Delivery by
+    2:00pm local time, your order will arrive by 7:00pm local time
+    (offered only in select markets).
