@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+<h1><%= @company.name %></h1>
+<form method="post" action="/companies/<%=@company.id%>/answer">
+  Question: <input type="textarea" name="question">
+  <input type="submit">
+</form>
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back', companies_path %>
