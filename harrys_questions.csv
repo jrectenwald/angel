@@ -1,0 +1,308 @@
+Category,Question,Harrys Response,Clarifying question for agent response
+Returns,What is your return policy?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, just let us know so that we can help you return your products within 30 days of receipt for a full refund. 
+
+It's helpful to remember it does take some time to adjust to a new shave system. Experimenting with the angle and pressure should help you find the right approach to giving you a great shave with our razor.",
+Returns,"I want to return X but it is outside of the return window, can I get a credit?",,"10x here! What's your number, let's see what we can do for you"
+Returns,"I am just outside of the return window, can you make an exception? I am a great customer!",,"10x here! What's your number, let's see what we can do for you"
+Returns,"The product doesn't look in person as it looks online, I want to return / exchange it for a different color/size",,"10x here! What's your number, let's see what we can do for you"
+Returns,How do I return an item?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you start your return. ",
+Returns,Do you allow returns?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you start your return. ",
+Returns,Do you accept return?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you start your return and refund you.",
+Returns,I've had the razor for 3 months since 12.25.16 can I still return it?,"We love the products we’ve made, and we think you will too. 3 months is longer than our standard return policy, but I'm happy to help you sort this out.",
+Returns,Can I get a refund if I return?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you start your return and refund you.",
+Returns,"I'd like to return product x, how do I send it back?","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, you can return your products within 30 days of receipt for a full refund.
+
+I'm happy to help you start your return.",
+Returns,do I get a credit to my account if I return?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you start your return and refund.",
+Returns,"It doesn't work, I want to return this","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you start your return and refund.",
+Returns,"I don't like the product, I want to return this","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you start your return and refund.",
+Returns,Can I return something?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you start your return and refund.",
+Returns,Are sale items returnable?,We actually never have any products that go on sale.,
+Returns,Can I return something bought on sale?,We actually never have any products that go on sale.,
+Returns,"I got X as a gift, can I return it without a gift receipt?","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you to help you find your order to start your return.","10x here! What's your number, let's see what we can do for you"
+Returns,"i got a gift from site X, can I return it - I lost my receipt?","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, you can return your products within 30 days of receipt for a full refund. 
+
+I'm happy to help you to help you find your order to start your return.","10x here! What's your number, let's see what we can do for you"
+Returns,What is the return window?,"Our standard return window is 30 days. But if you are unhappy beyond that period we want to help make it right. 
+
+I'm happy to help you get started. ",
+Returns,How many days do I have to return something?,,
+Returns,What is the process for returning?,I'm happy to help you start your return! ,
+Returns,Is there free shipping on returns?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, you can return your products within 30 days of receipt for a full refund. And we will cover the shipping.
+
+I'm happy to help you to help you find your order to start your return.",
+Returns,Do I have to pay shipping on returns?,,
+Returns,"I""d like to return everything in my order except x.",,"10x here! whats your number, let's see what we can do for you given your location, order size"
+Returns,Can I return product X to a nearby store?,"Unfortunately no, but I'm happy to help you start your return online. ",
+Returns,Do I get free shipping on returns?,"Yes, we want to make the return process as easy as possible.
+
+I'm happy to help you get started. ",
+Returns,Do returns ship for free?,"Yes, we want to make the return process as easy as possible.
+
+I'm happy to help you get started. ",
+Returns,"i got a gift from site X, can I return it in store / via mail and buy something else online?","Since you don't have a receipt we cannot return your product, but we are happy to exchange it for another item. 
+
+I'll let you get started. ",
+Returns,"i got a gift from site X, can I exchange it - I lost my receipt?","Since you don't have a receipt we cannot return your product, but we are happy to exchange it for another item. 
+
+I'll let you get started. ",
+Exchanges,How do I exchange something?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
+
+I'm happy to help you to help you find your order to start your exchange.",
+Exchanges,Can I exchange an item?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
+
+I'm happy to help you to help you find your order to start your exchange.",
+Exchanges,Are exchanges allowed?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
+
+I'm happy to help you to help you find your order to start your exchange.",
+Exchanges,What is the exchange policy?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
+
+I'm happy to help you to help you find your order to start your exchange.",
+Exchanges,Do I have to pay shipping to exchange an item?,"No, we're happy to cover the shipping. We want you to have a product you love. ",
+Exchanges,Do I have to exchange something for the same item?,"No, you can exchange for another item of your choice within 30 days of receipt. Just let us know.",
+Exchanges,Is there shipping charged for exchanges?,"No, we're happy to cover the shipping. We want you to have a product you love. ",
+Cancellation,How do I cancel an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
+
+I'm happy to help!",
+Cancellation,Cancel my order.,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
+
+I'm happy to look into it, what is your order number?",
+Cancellation,Can I cancel an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
+
+I'm happy to help!",
+Cancellation,How long do I have to cancel an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. Usually we can cancel an order within 2 days. 
+
+When did you place your order?
+",
+Cancellation,Are cancellations allowed?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
+
+I'm happy to help!",
+Address Change,How do I change my address for an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to change your address. 
+
+I'm happy to look into it, what is your order number?",
+Address Change,Can I change my address after placing an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to change your address. 
+
+I'm happy to look into it, what is your order number?",
+Address Change,"After ordering, can I change my address?","We try to fill and send your order as quickly as possible, which may limit our ability to change your address. 
+
+
+I'm happy to look into it, what is your order number?",
+Address Change,How can I change an address after ordering?,"We try to fill and send your order as quickly as possible, which may limit our ability to change your address. 
+
+I'm happy to help!",
+Address Change,How long do I have to change my address after placing an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to change your address. 
+
+I'm happy to help!",
+Address Change,What is the process to change my address?,"We try to fill and send your order as quickly as possible, which may limit our ability to change your address. 
+
+I'm happy to help!",
+Address Change,"I entered the wrong shipping address, how do I change it?","We try to fill and send your order as quickly as possible, which may limit our ability to change your address. 
+
+
+I'm happy to look into it, what is your order number?",
+Address Change,How do I change my address?,"I'm happy to help you change your address, let's get started!",
+Address Change,How do I change my address in your system?,"I'm happy to help you change your address, let's get started!",
+Address Change,How do I change my address in my account?,"I'm happy to help you change your address, let's get started!",
+Address Change,"My address is incorrect, how can I change it?","I'm happy to help you change your address, let's get started!",
+Address Change,I need to change my address. ,"I'm happy to help you change your address, let's get started!",
+Address Change,Help me change my address.,"I'm happy to help you change your address, let's get started!",
+Email Change,How do I update my email address?,"I'm happy to help you change your email address, let's get started!",
+Email Change,How do I change my email?,"I'm happy to help you change your email address, let's get started!",
+Email Change,I need to change my email. ,"I'm happy to help you change your email address, let's get started!",
+Email Change,Help me change my email,"I'm happy to help you change your email address, let's get started!",
+Password ,I forgot my password,"I'm happy to help you change your password, let's get started!",
+Password ,How do I reset my password?,"I'm happy to help you change your password, let's get started!",
+Password ,Help me reset my password,"I'm happy to help you change your password, let's get started!",
+Password ,I need to change my password,"I'm happy to help you change your password, let's get started!",
+Password ,How do I change my password?,"I'm happy to help you change your password, let's get started!",
+Password ,I forgot my password,"I'm happy to help you change your password, let's get started!",
+Password ,I forgot my login,"I'm happy to help you change your password, let's get started!",
+Password ,Help me change my password.,"I'm happy to help you change your password, let's get started!",
+Product issue,"The product is defective, broken, damaged, I need to return. I'd like to speak to a manager","I'm happy to help you fix this. 
+
+Can you tell me what's going on?",No fun! We apologize for the inconvenience - what is your number so we can have a specialist call you within a few minutes. Or would you like to schedule a call? 
+Product issue,"My x is not working, help!","I'm happy to help you fix this. 
+
+Can you tell me what's going on?",No fun! We apologize for the inconvenience - what is your number so we can have a specialist call you within a few minutes. Or would you like to schedule a call? 
+Product issue,"Theres an issue with my product, how can I get it fixed?","I'm happy to help you fix this. 
+
+Can you tell me what's going on?",No fun! We apologize for the inconvenience - what is your number so we can have a specialist call you within a few minutes. Or would you like to schedule a call? 
+Product issue,"Theres an issue with my product, where can I get it fixed?","I'm happy to help you fix this. 
+
+Can you tell me what's going on?","whats your number, lets see what we can do for you"
+Product issue,"Theres an issue with my product, who can I speak to to help me?","I'm happy to help you fix this. 
+
+Can you tell me what's going on?","whats your number, lets see what we can do for you"
+Product issue,I want to meet someone in person - can someone help me - my product is xyz,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zipcode?","whats your number, lets see what we can do for you"
+Product issue,This isn't true to size; I ordered X size and its too large/small! I want to return it and a full refund but have had it for a few weeks.,"I'm happy to help you the product you need. 
+
+When did you place the order? ","whats your number, lets see what we can do for you"
+Product issue,My size isn't available; when will you have X size in stock?,,
+Product issue,My size isn't available; when will you have more ,,
+Product issue,Why is Product X more expensive than Product Y?,"Our products are all priced based on the materials they are made of. Some product have more expensive materials, such as the Winston which has a chrome body. ",
+Product issue,Why is product X so expensive ? ,"Our products are all priced based on the materials they are made of. Some product have more expensive materials, such as the Winston which has a chrome body. ",
+Product issue,Whats the difference between spandax and pants,n/a,
+Product issue,Will this fit me? I'm xyz,"Most of our razors work for everyone, but let me connect you with one of our specialists to be sure what you are looking at will meet your exact needs. ","whats your number, lets see if this makes sense for you."
+Product issue,"I'm looking at product x, what is it made out of? is it <insert adjective>?",The Truman handle is made up of a rubberized matte exterior. ,
+Product issue,I'd like to buy a gift card - how do I do it?,"We actually don't sell gift cards, but our products do make a amazing gifts. 
+
+You can add a personalized note with your Harry’s gift, and shipping it in a protective bag to make it as presentable as possible.",
+Product issue,"I don't have a warranty/ it is not under warranty but it's not working, can you help me?","I'm happy to help you fix this. 
+
+Can you tell me what's going on?","whats your number, lets see what we can do for you"
+Product issue,"Can you recommend a product for my X (mom, dad, husband, etc) for x,y, z occassion. My price point is X,Y,Z.","Harry's products make a great gift. You can add a personalized note with your Harry’s gift, and shipping it in a protective bag to make it as presentable as possible.
+
+Let me connect you with a product specialist to get started. 
+",Absolutely! Lets connect you with one of our <insert rep branded name> eg. stylists. Whats your number so she can reach out? Do you prefer text or call?
+Payment,My promo code isn't working,"I'm happy to help you, but we have someone who works specifically on payments. 
+
+Let me connect you with them. ",
+Payment,My promo code is generating an error,"I'm happy to help you, but we have someone who works specifically on payments. 
+
+Let me connect you with them. ",No fun! We apologize for the inconvenience - pls enter your number and the code you are trying so that we can have a specialist get this cleared up immediately. Would you like a call within a few minutes. Or would you like to schedule a call? 
+Payment,How do I redeem a gift card?,We actually don't sell or accept gift cards.,
+Payment,How do I use a promo code?,A promo code can be entered during the check-out process. ,
+Payment,My credit card isn't working?,"I'm happy to help you, but we have someone who works specifically on payments. 
+
+Let me connect you with them. ",
+Payment,I'd like to pay for this but have it shipped to X address - how can I do this? It is isn't working,"I'm happy to help you, but we have someone who works specifically on payments. 
+
+Let me connect you with them. ",
+Payment,I bought x on x date; I see a charge on my credit card for x. Is that your DBA? I don't recognize the name of merchant,"I'm happy to help you, but we have someone who works specifically on payments. 
+
+Let me connect you with them. ",
+Product issue,I bought this a month ago and just realized it's defective; can I return it?,"We love the products we’ve made, and we think you will too. 
+
+I'm happy to help you start your exchange. ",
+Service issue,Your customer service associate was disrespectful - I just wanted to tell you,"Thank you for letting us know. I will escalate this to my manager.
+
+",We apologize for the inconvenience - pls enter your number so that we will have a manager address this. Would you like a call within a few minutes. Or would you like to schedule a call? 
+Product availability,Can I order product X to store X when it comes available? It's not available onlne,What product are you looking at?,
+Product availability,Can I try on product X,,
+Product availability,Can I try service X?,"You can subscribe to a Shave Plan and get a trial box of shave supplies, on us — just cover the $3 shipping.",
+Product availability,Is Product X available in store - It is not available online but was wondering if it was at your store?,What product are you looking at?,
+Product availability,Do you have X product?,What product are you looking at?,
+Product availability,Is X product available?,What product are you looking at?,
+Product availability,Do you have X product in X color?,What product are you looking at?,
+Product availability,Do you have X product in X size?,What product are you looking at?,
+Product availability,Do you have have X product in a store near me?,What product are you looking at?,
+Product availability,Do you have X product in X store?,What product are you looking at?,
+Product availability,Can I still buy X product?,What product are you looking at?,
+Product availability,Is X product still available?,What product are you looking at?,
+Product availability,Is X product available online?,What product are you looking at?,
+Product availability,Is X product available in store?,What product are you looking at?,
+Store Location,Where is the closest store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",10x here / Angel here! What is your zip code? 
+Store Location,Where are your stores?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",
+Store Location,Where is a store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",10x here / Angel here! What is your zip code? 
+Store Location,How can I find a store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",
+Store Location,Find me a store.,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",10x here / Angel here! What is your zip code? 
+Store Location,Do you have a store in my city?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",10x here / Angel here! What is your zip code? 
+Store Location,Where is your XCITY store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",
+Store Location,Find me the closest store.,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",10x here / Angel here! What is your zip code? 
+Store Location,What is the closest store to me?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",10x here / Angel here! What is your zip code? 
+Store Location,XCITY store,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",
+Store Hours,"Hi! It's X time - if I leave now, will you still be open? I'll get there 10 mins before closing! Please!",Let me connect you with one of our store specialists!,
+Store Hours,When does X store close?,8pm ET,
+Store Hours,What are your store hours?,"Monday–Friday: 10am–8pm
+Saturday: 10am–7pm
+Sunday: 10am–6pm",10x here / Angel here! What is your zip code? 
+Store Hours,How can I find out store hours?,"I'm happy to help, here they are:
+
+Monday–Friday: 10am–8pm
+Saturday: 10am–7pm
+Sunday: 10am–6pm",10x here / Angel here! What is your zip code? 
+Store Hours,What are the hours for X store?,"Monday–Friday: 10am–8pm
+Saturday: 10am–7pm
+Sunday: 10am–6pm",
+Store Hours,What are your holiday hours?,"Monday–Friday: 10am–8pm
+Saturday: 10am–7pm
+Sunday: 10am–6pm",
+Store Hours,What are the holiday hours for X store?,"Monday–Friday: 10am–8pm
+Saturday: 10am–7pm
+Sunday: 10am–6pm",
+Store Hours,Where can I find store hours?,"I'm happy to help you find the store hours of the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",
+Store Hours,Where are store hours listed?,"I'm happy to help you find the store hours of the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",
+Store Hours,Are all store hours the same?,"I'm happy to help you find the store hours of the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. So the hours are not consistent. 
+
+What is your zip code?",
+Orders,Where is my order?,"Happy to help you!
+
+What is your order number?",10x here / Angel here! Lets find it! What is your number?
+Orders,When will by order be delivered?,"Happy to help you!
+
+What is your order number?",10x here / Angel here! Lets find it! What is your number?
+Orders,My order still hasn't come. I need it tomorrow. Please help!,"Happy to help you!
+
+What is your order number?",10x here / Angel here! Lets find it! What is your number?
+Orders,"I ordered the wrong size, I want to change my order. Can I?","We try to fill and send your order as quickly as possible, which may limit our ability to change orders already placed
+
+I'm happy to look into it, what is your order number?",10x here / Angel here! Lets find it! What is your number?
+Orders,I placed an order but want to change the credit card I paid with,"We try to fill and send your order as quickly as possible, which may limit our ability to change payment methods. 
+
+I'm happy to look into it, what is your order number?",10x here / Angel here! Lets find it! What is your number?
+Orders,I want to be added to the waitlist for product x,"Yes, it's been a hit! Happy to add you on the waitlist.",10x here / Angel here! Lets find it! What is your number?
+Orders,Whats the status of my order?,Happy to help you figure this out!,10x here / Angel here! Lets find it! What is your number?
+Orders,I ordered this a week ago and its still not here!,Happy to help you figure this out!,10x here / Angel here! Lets find it! What is your number?
+Shipping ,"I live in Canada, do you ship here?","At this time, we don't ship internationally, but we hope to sometime in the near future. ",
+Shipping ,"I don't have a doorman, can I still have it shipped to a PO Box?","Yes,we can send to PO Boxes. ",
+Account,I can't sign in ,That's easy to fix and I'm happy to help!,10x here! Did you forget your login credentials? No problem. Password / user name reset HERE (enter phone number)
+Account,"There's an issue with the website, its timing out",We aim to provide the best experience and apologize for a frustrating time! But hopefully I can help you here. ,
+Account,How do I update my profile?,"Updating your profile is a breeze, I'll help you get started.",
+Account,How do I change my email address?,"Changing your address is a breeze, I'll help you get started.",
+Account,How do I change the name on my account,"Changing your account information is a breeze, I'll help you get started.",
+Account,How to change the ,"Changing your account information is a breeze, I'll help you get started.",
+Account,How do I change the credit card on file?,"Changing your credit card is a breeze, I'll help you get started.",
+Account,Why was I charged x?!,,10x here / Angel here! Lets get to the bottom of this ASAP! What is your number?
+Account,I don't recognize 'this' charge,,10x here / Angel here! Lets get to the bottom of this ASAP! What is your number?
+Account,I'd like to cancel my X subscription because x (I moved in with my X so don't need two acounts,"Happy to help you, let's get started.",
+Account,I'd like to cancel because the promotion period is over,"Happy to help you, let's get started.",
+Account,I want to downgrade my account,"Happy to help you, let's get started.",
+Account,I want to upgrade my account,"Happy to help you, let's get started.",
+Account,I want to cancel my account,"Happy to help you, let's get started.",
+,,,
+,,,
+"Note - For demo illustrate the ux to illustrate that agent 'knows' the client. (geo-location data, order - purchase / return history, communication activity). see Slice opt in -https://www.slice.com.",,,

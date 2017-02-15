@@ -62,3 +62,20 @@ raden << qa_blocks.each_with_object({faqs: []}) do |qa, hash|
   hash[:faqs] << {question: question, answer: answer}
 end.to_yaml
 raden.close
+
+# parse csv File
+require 'csv'
+csv_text = File.read('harrys_questions.csv')
+csv=CSV.parse(csv_text, headers:true)
+company = Company.find_or_create_by(name: "Harrys")
+csv.each do |row|
+  answer = Answer.find_or_create_by(response_text: "#{row["Harrys Response"]} #{row["Clarifying question for agent response"]}", company_id: company.id)
+  response = CustomerResponse.find_or_create_by(query: row["Question"], answer_id: answer.id, confidence: -60)
+end
+answers = Answer.all.where(company_id: company.id)
+classifier = ClassifierReborn::Bayes.new(*answers.pluck(:response_text))
+responses = CustomerResponse.joins(:answer).where('answers.company_id = ?', company.id)
+responses.each do |response|
+  classifier.train response.answer.response_text, response.query if response.answer && response.answer.response_text && response.query
+end
+@answer = classifier.classify_with_score question

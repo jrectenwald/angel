@@ -1,3 +1,3 @@
 class Company < ApplicationRecord
-  has_many :faqs 
+  has_many :answers 
 end
