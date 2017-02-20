@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Customer Responses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Answer</th>
+      <th>Confidence</th>
+      <th>User</th>
+      <th>Csr</th>
+      <th>Query</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @customer_responses.each do |customer_response| %>
+      <tr>
+        <td><%= customer_response.answer_id %></td>
+        <td><%= customer_response.confidence %></td>
+        <td><%= customer_response.user_id %></td>
+        <td><%= customer_response.csr %></td>
+        <td><%= customer_response.query %></td>
+        <td><%= link_to 'Show', customer_response %></td>
+        <td><%= link_to 'Edit', edit_customer_response_path(customer_response) %></td>
+        <td><%= link_to 'Destroy', customer_response, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Customer Response', new_customer_response_path %>

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :companies
+  resources :customer_responses
   resources :companies do
     post "answer"
   end

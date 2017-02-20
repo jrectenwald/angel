@@ -62,12 +62,13 @@ class CompaniesController < ApplicationController
   end
 
   def answer
-    copmpany = company = Company.find(params["company_id"])
+    company = Company.find(params["company_id"])
     question = params["question"]
-    faqs = company.faqs
-    classifier = ClassifierReborn::Bayes.new(*faqs.pluck(:answer))
-    faqs.each do |faq|
-      classifier.train faq.answer, faq.question
+    answers = Answer.all.where(company_id: company.id)
+    classifier = ClassifierReborn::Bayes.new(*answers.pluck(:response_text))
+    responses = CustomerResponse.joins(:answer).where('answers.company_id = ?', company.id)
+    responses.each do |response|
+      classifier.train response.answer.response_text, response.query if response.answer && response.answer.response_text && response.query
     end
     @answer = classifier.classify_with_score question
   end
@@ -80,6 +81,6 @@ class CompaniesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def company_params
-      params.fetch(:company, {})
+      params.require(:company).permit(:name)
     end
 end
