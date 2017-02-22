@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  query: MyString
+  company_id: 1
+  confidence: 1
+  conversation_id: 1
+
+two:
+  query: MyString
+  company_id: 1
+  confidence: 1
+  conversation_id: 1

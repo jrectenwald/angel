@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Query:</strong>
+  <%= @question.query %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @question.company_id %>
+</p>
+
+<p>
+  <strong>Confidence:</strong>
+  <%= @question.confidence %>
+</p>
+
+<p>
+  <strong>Conversation:</strong>
+  <%= @question.conversation_id %>
+</p>
+
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>

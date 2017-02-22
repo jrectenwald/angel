@@ -16,12 +16,12 @@ harrys.close
 
 # parse csv File
 require 'csv'
-csv_text = File.read('harrys_questions.csv')
+csv_text = File.read('harrys_conversations.csv')
 csv=CSV.parse(csv_text, headers:true)
 company = Company.find_or_create_by(name: "Harrys")
 csv.each do |row|
-  answer = Answer.find_or_create_by(response_text: "#{row["Harrys Response"]} #{row["Clarifying question for agent response"]}", company_id: company.id)
-  response = CustomerResponse.find_or_create_by(query: row["Question"], answer_id: answer.id, confidence: -60)
+  conversation = Conversation.find_or_create_by(answer_1: row[2], answer_2: row[4], answer_3: row[6])
+  question = Question.find_or_create_by(query: row[1], confidence: -60, company_id: company.id, conversation_id: conversation.id)
 end
 
 doc = Nokogiri::HTML(open('https://bonobos.com/help'))

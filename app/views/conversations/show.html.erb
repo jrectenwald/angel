@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Answer 1:</strong>
+  <%= @conversation.answer_1 %>
+</p>
+
+<p>
+  <strong>Answer 2:</strong>
+  <%= @conversation.answer_2 %>
+</p>
+
+<p>
+  <strong>Answer 3:</strong>
+  <%= @conversation.answer_3 %>
+</p>
+
+<%= link_to 'Edit', edit_conversation_path(@conversation) %> |
+<%= link_to 'Back', conversations_path %>

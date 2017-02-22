@@ -64,15 +64,15 @@ class CompaniesController < ApplicationController
   def answer
     company = Company.find(params["company_id"])
     question = params["question"]
-    answers = Answer.all.where(company_id: company.id)
-    classifier = ClassifierReborn::Bayes.new(*answers.pluck(:response_text))
-    responses = CustomerResponse.joins(:answer).where('answers.company_id = ?', company.id)
-    responses.each do |response|
-      if response.answer && response.answer.response_text && response.query
-        classifier.train response.answer.response_text, response.query
-      end
+    questions = Question.where(company_id: company.id).pluck(:query, :conversation_id)
+    questions = questions.select {|q| q[0] && q[1]}
+    conversation_ids = questions.map {|q| q[1]}.uniq
+    classifier = ClassifierReborn::Bayes.new(*conversation_ids)
+    questions.each do |question|
+      classifier.train question[1], question[0]
     end
     @answer = classifier.classify_with_score question
+    redirect_to conversation_url(@answer[0])
   end
 
   private
