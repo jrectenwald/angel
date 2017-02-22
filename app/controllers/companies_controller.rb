@@ -68,7 +68,9 @@ class CompaniesController < ApplicationController
     classifier = ClassifierReborn::Bayes.new(*answers.pluck(:response_text))
     responses = CustomerResponse.joins(:answer).where('answers.company_id = ?', company.id)
     responses.each do |response|
-      classifier.train response.answer.response_text, response.query if response.answer && response.answer.response_text && response.query
+      if response.answer && response.answer.response_text && response.query
+        classifier.train response.answer.response_text, response.query
+      end
     end
     @answer = classifier.classify_with_score question
   end
