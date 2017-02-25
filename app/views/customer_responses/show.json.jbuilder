@@ -1,1 +1,0 @@
-json.partial! "customer_responses/customer_response", customer_response: @customer_response

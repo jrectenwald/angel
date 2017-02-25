@@ -12,13 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20170222130855) do
 
-  create_table "answers", force: :cascade do |t|
-    t.integer  "company_id"
-    t.string   "response_text"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
-  end
-
   create_table "companies", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
@@ -31,14 +24,6 @@ ActiveRecord::Schema.define(version: 20170222130855) do
     t.string   "answer_3"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "customer_responses", force: :cascade do |t|
-    t.integer "answer_id"
-    t.integer "confidence"
-    t.integer "user_id"
-    t.integer "csr_id"
-    t.string  "query"
   end
 
   create_table "products", force: :cascade do |t|

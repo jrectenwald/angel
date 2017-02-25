@@ -38,7 +38,7 @@ help_links.each do |link|
   question_block = browser.element(class: "article")
   query = question_block.text
   question_block.click
-  answer = question_block.element(tag_name: "article").text
+  git 
 end
 
 
