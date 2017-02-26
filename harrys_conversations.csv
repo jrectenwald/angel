@@ -1,379 +1,404 @@
-Category,Customer 1,Harrys 1,Customer 2,Harrys 2,Customer 3,Harrys 3,Customer 4,Harrys 5
-Returns,How do I return an item?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, just let us know so that we can help you return your products within 30 days of receipt for a full refund. ",,,,,,
-Returns,"I want to return the Truman but it is outside of your return policy window, can I get a credit?","10x here! What is your phone number or email address, let's see what we can do for you.",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Returns,"I am just outside of the return window, can you make an exception? I am a great customer!","10x here! What is your phone number or email address, let's see what we can do for you.",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Returns,"The product doesn't look in person as it looks online, I want to return / exchange it for a different color/size","10x here! What is your phone number or email address, let's see what we can do for you.",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Returns,How do I return an item?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+To Include,Overlay,Notes/Changes,Category,Customer 1,Harrys 1,Customer 2,Harrys 2,Customer 3,Harrys 3,Customer 4,Harrys 5
+X,,,Returns,What is your return policy?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, just let us know so that we can help you return your products within 30 days of receipt for a full refund. ",,,,,,
+,,,Returns,"I want to return the Truman but it is outside of your return policy window, can I get a credit?","10x here! What is your phone number or email address, let's see what we can do for you.",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
+,,,Returns,"I am just outside of the return window, can you make an exception? I am a great customer!","10x here! What is your phone number or email address, let's see what we can do for you.",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
+,,,Returns,"The product doesn't look in person as it looks online, I want to return / exchange it for a different color/size","10x here! What is your phone number or email address, let's see what we can do for you.",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
+X,,PDF of Return label when click <HERE>,Returns,How do I return an item?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+
+What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
+
+Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! As a courtesy, we will refund your account immediately once UPS receives it.
+
+You will find the return label for the Truman HERE. You can print it out. Or if you don't have a printer, no problem - show this barcode at your local UPS Store, which I see is on 56th and 3rd avenue. Open 7am to 7pm Monday to Friday.  Or if you are a member, press SHARE and we will have it printed and have a return label waiting for you at your preferred UPS location on file - which I see is 56th street. Please confirm if you'd like to print it or we can arrange at the 56th street location, and just swing by with the Truman in the package provided."
+,,,Returns,Do you allow returns?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Do you allow returns?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+,,,Returns,Do you accept return?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Do you accept return?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+,,,Returns,I've had the razor for 3 months since 12.25.16 can I still return it?,"We love the products we’ve made, and we think you will too. 3 months is longer than our standard return policy, but I'm happy to help you sort this out.",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
+
+You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
+,,,Returns,Can I get a refund if I return?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,I've had the razor for 3 months since 12.25.16 can I still return it?,"We love the products we’ve made, and we think you will too. 3 months is longer than our standard return policy, but I'm happy to help you sort this out.",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
-
-You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Can I get a refund if I return?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, you can return your products within 30 days of receipt for a full refund. 
+,,,Returns,"I'd like to return the Truman, how do I send it back?","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,"I'd like to return the Truman, how do I send it back?","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+,,,Returns,do I get a credit to my account if I return?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,do I get a credit to my account if I return?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+,,,Returns,"It doesn't work, I want to return this","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,"It doesn't work, I want to return this","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+,,,Returns,"I don't like the product, I want to return this","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,"I don't like the product, I want to return this","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+,,,Returns,Can I return something?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Can I return something?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
-
-What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
+,,,Returns,Are sale items returnable?,We actually never have any products that go on sale.,917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Are sale items returnable?,We actually never have any products that go on sale.,917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
+,,,Returns,Can I return something bought on sale?,We actually never have any products that go on sale.,917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Can I return something bought on sale?,We actually never have any products that go on sale.,917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
-
-Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
-
-You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,"I got this as a gift, can I return it without a gift receipt?","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+,,,Returns,"I got X as a gift, can I return it without a gift receipt?","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Returns,"i got a gift from site X, can I return it - I lost my receipt?","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
+,,,Returns,"i got a gift from site X, can I return it - I lost my receipt?","We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason,you can return your products within 30 days of receipt for a full refund. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,What is the return window?,"Our standard return window is 30 days. But if you are unhappy beyond that period we want to help make it right. 
+,,,Returns,What is the return window?,"Our standard return window is 30 days. But if you are unhappy beyond that period we want to help make it right. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,How many days do I have to return something?,"Our standard return window is 30 days. But if you are unhappy beyond that period we want to help make it right. 
+,,,Returns,How many days do I have to return something?,"Our standard return window is 30 days. But if you are unhappy beyond that period we want to help make it right. 
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,What is the process for returning?,I'm happy to help you start your return! ,917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
+,,,Returns,What is the process for returning?,I'm happy to help you start your return! ,917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Is there free shipping on returns?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, you can return your products within 30 days of receipt for a full refund. And we will cover the shipping.
+,,,Returns,Is there free shipping on returns?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, you can return your products within 30 days of receipt for a full refund. And we will cover the shipping.
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Do I have to pay shipping on returns?,"No, we cover shipping as we want to make the return process as easy as possible.
+,,,Returns,Do I have to pay shipping on returns?,"No, we cover shipping as we want to make the return process as easy as possible.
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Can I return my purchase to a nearby store?,"Unfortunately no, but I'm happy to help you start your return online. 
+,,,Returns,Can I return product X to a nearby store?,"Unfortunately no, but I'm happy to help you start your return online. 
 
 What is your email address or phone number so I can find your purchase?",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Returns,Do I get free shipping on returns?,"Yes, we want to make the return process as easy as possible.
+,,,Returns,Do I get free shipping on returns?,"Yes, we want to make the return process as easy as possible.
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Returns,Do returns ship for free?,"Yes, we want to make the return process as easy as possible.
+,,,Returns,Do returns ship for free?,"Yes, we want to make the return process as easy as possible.
 
 What is your email address or phone number so I can help you start your return?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to return? ",Yes. ,Can you let us know why you were unhappy with your order? Would you like to try the Winston instead? The Winston has a metal core and is coated in chrome with strategically placed rubberized grips for even more control while you shave!,"Yes, I'd love the Winston!","Great, we've processed your exchange for the Winston. It's on its way! 
 
 You will find the return label for the Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Exchanges,How do I exchange something?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
+X,,,Exchanges,How do I exchange something?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
 
 I'm happy to help you to help you find your order to start your exchange.",,,,,,
-Exchanges,Can I exchange an item?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
+X,,,Exchanges,Can I exchange an item?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
 
-I'm happy to help you to help you find your order to start your exchange.",,,,,,
-Exchanges,Are exchanges allowed?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
+What is your email address or phone number so I can help you start your exchange?",,,,,,
+,,,Exchanges,Are exchanges allowed?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
 
-I'm happy to help you to help you find your order to start your exchange.",,,,,,
-Exchanges,What is the exchange policy?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
+What is your email address or phone number so I can help you start your exchange?",,,,,,
+,,,Exchanges,What is the exchange policy?,"We love the products we’ve made, and we think you will too. If, after 5-8 shaves, you find that you're unhappy for any reason, we're happy to help you exchange your product for something else you'll love. 
 
-I'm happy to help you to help you find your order to start your exchange.",,,,,,
-Exchanges,Do I have to pay shipping to exchange an item?,"No, we're happy to cover the shipping. We want you to have a product you love. ",,,,,,
-Exchanges,Do I have to exchange something for the same item?,"No, you can exchange for another item of your choice within 30 days of receipt. Just let us know.",,,,,,
-Exchanges,Is there shipping charged for exchanges?,"No, we're happy to cover the shipping. We want you to have a product you love. ",,,,,,
-Cancellation,How do I cancel an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
-
-I'm happy to look into it, what is your email address or phone number so I can look this up?",,,,,,
-Cancellation,Cancel my order.,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
+What is your email address or phone number so I can help you start your exchange?",,,,,,
+,,,Exchanges,Do I have to pay shipping to exchange an item?,"No, we're happy to cover the shipping. We want you to have a product you love. ",,,,,,
+,,,Exchanges,Do I have to exchange something for the same item?,"No, you can exchange for another item of your choice within 30 days of receipt. Just let us know.",,,,,,
+,,,Exchanges,Is there shipping charged for exchanges?,"No, we're happy to cover the shipping. We want you to have a product you love. ",,,,,,
+,,,Cancellation,How do I cancel an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
 
 I'm happy to look into it, what is your email address or phone number so I can look this up?",,,,,,
-Cancellation,Can I cancel an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
+X,,Show order. Have Google Photos be product image & details be on flip side when you  HERE - https://drive.google.com/open?id=0BysKeMwHjQVIaW5DVzNrb0JBOFE,Cancellation,Cancel my order.,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
+
+I'm happy to look into it, what is your email address or phone number so I can look this up?",9178259441,"Thank you, looks like your last order placed on 4/1/17 has already left the warehouse and cannot be cancelled. 
+
+If you'd like to return this order once you recieve it please reach out. ",,,,
+X,,Show order. Have Google Photos be product image & details be on flip side when you  HERE - https://drive.google.com/open?id=0BysKeMwHjQVIaW5DVzNrb0JBOFE,Cancellation,Can I cancel an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
+
+I'm happy to look into it, what is your email address or phone number so I can look this up?",9178259441,"Thank you, looks like your last order placed on 4/1/17 has already left the warehouse and cannot be cancelled. 
+
+If you'd like to return this order once you recieve it please reach out. ",,,,
+,,,Cancellation,How long do I have to cancel an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. Usually we can cancel an order within 2 days. 
 
 I'm happy to look into it, what is your email address or phone number so I can look this up?",,,,,,
-Cancellation,How long do I have to cancel an order?,"We try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. Usually we can cancel an order within 2 days. 
+,,,Cancellation,Are cancellations allowed?,"Yes, but we try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
 
 I'm happy to look into it, what is your email address or phone number so I can look this up?",,,,,,
-Cancellation,Are cancellations allowed?,"Yes, but we try to fill and send your order as quickly as possible, which may limit our ability to prevent a package from shipping. 
+,,,Address Change,How do I change my address for an order?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+X,,,Address Change,Can I change my address after placing an order?,"Yes, but we try to fill and send your order as quickly as possible, which may limit our ability to change your address after the order has been placed. 
 
-I'm happy to look into it, what is your email address or phone number so I can look this up?",,,,,,
-Address Change,How do I change my address for an order?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,Can I change my address after placing an order?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,"After ordering, can I change my address?",No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,How can I change an address after ordering?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,How long do I have to change my address after placing an order?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,What is the process to change my address?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,"I entered the wrong shipping address, how do I change it?",No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,How do I change my address?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,How do I change my address in your system?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,How do I change my address in my account?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,"My address is incorrect, how can I change it?",No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,I need to change my address. ,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Address Change,Help me change my address.,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Email Change,How do I update my email address?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Email Change,How do I change my email?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Email Change,I need to change my email. ,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Email Change,Help me change my email,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
-Password ,I forgot my password,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
-Password ,How do I reset my password?,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
-Password ,Help me reset my password,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
-Password ,I need to change my password,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
-Password ,How do I change my password?,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
-Password ,I forgot my password,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
-Password ,I forgot my login,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
-Password ,Help me change my password.,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
-Product issue,"The product is defective, broken, damaged, I need to return. I'd like to speak to a manager","I'm happy to help you fix this. 
+I'm happy to look into it, what is your email address or phone number so I can look this up?",9178259441,"Thank you, looks like your last order placed on 4/1/17 has already left the warehouse and the address cannot be changed. 
+
+If you'd like to return this order once you recieve it please reach out. ",,,,
+,,,Address Change,"After ordering, can I change my address?",No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+X,,PDF of Return label when click <HERE>,Address Change,How can I change an address after ordering?,"Yes, but we try to fill and send your order as quickly as possible, which may limit our ability to change the address.
+
+I'm happy to look into it, what is your email address or phone number so I can look this up?",9178259441,"Thank you, looks like your last order placed on 4/1/17 has already left the warehouse and the address cannot be changed. 
+
+If you'd like to return this order once you recieve it <HERE> is a return label.",,,,
+,,,Address Change,How long do I have to change my address after placing an order?,"Usually two days. But lets look into your order. I'm happy to look into it, what is your email address or phone number so I can look this up?",,,,,,
+,,,Address Change,What is the process to change my address?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+,,,Address Change,"I entered the wrong shipping address, how do I change it?",No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+,,,Address Change,How do I change my address?,No problem. What is your email address or phone number so I can look up your profile,9178259441,It looks like the address we have onl file is 420 west 42nd street,,,,
+X,,https://drive.google.com/open?id=0BysKeMwHjQVIdURLY2VVOG80c2c,Address Change,How do I change my address in your system?,No problem! What is your email address or phone number so I can look up your profile?,9178259441,"It looks the the address we have on file is:
+540 W 28th, 6D
+NY, NY 10001
+
+Do you want to change this address? If so, what is your new address?","Yes, please change it to: 
+9 W 57th Street, 50th Floor
+NY, NY 10019","OK, confirming that we have changed your address. ",,
+,,,Address Change,How do I change my address in my account?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+,,,Address Change,"My address is incorrect, how can I change it?",No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+,,,Address Change,I need to change my address. ,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+,,,Address Change,Help me change my address.,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+,,,Email Change,How do I update my email address?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+,,,Email Change,How do I change my email?,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+,,,Email Change,I need to change my email. ,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+,,,Email Change,Help me change my email,No problem! Click HERE to login to your account where you change your address in a few clicks!,,,,,,
+X,,,Password ,I forgot my password,"No problem, you should receive a text to your phone number on file with a verification code. And go through the process.",,,,,,
+,,,Password ,How do I reset my password?,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
+X,,,Password ,Help me reset my password,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
+,,,Password ,I need to change my password,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
+,,,Password ,How do I change my password?,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
+,,,Password ,I forgot my password,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
+,,,Password ,I forgot my login,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
+,,,Password ,Help me change my password.,No problem! Click HERE to login to your account where you can make password changes in a few clicks!,,,,,,
+,,*able to send photos of a product,Product issue,"The product is defective, broken, damaged, I need to return. I'd like to speak to a manager","I'm happy to help you fix this. 
 
 Can you tell me what's going on? 
-And kindly enter your email address or phone number so I can help you start your return? ",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Product issue,"My razor is not working, help!","I'm happy to help you fix this. 
+And kindly enter your email address or phone number so I can help you start your return? ",917-825-9441,"Thank you, I've found your order and am passing you to your highest rated representative to address this issue.",,Hi! My name is Marko! Pleasure to help you today! Can you send me a photo of the broken product or tell me what is wrong?,,
+X,,*able to send photos of a product,Product issue,"My razor is not working, help!","I'm happy to help you fix this. 
 
-Can you tell me what's going on?",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Product issue,"Theres an issue with my product, how can I get it fixed?","I'm happy to help you fix this. 
+Can you tell me what's going on?",917-825-9441,"Thank you, I've found your order and am passing you to your highest rated representative to address this issue.",Thank you,Hi! My name is Marko! Pleasure to help you today! Can you send me a photo of the broken product and I can better diagnose the issueor tell me what is wrong?,,
+,,*able to send photos of a product,Product issue,"Theres an issue with my product, how can I get it fixed?","I'm happy to help you fix this. 
 
-Can you tell me what's going on?",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Product issue,"Theres an issue with my product, where can I get it fixed?","I'm happy to help you fix this. 
+Can you tell me what's going on?",917-825-9441,"Thank you, I've found your order and am passing you to your highest rated representative to address this issue.",,Hi! My name is Marko! Pleasure to help you today! Can you send me a photo of the broken product or tell me what is wrong?,,
+,,*able to send photos of a product,Product issue,"Theres an issue with my product, where can I get it fixed?","I'm happy to help you fix this. 
 
-Can you tell me what's going on?",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Product issue,"Theres an issue with my product, who can I speak to to help me?","I'm happy to help you fix this. 
+Can you tell me what's going on?",917-825-9441,"Thank you, I've found your order and am passing you to your highest rated representative to address this issue.",,Hi! My name is Marko! Pleasure to help you today! Can you send me a photo of the broken product or tell me what is wrong?,,
+,,,Product issue,"Theres an issue with my product, who can I speak to to help me?","I'm happy to help you fix this. 
 
-Can you tell me what's going on?",917-825-9441,"Thank you, I've found your order and am passing you onto an agent who can help. ",,,,
-Product issue,I want to meet someone in person - can someone help me for me to show my issue to a specialist?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+Can you tell me what's going on?",917-825-9441,"Thank you, I've found your order and am passing you to your highest rated representative to address this issue.",,Hi! My name is Marko! Pleasure to help you today!,,
+,,,Product issue,I want to meet someone in person - can someone help me for me to show my issue to a specialist?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zipcode?",10019,"Great, there is one on 60th and Madison around the corner from you!",,,,
-Product issue,This isn't true to size; I ordered a medium size and its too small. I want to return it and a full refund but have had it for a few weeks.,I'm happy to help you the product you need. Can you kindly let us know what your phone number is and we'll pull up the order and change the size for you.,,,,,,
-Product issue,My size isn't available; when will you have a small size in stock?,I'm not certain - I will direct you to an agent right away. Can you kindly provide your email or phone number for us to provide details to a specialist,917-825-9441,"Thank you, I am sending background on your qeustion to an agent who can help!",,,,
-Product issue,My size isn't available; when will you have more ,I'm not certain - I will direct you to an agent right away. Can you kindly provide your email or phone number for us to provide details to a specialist,917-825-9441,"Thank you, I am sending background on your qeustion to an agent who can help!",,,,
-Product issue,Why is Product Winston more expensive than the Truman?,"Our products are all priced based on the materials they are made of. Some product have more expensive materials, such as the Winston which has a chrome body. ",,,,,,
-Product issue,Why is this product so expensive ? ,"Our products are all priced based on the materials they are made of. Some product have more expensive materials, such as the Winston which has a chrome body. ",,,,,,
-Product issue,Will this fit me? I'm size small,"Most of our razors work for everyone, but let me connect you with one of our specialists to be sure what you are looking at will meet your exact needs. ",,,,,,
-Product issue,"I'm looking at product x, what is it made out of? is it <insert adjective>?",The Truman handle is made up of a rubberized matte exterior. ,,,,,,
-Product issue,I'd like to buy a gift card - how do I do it?,"We actually don't sell gift cards, but our products do make a amazing gifts. 
+,,,Product issue,This isn't true to size; I ordered a medium size and its too small. I want to return it and a full refund but have had it for a few weeks.,I'm happy to help you the product you need. Can you kindly let us know what your phone number is and we'll pull up the order and change the size for you.,,,,,,
+,,,Product issue,My size isn't available; when will you have a small size in stock?,I'm not certain - I will direct you to an agent right away. Can you kindly provide your email or phone number for us to provide details to a specialist,917-825-9441,"Thank you, I am sending background on your qeustion to an agent who can help!",,Hi! My name is Marko! Pleasure to help you today!,,
+,,,Product issue,My size isn't available; when will you have more ,I'm not certain - I will direct you to an agent right away. Can you kindly provide your email or phone number for us to provide details to a specialist,917-825-9441,"Thank you, I am sending background on your qeustion to an agent who can help!",,Hi! My name is Marko! Pleasure to help you today!,,
+,,,Product issue,Why is Product Winston more expensive than the Truman?,"Our products are all priced based on the materials they are made of. Some product have more expensive materials, such as the Winston which has a chrome body. ",,,,,,
+x,,*stella example,Product issue,Why is product the Winstonso expensive ? ,"Our products are all priced based on the materials they are made of. Some product have more expensive materials, such as the Winston which has a chrome body. ",,,,,,
+,,,Product issue,Will this fit me? I'm size small,"Most of our razors work for everyone, but let me connect you with one of our specialists to be sure what you are looking at will meet your exact needs. ",,,,,,
+,,,Product issue,"I'm looking at product x, what is it made out of? is it <insert adjective>?",The Truman handle is made up of a rubberized matte exterior. ,,,,,,
+x,,See flow for shopipng via Wishi screenshot - done through text interface - PRODUCT SUGGESTIONS https://drive.google.com/open?id=0BysKeMwHjQVITmJpRzdJLW5EYWc,New Order,I'd like to buy a gift card - how do I do it?,"We actually don't sell gift cards, but our products do make a amazing gifts. 
 
-You can add a personalized note with your Harry’s gift, and shipping it in a protective bag to make it as presentable as possible.",,,,,,
-Product issue,"I don't have a warranty/ it is not under warranty but it's not working, can you help me?","I'm happy to help you fix this. 
+You can add a personalized note with your Harry’s gift. I'd recomend the Winston Set - you can aslo engrave it! Check it out here. I included detail on the engraving too.","Great, I'll buy it!","Great, I'll check you out.",,,,
+,,,Product issue,"I don't have a warranty/ it is not under warranty but it's not working, can you help me?","I'm happy to help you fix this. 
 Can you kindly provide your phone number and email so we can pull up your order.
-Can you also tell me what's going on?",917-825-9441,"Thank you, I am sending background on your qeustion to an agent who can help!",,,,
-Product issue,Can you recommend a product for my dad?,"Harry's products make a great gift. You can add a personalized note with your Harry’s gift, and shipping it in a protective bag to make it as presentable as possible.
+Can you also tell me what's going on?",917-825-9441,"Thank you, I am sending background on your qeustion to an agent who can help!",,Hi! My name is Marko! Pleasure to meet you!,,
+,,,Product issue,Can you recommend a product for my dad?,"Harry's products make a great gift. You can add a personalized note with your Harry’s gift, and shipping it in a protective bag to make it as presentable as possible.
 Can you kindly provide your phone number and email so we can pull up your order.
 Let me connect you with a product specialist to get started. 
 ",,,,,,
-Payment,My promo code isn't working,"I'm happy to help you, but we have someone who works specifically on payments. 
+,,,Payment,My promo code isn't working,"I'm happy to help you, but we have someone who works specifically on payments. 
 
 Let me connect you with them. ",,,,,,
-Payment,My promo code is generating an error,"I'm happy to help you, but we have someone who works specifically on payments. 
+,,,Payment,My promo code is generating an error,"I'm happy to help you, but we have someone who works specifically on payments. 
 
 Let me connect you with them. ",,,,,,
-Payment,How do I redeem a gift card?,We actually don't sell or accept gift cards.,,,,,,
-Payment,How do I use a promo code?,A promo code can be entered during the check-out process. ,,,,,,
-Payment,My credit card isn't working?,"I'm happy to help you, but we have someone who works specifically on payments. 
+,,,Payment,How do I redeem a gift card?,We actually don't sell or accept gift cards.,,,,,,
+,,,Payment,How do I use a promo code?,A promo code can be entered during the check-out process. ,,,,,,
+,,,Payment,My credit card isn't working?,"I'm happy to help you, but we have someone who works specifically on payments. 
 Can you kindly provide your phone number and email so we can pull up your order.
 Let me connect you with them. ",,,,,,
-Payment,I'd like to pay for this but have it shipped to X address - how can I do this? It is isn't working,"I'm happy to help you, but we have someone who works specifically on payments. 
+,,,Payment,I'd like to pay for this but have it shipped to X address - how can I do this? It is isn't working,"I'm happy to help you, but we have someone who works specifically on payments. 
 Can you kindly provide your phone number and email so we can pull up your order.
 Let me connect you with them. ",,,,,,
-Payment,I bought the truman on March 5th; I see a charge on my credit card for x. Is that your DBA? I don't recognize the name of merchant,"I'm happy to help you, but we have someone who works specifically on payments. 
+,,,Payment,I bought the truman on March 5th; I see a charge on my credit card for x. Is that your DBA? I don't recognize the name of merchant,"I'm happy to help you, but we have someone who works specifically on payments. 
 Can you kindly provide your phone number and email so we can pull up your order.
 Let me connect you with them. ",,,,,,
-Product issue,I bought this a month ago and just realized it's defective; can I return it?,"We love the products we’ve made, and we think you will too. 
+,,,Product issue,I bought this a month ago and just realized it's defective; can I return it?,"We love the products we’ve made, and we think you will too. 
 
 What is your phone number or email address so I can help you start your exchange?",917-825-9441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this the order you want to exchange? ",Yes. ,What would you like to exchange it for?,The Truman in Total Orange.,"Great, we've processed your exchange for the Truman in Total Orange. It's on its way! 
 
 You will find the return label for the Natilus Blue Truman in the delivery box. Please return at your earliest convenience. Please note you will be credited immediately as a courtesy. "
-Service issue,Your customer service associate was disrespectful - I just wanted to tell you,"Thank you for letting us know. I will escalate this to my manager.
+,,,Service issue,Your customer service associate was disrespectful - I just wanted to tell you,"Thank you for letting us know. I will escalate this to my manager.
 
 Is there a phone number or email address they can contact you at? ",,,,,,
-Product availability,Can I order product this store when it comes available? It's not available onlne,What product are you looking at?,The Truman Set in Nautilus Blue,"Yes, we can certainly let you know when this becomes available. 
+,,,Product availability,Can I order product X to store X when it comes available? It's not available onlne,What product are you looking at?,The Truman Set in Nautilus Blue,"Yes, we can certainly let you know when this becomes available. 
 
 What is your email address or phone number so we can let you know? ",,,,
-Product availability,Can I try on this product ,n/a,,,,,,
-Product availability,Can I try the monthly service?,"You can subscribe to a Shave Plan and get a trial box of shave supplies, on us — just cover the $3 shipping.",,,,,,
-Product availability,Is Product X available in store - It is not available online but was wondering if it was at your store?,What product are you looking at?,The Truman Set in Total Orange,That is a very popular item. What is your zip code and I can see if we have it in stock near you?,10012,"Lucky you! Our Cornershop at 64 Macdougal St, New York, NY 10012 has this item. 
+,,,Product availability,Can I try on product X,n/a,,,,,,
+,,,Product availability,Can I try service X?,"You can subscribe to a Shave Plan and get a trial box of shave supplies, on us — just cover the $3 shipping.",,,,,,
+,,,Product availability,Is Product X available in store - It is not available online but was wondering if it was at your store?,What product are you looking at?,The Truman Set in Total Orange,That is a very popular item. What is your zip code and I can see if we have it in stock near you?,10012,"Lucky you! Our Cornershop at 64 Macdougal St, New York, NY 10012 has this item. 
 
 The store is open until 8pm tonight. ",,
-Product availability,Is X product available?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
-Product availability,Do you have X product in the color blue?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
-Product availability,Do you have have X product in a store near me?,What product are you looking at?,The Truman Set in Total Orange,That is a very popular item. What is your zip code and I can see if we have it in stock near you?,10012,"Lucky you! Our Cornershop at 64 Macdougal St, New York, NY 10012 has this item. 
+,,,Product availability,Do you have X product?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
+,,,Product availability,Is X product available?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
+,,,Product availability,Do you have X product in X color?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
+,,,Product availability,Do you have X product in X size?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
+,,,Product availability,Do you have have X product in a store near me?,What product are you looking at?,The Truman Set in Total Orange,That is a very popular item. What is your zip code and I can see if we have it in stock near you?,10012,"Lucky you! Our Cornershop at 64 Macdougal St, New York, NY 10012 has this item. 
 
 The store is open until 8pm tonight. ",,
-Product availability,Do you have thid product in a store near me?,What product are you looking at?,The Truman Set in Total Orange,That is a very popular item. What is your zip code and I can see if we have it in stock near you?,10012,"Lucky you! Our Cornershop at 64 Macdougal St, New York, NY 10012 has this item. 
+,,,Product availability,Do you have X product in X store?,What product are you looking at?,The Truman Set in Total Orange,That is a very popular item. What is your zip code and I can see if we have it in stock near you?,10012,"Lucky you! Our Cornershop at 64 Macdougal St, New York, NY 10012 has this item. 
 
 The store is open until 8pm tonight. ",,
-Product availability,Can I still buy this product?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
-Product availability,Is this product still available?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
-Product availability,Is this product available online?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
-Product availability,Is this product available in store?,What product are you looking at?,The Truman Set in Total Orange,That is a very popular item. What is your zip code and I can see if we have it in stock near you?,10012,"Lucky you! Our Cornershop at 64 Macdougal St, New York, NY 10012 has this item. 
+,,,Product availability,Can I still buy X product?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
+,,,Product availability,Is X product still available?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
+,,,Product availability,Is X product available online?,What product are you looking at?,The Truman Set in Total Orange,"That is a very popular item. We do have that product online, click here here to check it out. ",,,,
+,,,Product availability,Is X product available in store?,What product are you looking at?,The Truman Set in Total Orange,That is a very popular item. What is your zip code and I can see if we have it in stock near you?,10012,"Lucky you! Our Cornershop at 64 Macdougal St, New York, NY 10012 has this item. 
 
 The store is open until 8pm tonight. ",,
-Store Location,Where is the closest store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Location,Where is the closest store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10019,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Location,Where are your stores?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Location,Where are your stores?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10012,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Location,Where is a store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Location,Where is a store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10012,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Location,How can I find a store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Location,How can I find a store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10012,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Location,Find me a store.,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Location,Find me a store.,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10012,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Location,Do you have a store in my city?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Location,Do you have a store in my city?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10019,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Location,Where is your NYC store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Location,Where is your XCITY store?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10012,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Location,Find me the closest store.,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Location,Find me the closest store.,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10012,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Location,What is the closest store to me?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Location,What is the closest store to me?,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10012,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Hours,"Hi! It's X time - if I leave now, will you still be open? I'll get there 10 mins before closing! Please!",Let me connect you with one of our store specialists!,,,,,,
-Store Hours,When does X store close?,8pm ET,,,,,,
-Store Hours,What are your store hours?,"Monday–Friday: 10am–8pm
+,,,Store Location,XCITY store,"I'm happy to help you find the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+
+What is your zip code?",10012,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
+
+You shold definitely pop-in, we have all of our products there. ",,,,
+,,,Store Hours,"Hi! It's X time - if I leave now, will you still be open? I'll get there 10 mins before closing! Please!",Let me connect you with one of our store specialists!,,,,,,
+,,,Store Hours,When does X store close?,8pm ET,,,,,,
+,,,Store Hours,What are your store hours?,"Monday–Friday: 10am–8pm
 Saturday: 10am–7pm
 Sunday: 10am–6pm",,,,,,
-Store Hours,How can I find out store hours?,"I'm happy to help, here they are:
+,,,Store Hours,How can I find out store hours?,"I'm happy to help, here they are:
 
 Monday–Friday: 10am–8pm
 Saturday: 10am–7pm
 Sunday: 10am–6pm",,,,,,
-Store Hours,What are the hours for the midtown store?,"Monday–Friday: 10am–8pm
+,,,Store Hours,What are the hours for the midtown store?,"Monday–Friday: 10am–8pm
 Saturday: 10am–7pm
 Sunday: 10am–6pm",,,,,,
-Store Hours,What are your holiday hours?,"Monday–Friday: 10am–8pm
+,,,Store Hours,What are your holiday hours?,"Monday–Friday: 10am–8pm
 Saturday: 10am–9pm
 Sunday: 10am–9pm",,,,,,
-Store Hours,What are the holiday hours for the midtown store?,"Monday–Friday: 10am–8pm
+,,,Store Hours,What are the holiday hours for the midtown store?,"Monday–Friday: 10am–8pm
 Saturday: 10am–9pm
 Sunday: 10am–9pm",,,,,,
-Store Hours,Where can I find store hours?,"I'm happy to help you find the store hours of the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Hours,Where can I find store hours?,"I'm happy to help you find the store hours of the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10019,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Hours,Where are store hours listed?,"I'm happy to help you find the store hours of the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
+,,,Store Hours,Where are store hours listed?,"I'm happy to help you find the store hours of the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. 
 
 What is your zip code?",10019,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012 and is open today until 8pm. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Store Hours,Are all store hours the same?,"I'm happy to help you find the store hours of the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. So the hours are not consistent. 
+,,,Store Hours,Are all store hours the same?,"I'm happy to help you find the store hours of the closest store with our product. We have a Cornershop but also sell our products in Nordstrom, Barneys, Target and JCrew. So the hours are not consistent. 
 
 What is your zip code?",10019,"Lucky you! Our Cornershop is in NYC at 64 Macdougal St, New York, NY 10012 and is open today until 8pm. 
 
 You shold definitely pop-in, we have all of our products there. ",,,,
-Orders,Where is my order?,"Happy to help you!
+,,,Orders,Where is my order?,"Happy to help you!
 
 What is your email address or phone number so I can find your order?",9178259441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this your order?","Yes, thats it!",,,
-Orders,When will by order be delivered?,"Happy to help you!
+,,,Orders,When will by order be delivered?,"Happy to help you!
 
 What is your email address or phone number so I can find your order?",9178259441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this your order?","Yes, thats it!",It looks like it is in transit and should be at 151 east 58th street by Friday.,,
-Orders,My order still hasn't come. I need it tomorrow. Please help!,"Happy to help you!
+,,,Orders,My order still hasn't come. I need it tomorrow. Please help!,"Happy to help you!
 
 What is your email address or phone number so I can find your order?",9178259441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this your order?","Yes, thats it!","It looks like it is in transit and should be at 151 east 58th street by Friday. We can't do anything else re. this order as it is in transit. However, I can see you are in New York - you can pick up another Truman at one of our retail locations. And once your order arrives Friday, you can return that razor.  ",No,
-Orders,I placed an order but want to change the credit card I paid with,"We try to fill and send your order as quickly as possible, which may limit our ability to change payment methods. 
+,,,Orders,I placed an order but want to change the credit card I paid with,"We try to fill and send your order as quickly as possible, which may limit our ability to change payment methods. 
 
 I'm happy to look into it, what is your email address or phone number so I can find your order?",9178259441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
@@ -382,44 +407,100 @@ Is this your order?","Yes, thats it!","It looks like it is in transit and should
 Unfortunately once something has shipped we cannot change the payment method. 
 
 Can I help you with anything else?",No,
-Orders,I want to be added to the waitlist for the limited edition maroon Truman,"Yes, it's been a hit! Happy to add you on the waitlist.
+,,,Orders,I want to be added to the waitlist for the limited edition maroon Truman,"Yes, it's been a hit! Happy to add you on the waitlist.
 
 What is your email address or phone number so we can contact you?",9178259441,"Great, we will reach out as soon as we release the limited edition maroon Truman. ",,,,
-Orders,Whats the status of my order?,"I'm happy to look into it, what is your email address or phone number so I can find your order?",9178259441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
+,,,Orders,Whats the status of my order?,"I'm happy to look into it, what is your email address or phone number so I can find your order?",9178259441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this your order?","Yes, thats it!",It looks like it is in transit and should be at 151 east 58th street by Friday.,,
-Orders,I ordered this a week ago and its still not here!,"I'm happy to look into it, What is your email address or phone number so I can find your order?",9178259441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
+,,,Orders,I ordered this a week ago and its still not here!,"I'm happy to look into it, What is your email address or phone number so I can find your order?",9178259441,"Thank you, looks like your last order was on 4/1/17 and was for a orange Truman razor.  
 
 Is this your order?","Yes, thats it!",It looks like it is in transit and should be at 151 east 58th street by Friday.,,
-Shipping ,"I live in Canada, do you ship here?","At this time, we don't ship internationally, but we hope to sometime in the near future. ",,,,,,
-Shipping ,"I don't have a doorman, can I still have it shipped to a PO Box?","Yes,we can send to PO Boxes. ",,,,,,
-Account,I can't sign in ,"That's easy to fix and I'm happy to help!
-
-Try clicking here to sign in, you may need to change your password if you haven't logged in in over a year. ",,,,,,
-Account,"There's an issue with the website, its timing out","We aim to provide the best experience and apologize for a frustrating time! But hopefully I can help you here. 
+,,,Shipping ,"I live in Canada, do you ship here?","At this time, we don't ship internationally, but we hope to sometime in the near future. ",,,,,,
+,,,Shipping ,"I don't have a doorman, can I still have it shipped to a PO Box?","Yes,we can send to PO Boxes. ",,,,,,
+,,,Account,I can't sign in ,"No problem, happy to help you. Please let us know your phone number or email address  on file. you should receive a text to your phone number on file with a verification code. ",,,,,,
+,,,Account,"There's an issue with the website, its timing out","We aim to provide the best experience and apologize for a frustrating time! But hopefully I can help you here. 
 
 Are you trying to find something specific? ",,,,,,
-Account,How do I update my profile?,"Updating your profile is a breeze, I'll help you get started.
+,,,Account,How do I update my profile?,"Updating your profile is a breeze, I'll help you get started.
 
 Click here to change your profile.",,,,,,
-Account,How do I change my email address?,"Changing your address is a breeze, I'll help you get started.
+,,,Account,How do I change my email address?,"Changing your address is a breeze, I'll help you get started.
 
 Click here to change your email address. ",,,,,,
-Account,How do I change the name on my account,"Changing your account information is a breeze, I'll help you get started.
+,,,Account,How do I change the name on my account,"Changing your account information is a breeze, I'll help you get started.
 
 Click here to change your account information.",,,,,,
-Account,How do I change the credit card on file?,"Changing your credit card is a breeze, I'll help you get started.
+,,,Account,How do I change the credit card on file?,"Changing your credit card is a breeze, I'll help you get started.
 
 Click here to change your credit card. ",,,,,,
-Account,Why was I charged x?!,,,,,,,
-Account,I don't recognize 'this' charge,Happy to help you. We can connect you with an agent. Please provide us with your phone number.,9178259441,,,,,
-Account,I'd like to cancel my X subscription because I moved in with my wife so don't need two acounts,"Happy to help you, let's get started.",9178259441,I found your account - we can do that right away,Thank you!,Keep us in mind in the future - thank you for giving us a try!,,
-Account,I'd like to cancel because the promotion period is over,"Happy to help you, let's get started.",9178259441,I found your account - we can do that right away - is there anything else we can do to make you change your mind?,No its too expensive,Keep us in mind in the future - thank you for giving us a try!,,
-Account,I want to downgrade my account,"Happy to help you, let's get started.",9178259441,I found your account - we can do that right away - can you give us some feedback why you'd like to downgrade?,"Yes, I am moving and won't need razors every month",Great! You're upgrade will come into affect in the next billing cycle. Enjoy!,,
-Account,I want to upgrade my account,"Happy to help you, let's get started.",9178259441,I found your account - would you like one level-up upgrade? ,Yes!,Great! You're upgrade will come into affect in the next billing cycle. Enjoy!,,
-Account,I want to cancel my account,"Happy to help you, let's get started. 
+,,,Account,Why was I charged x?!,,,,,,,
+,,,Account,I don't recognize 'this' charge,Happy to help you. We can connect you with an agent. Please provide us with your phone number.,9178259441,,,,,
+,,,Account,I'd like to cancel my X subscription because I moved in with my wife so don't need two acounts,"Happy to help you, let's get started.",9178259441,I found your account - we can do that right away,Thank you!,Keep us in mind in the future - thank you for giving us a try!,,
+,,,Account,I'd like to cancel because the promotion period is over,"Happy to help you, let's get started.",9178259441,I found your account - we can do that right away - is there anything else we can do to make you change your mind?,No its too expensive,Keep us in mind in the future - thank you for giving us a try!,,
+,,,Account,I want to downgrade my account,"Happy to help you, let's get started.",9178259441,I found your account - we can do that right away - can you give us some feedback why you'd like to downgrade?,"Yes, I am moving and won't need razors every month",Great! You're upgrade will come into affect in the next billing cycle. Enjoy!,,
+,,,Account,I want to upgrade my account,"Happy to help you, let's get started.",9178259441,I found your account - would you like one level-up upgrade? ,Yes!,Great! You're upgrade will come into affect in the next billing cycle. Enjoy!,,
+,,,Account,I want to cancel my account,"Happy to help you, let's get started. 
 
 What is your email address or phone number so I can find your subscription?",917-825-4551,I found your account - we are routing you to a rep that can help you and you'll be on your way!,,,,
-,,,,,,,,
-,,,,,,,,
-"Note - For demo illustrate the ux to illustrate that agent 'knows' the client. (geo-location data, order - purchase / return history, communication activity). see Slice opt in -https://www.slice.com.",,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,"Note - For demo illustrate the ux to illustrate that agent 'knows' the client. (geo-location data, order - purchase / return history, communication activity). see Slice opt in -https://www.slice.com.",,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+X,,Order -HERE  https://drive.google.com/open?id=0BysKeMwHjQVIY0tJQ0VKNHhVNDg,Order missing,Where is my order? ,"Lets find out! You can login, and I can let you know the details. Or, what is your email or phone, and I can pull it up?",917-825-9441,"Thank you, are you asking about the one ordered on February 12, 2017  Order# 108-3028259-7741005? . Tracking # is 1233489821 FYI.",Yes,Great! It will arrive to NYC this afternoon. Details HERE,,

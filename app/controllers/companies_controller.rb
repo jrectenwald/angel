@@ -72,6 +72,7 @@ class CompaniesController < ApplicationController
       classifier.train question[1], question[0]
     end
     @answer = classifier.classify_with_score question
+    Question.create(query: question, conversation_id: @answer)
     redirect_to dashboard_conversations_url(id: @answer[0], question: question, answer: "answer_1")
   end
 

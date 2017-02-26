@@ -16,7 +16,7 @@ harrys.close
 
 # parse csv File
 require 'csv'
-csv_text = File.read('harrys_conversations.csv')
+csv_text = File.read('harrys_conversations.csv', :encoding => "windows-1251:utf-8")
 csv=CSV.parse(csv_text, headers:true)
 company = Company.find_or_create_by(name: "Harrys")
 csv.each do |row|
@@ -45,6 +45,23 @@ help_links.each do |link|
     question = Question.find_or_create_by(query: query, confidence: -60, company_id: company.id, conversation_id: conversation.id)
   end
 end
+
+
+
+
+User.create(
+  name: "Lisa Dolan",
+  age: 30,
+  address: "420 west 42nd street",
+  city: "New York City",
+  state: "New York",
+  zip: 10022,
+  email: "lisa@angelintelligence.io",
+  phone1: "917.825.9441",
+  phone2: "212.397.3748",
+  password: "angelbean17"
+)
+
 
 
 #llbean
