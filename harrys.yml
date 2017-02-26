@@ -1,39 +1,18 @@
 ---
 :faqs:
-- :question: What's the difference between a Truman and a Winston?
-  :answer: !ruby/object:Answer
+- :question: !ruby/object:Question
     raw_attributes:
       id: 1
+      query: What's the difference between a Truman and a Winston?
       company_id: 1
-      response_text: 'The main difference between the Truman and the Winston are in
-        their material and weight. Just to clear up any confusion: they both use the
-        same blade and provide the same great shave.The Truman handle is designed
-        with a rubberized matte material, texturized grip pattern and weighted core
-        for maximum grip and control. The Winston has a metal core and is coated in
-        chrome with strategically placed rubberized grips for even more control while
-        you shave. Both razors are designed to optimize performance and control for
-        their given weight. As for the actual weight, the Truman''s weight (without
-        a cartridge) is 1.39 ounces and the Winston''s weight (without a cartridge)
-        is 1.32Â ounces.'
-      created_at: &1 2017-02-21 02:35:02.141064000 Z
-      updated_at: &2 2017-02-21 02:35:02.141064000 Z
+      confidence: -60
+      conversation_id: 1
+      created_at: &2 2017-02-25 19:20:37.308977000 Z
+      updated_at: &3 2017-02-25 19:20:37.308977000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
-          value_before_type_cast: 1
-          type: &4 !ruby/object:ActiveModel::Type::Integer
-            precision: 
-            scale: 
-            limit: 
-            range: !ruby/range
-              begin: -2147483648
-              end: 2147483648
-              excl: true
-          original_attribute: 
-          value: 1
-        company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: company_id
           value_before_type_cast: 1
           type: &5 !ruby/object:ActiveModel::Type::Integer
             precision: 
@@ -44,80 +23,99 @@
               end: 2147483648
               excl: true
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: 'The main difference between the Truman and the
-            Winston are in their material and weight. Just to clear up any confusion:
-            they both use the same blade and provide the same great shave.The Truman
-            handle is designed with a rubberized matte material, texturized grip pattern
-            and weighted core for maximum grip and control. The Winston has a metal
-            core and is coated in chrome with strategically placed rubberized grips
-            for even more control while you shave. Both razors are designed to optimize
-            performance and control for their given weight. As for the actual weight,
-            the Truman''s weight (without a cartridge) is 1.39 ounces and the Winston''s
-            weight (without a cartridge) is 1.32Â ounces.'
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: What's the difference between a Truman and a Winston?
           type: &6 !ruby/object:ActiveModel::Type::String
             precision: 
             scale: 
             limit: 
           original_attribute: 
+        company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: company_id
+          value_before_type_cast: 1
+          type: &1 !ruby/object:ActiveModel::Type::Integer
+            precision: 
+            scale: 
+            limit: 
+            range: !ruby/range
+              begin: -2147483648
+              end: 2147483648
+              excl: true
+          original_attribute: 
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 1
+          type: *1
+          original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *1
+          value_before_type_cast: *2
           type: &8 !ruby/marshalable:ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
             :__v2__: []
-            []: &3 !ruby/object:ActiveRecord::Type::DateTime
+            []: &4 !ruby/object:ActiveRecord::Type::DateTime
               precision: 
               scale: 
               limit: 
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *2
+          value_before_type_cast: *3
           type: &10 !ruby/marshalable:ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
             :__v2__: []
-            []: *3
+            []: *4
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How does your Free Trial work?
-  :answer: !ruby/object:Answer
+  :answer: 'The main difference between the Truman and the Winston are in their material
+    and weight. Just to clear up any confusion: they both use the same blade and provide
+    the same great shave.The Truman handle is designed with a rubberized matte material,
+    texturized grip pattern and weighted core for maximum grip and control. The Winston
+    has a metal core and is coated in chrome with strategically placed rubberized
+    grips for even more control while you shave. Both razors are designed to optimize
+    performance and control for their given weight. As for the actual weight, the
+    Truman''s weight (without a cartridge) is 1.39 ounces and the Winston''s weight
+    (without a cartridge) is 1.32Â ounces.'
+- :question: !ruby/object:Question
     raw_attributes:
       id: 2
+      query: How does your Free Trial work?
       company_id: 1
-      response_text: "First, congratulations on signing up for a Free Trial -- youâ\x80\x99re
-        in for a great shaving experience.You can subscribe to a Shave Plan and get
-        a trial box of shave supplies, on us â\x80\x94 just cover the $3 shipping.Two
-        weeks after you receive your Free Trial, weâ\x80\x99ll send you the first
-        shipment of your Shave Plan. Each shipment lasts about 3 months, and youâ\x80\x99ll
-        be billed $15 for each shipment.Â You can cancel or modify your plan at anytime
-        after your Free Trial order by visiting yourÂ "
-      created_at: &7 2017-02-21 02:35:02.158754000 Z
-      updated_at: &9 2017-02-21 02:35:02.158754000 Z
+      confidence: -60
+      conversation_id: 2
+      created_at: &7 2017-02-25 19:20:37.316747000 Z
+      updated_at: &9 2017-02-25 19:20:37.316747000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 2
-          type: *4
+          type: *5
           original_attribute: 
-          value: 2
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How does your Free Trial work?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "First, congratulations on signing up for a Free
-            Trial -- youâ\x80\x99re in for a great shaving experience.You can subscribe
-            to a Shave Plan and get a trial box of shave supplies, on us â\x80\x94
-            just cover the $3 shipping.Two weeks after you receive your Free Trial,
-            weâ\x80\x99ll send you the first shipment of your Shave Plan. Each shipment
-            lasts about 3 months, and youâ\x80\x99ll be billed $15 for each shipment.Â You
-            can cancel or modify your plan at anytime after your Free Trial order
-            by visiting yourÂ "
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 2
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -131,39 +129,48 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How do I modify my Shave Plan?
-  :answer: !ruby/object:Answer
+  :answer: "First, congratulations on signing up for a Free Trial -- youâ\x80\x99re
+    in for a great shaving experience.You can subscribe to a Shave Plan and get a
+    trial box of shave supplies, on us â\x80\x94 just cover the $3 shipping.Two weeks
+    after you receive your Free Trial, weâ\x80\x99ll send you the first shipment of
+    your Shave Plan. Each shipment lasts about 3 months, and youâ\x80\x99ll be billed
+    $15 for each shipment.Â You can cancel or modify your plan at anytime after your
+    Free Trial order by visiting yourÂ "
+- :question: !ruby/object:Question
     raw_attributes:
       id: 3
+      query: How do I modify my Shave Plan?
       company_id: 1
-      response_text: "Youâ\x80\x99re in complete control of your plan, and can change
-        or cancel anytime by visiting your . This section allows you to make changes
-        to your plan, including add or remove product, or changing the cadence of
-        your shipments, which you can do by clicking into each section on your personal
-        shave plan."
-      created_at: &11 2017-02-21 02:35:02.168456000 Z
-      updated_at: &12 2017-02-21 02:35:02.168456000 Z
+      confidence: -60
+      conversation_id: 3
+      created_at: &11 2017-02-25 19:20:37.332323000 Z
+      updated_at: &12 2017-02-25 19:20:37.332323000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 3
-          type: *4
+          type: *5
           original_attribute: 
-          value: 3
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How do I modify my Shave Plan?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "Youâ\x80\x99re in complete control of your plan,
-            and can change or cancel anytime by visiting your . This section allows
-            you to make changes to your plan, including add or remove product, or
-            changing the cadence of your shipments, which you can do by clicking into
-            each section on your personal shave plan."
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 3
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -177,54 +184,45 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Can't login or forgot password?
-  :answer: !ruby/object:Answer
+  :answer: "Youâ\x80\x99re in complete control of your plan, and can change or cancel
+    anytime by visiting your . This section allows you to make changes to your plan,
+    including add or remove product, or changing the cadence of your shipments, which
+    you can do by clicking into each section on your personal shave plan."
+- :question: !ruby/object:Question
     raw_attributes:
       id: 4
+      query: Can't login or forgot password?
       company_id: 1
-      response_text: Let's get you back into your account! First, if you've already
-        created an account with us be sure to sign-in as a "Returning User". If that
-        isn't the issue then click the "Forgot Password" link below the Sign In button.
-        Once you click the link simply type the email you have on file with us and
-        we will automatically send a password reset link to your inbox so after you
-        click the Reset Password button you'll need to check your inbox for the email
-        we've sent to reset your password.Be sure to only click the Forgot Password
-        button only once or you'll receive multiple emails. If this happens just make
-        sure that you only use the most recent email we've sent to you, otherwise
-        you won't be able to successfully reset your password. Once you receive a
-        password reset email you have 24 hours before it expires. Follow the steps
-        in the email and you'll be all set!
-      created_at: &13 2017-02-21 02:35:02.175917000 Z
-      updated_at: &14 2017-02-21 02:35:02.175917000 Z
+      confidence: -60
+      conversation_id: 4
+      created_at: &13 2017-02-25 19:20:37.341170000 Z
+      updated_at: &14 2017-02-25 19:20:37.341170000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 4
-          type: *4
+          type: *5
           original_attribute: 
-          value: 4
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Can't login or forgot password?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: Let's get you back into your account! First, if
-            you've already created an account with us be sure to sign-in as a "Returning
-            User". If that isn't the issue then click the "Forgot Password" link below
-            the Sign In button. Once you click the link simply type the email you
-            have on file with us and we will automatically send a password reset link
-            to your inbox so after you click the Reset Password button you'll need
-            to check your inbox for the email we've sent to reset your password.Be
-            sure to only click the Forgot Password button only once or you'll receive
-            multiple emails. If this happens just make sure that you only use the
-            most recent email we've sent to you, otherwise you won't be able to successfully
-            reset your password. Once you receive a password reset email you have
-            24 hours before it expires. Follow the steps in the email and you'll be
-            all set!
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 4
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -238,67 +236,52 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How long will my order take to arrive?
-  :answer: !ruby/object:Answer
+  :answer: Let's get you back into your account! First, if you've already created
+    an account with us be sure to sign-in as a "Returning User". If that isn't the
+    issue then click the "Forgot Password" link below the Sign In button. Once you
+    click the link simply type the email you have on file with us and we will automatically
+    send a password reset link to your inbox so after you click the Reset Password
+    button you'll need to check your inbox for the email we've sent to reset your
+    password.Be sure to only click the Forgot Password button only once or you'll
+    receive multiple emails. If this happens just make sure that you only use the
+    most recent email we've sent to you, otherwise you won't be able to successfully
+    reset your password. Once you receive a password reset email you have 24 hours
+    before it expires. Follow the steps in the email and you'll be all set!
+- :question: !ruby/object:Question
     raw_attributes:
       id: 5
+      query: How long will my order take to arrive?
       company_id: 1
-      response_text: "We partner with the United States Postal Service, Canada Post,
-        and the major parcel carriers to get your shaving products to you quickly.
-        That typically takes about 5-10 business days, and you can always track it
-        by visiting your Harryâ\x80\x99s profile, or using the Shipping Confirmation
-        email that we send as soon as your order heads out into the world. Â When
-        you select our free shipping option, we sendÂ our packages using either DHL
-        SmartMail or FedEx SmartPost. Both DHL SmartMail and FedEx pick up your package
-        for the first half of the journey, and then pass it off to the USPS -- so
-        it goes from your local Post Office to your doorstep.Â You can ship anywhere
-        the USPS ships, including physical addresses and PO Boxes.Expedited orders
-        will ship via FedEx, and be delivered right to your door! Speedy shipments
-        are great, but please note that expedited shipments can't be delivered to
-        PO Boxes, or contain our Foaming Shave Gel.For our friends up north in Canada,
-        shipping may take longer. Depending on your location, we estimate 3-12 business
-        days for delivery. For orders in Canada, the costs are also significantly
-        higher which is why we charge a $6 shipping fee on those orders.If you're
-        ordering in Canada, all orders will ship via Canada Post.Â Regardless of how
-        you're shipping, you'll receive a tracking number from us in your inbox as
-        soon as it ships!Â "
-      created_at: &15 2017-02-21 02:35:02.183330000 Z
-      updated_at: &16 2017-02-21 02:35:02.183330000 Z
+      confidence: -60
+      conversation_id: 5
+      created_at: &15 2017-02-25 19:20:37.349687000 Z
+      updated_at: &16 2017-02-25 19:20:37.349687000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 5
-          type: *4
+          type: *5
           original_attribute: 
-          value: 5
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How long will my order take to arrive?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "We partner with the United States Postal Service,
-            Canada Post, and the major parcel carriers to get your shaving products
-            to you quickly. That typically takes about 5-10 business days, and you
-            can always track it by visiting your Harryâ\x80\x99s profile, or using
-            the Shipping Confirmation email that we send as soon as your order heads
-            out into the world. Â When you select our free shipping option, we sendÂ our
-            packages using either DHL SmartMail or FedEx SmartPost. Both DHL SmartMail
-            and FedEx pick up your package for the first half of the journey, and
-            then pass it off to the USPS -- so it goes from your local Post Office
-            to your doorstep.Â You can ship anywhere the USPS ships, including physical
-            addresses and PO Boxes.Expedited orders will ship via FedEx, and be delivered
-            right to your door! Speedy shipments are great, but please note that expedited
-            shipments can't be delivered to PO Boxes, or contain our Foaming Shave
-            Gel.For our friends up north in Canada, shipping may take longer. Depending
-            on your location, we estimate 3-12 business days for delivery. For orders
-            in Canada, the costs are also significantly higher which is why we charge
-            a $6 shipping fee on those orders.If you're ordering in Canada, all orders
-            will ship via Canada Post.Â Regardless of how you're shipping, you'll
-            receive a tracking number from us in your inbox as soon as it ships!Â "
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 5
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -312,39 +295,58 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How do I remove the blade cartridge from my handle?
-  :answer: !ruby/object:Answer
+  :answer: "We partner with the United States Postal Service, Canada Post, and the
+    major parcel carriers to get your shaving products to you quickly. That typically
+    takes about 5-10 business days, and you can always track it by visiting your Harryâ\x80\x99s
+    profile, or using the Shipping Confirmation email that we send as soon as your
+    order heads out into the world. Â When you select our free shipping option, we
+    sendÂ our packages using either DHL SmartMail or FedEx SmartPost. Both DHL SmartMail
+    and FedEx pick up your package for the first half of the journey, and then pass
+    it off to the USPS -- so it goes from your local Post Office to your doorstep.Â You
+    can ship anywhere the USPS ships, including physical addresses and PO Boxes.Expedited
+    orders will ship via FedEx, and be delivered right to your door! Speedy shipments
+    are great, but please note that expedited shipments can't be delivered to PO Boxes,
+    or contain our Foaming Shave Gel.For our friends up north in Canada, shipping
+    may take longer. Depending on your location, we estimate 3-12 business days for
+    delivery. For orders in Canada, the costs are also significantly higher which
+    is why we charge a $6 shipping fee on those orders.If you're ordering in Canada,
+    all orders will ship via Canada Post.Â Regardless of how you're shipping, you'll
+    receive a tracking number from us in your inbox as soon as it ships!Â "
+- :question: !ruby/object:Question
     raw_attributes:
       id: 6
+      query: How do I remove the blade cartridge from my handle?
       company_id: 1
-      response_text: "Hold the handle with one hand, with the Harryâ\x80\x99s logo
-        facing you (blade should be facing down). With that same hand, grip the pusher
-        (plastic connector piece at the top of the handle) at its base with your thumb
-        and forefinger on each side of the 2 lines. Slide the pusher away from the
-        handle. The blade should pop off with ease!"
-      created_at: &17 2017-02-21 02:35:02.192309000 Z
-      updated_at: &18 2017-02-21 02:35:02.192309000 Z
+      confidence: -60
+      conversation_id: 6
+      created_at: &17 2017-02-25 19:20:37.362625000 Z
+      updated_at: &18 2017-02-25 19:20:37.362625000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 6
-          type: *4
+          type: *5
           original_attribute: 
-          value: 6
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How do I remove the blade cartridge from my handle?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "Hold the handle with one hand, with the Harryâ\x80\x99s
-            logo facing you (blade should be facing down). With that same hand, grip
-            the pusher (plastic connector piece at the top of the handle) at its base
-            with your thumb and forefinger on each side of the 2 lines. Slide the
-            pusher away from the handle. The blade should pop off with ease!"
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 6
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -358,47 +360,46 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How often should I change my blades?
-  :answer: !ruby/object:Answer
+  :answer: "Hold the handle with one hand, with the Harryâ\x80\x99s logo facing you
+    (blade should be facing down). With that same hand, grip the pusher (plastic connector
+    piece at the top of the handle) at its base with your thumb and forefinger on
+    each side of the 2 lines. Slide the pusher away from the handle. The blade should
+    pop off with ease!"
+- :question: !ruby/object:Question
     raw_attributes:
       id: 7
+      query: How often should I change my blades?
       company_id: 1
-      response_text: "Due to their fine steel and precision grinding, our blades are
-        incredibly durable. Our German partners attest that they will perform well
-        for long, long periods of time. Of course, because Harryâ\x80\x99s blades
-        also happen to be affordable, we couldnâ\x80\x99t blame you for wanting to
-        indulge in the luxury of changing them a little more frequently. Many guys
-        tell us that they like to change their blades every 6-8 shaves. Whether you
-        change blades every day or every month, weâ\x80\x99re here to help talk you
-        through it. Feel free to call us at (888) 212.6855 or email us at help@harrys.com
-        anytime."
-      created_at: &19 2017-02-21 02:35:02.200499000 Z
-      updated_at: &20 2017-02-21 02:35:02.200499000 Z
+      confidence: -60
+      conversation_id: 7
+      created_at: &19 2017-02-25 19:20:37.371627000 Z
+      updated_at: &20 2017-02-25 19:20:37.371627000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 7
-          type: *4
+          type: *5
           original_attribute: 
-          value: 7
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How often should I change my blades?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "Due to their fine steel and precision grinding,
-            our blades are incredibly durable. Our German partners attest that they
-            will perform well for long, long periods of time. Of course, because Harryâ\x80\x99s
-            blades also happen to be affordable, we couldnâ\x80\x99t blame you for
-            wanting to indulge in the luxury of changing them a little more frequently.
-            Many guys tell us that they like to change their blades every 6-8 shaves.
-            Whether you change blades every day or every month, weâ\x80\x99re here
-            to help talk you through it. Feel free to call us at (888) 212.6855 or
-            email us at help@harrys.com anytime."
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 7
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -412,35 +413,50 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Are your blades and handles compatible with other brands?
-  :answer: !ruby/object:Answer
+  :answer: "Due to their fine steel and precision grinding, our blades are incredibly
+    durable. Our German partners attest that they will perform well for long, long
+    periods of time. Of course, because Harryâ\x80\x99s blades also happen to be affordable,
+    we couldnâ\x80\x99t blame you for wanting to indulge in the luxury of changing
+    them a little more frequently. Many guys tell us that they like to change their
+    blades every 6-8 shaves. Whether you change blades every day or every month, weâ\x80\x99re
+    here to help talk you through it. Feel free to call us at (888) 212.6855 or email
+    us at help@harrys.com anytime."
+- :question: !ruby/object:Question
     raw_attributes:
       id: 8
+      query: Are your blades and handles compatible with other brands?
       company_id: 1
-      response_text: Our blades are designed to fit with our handles exclusively,
-        and vice versa. They both complement each other really well and are designed
-        for control and precision.
-      created_at: &21 2017-02-21 02:35:02.213385000 Z
-      updated_at: &22 2017-02-21 02:35:02.213385000 Z
+      confidence: -60
+      conversation_id: 8
+      created_at: &21 2017-02-25 19:20:37.384117000 Z
+      updated_at: &22 2017-02-25 19:20:37.384117000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 8
-          type: *4
+          type: *5
           original_attribute: 
-          value: 8
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Are your blades and handles compatible with other
+            brands?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: Our blades are designed to fit with our handles
-            exclusively, and vice versa. They both complement each other really well
-            and are designed for control and precision.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 8
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -454,54 +470,43 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Where do you ship?
-  :answer: !ruby/object:Answer
+  :answer: Our blades are designed to fit with our handles exclusively, and vice versa.
+    They both complement each other really well and are designed for control and precision.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 9
+      query: Where do you ship?
       company_id: 1
-      response_text: We currently ship to the entire United States, Canada, and all
-        US Military locations around the world via their APO, FPO & DPO addresses.
-        In addition, we ship to Puerto Rico, Guam, the US Virgin Islands, and Saipan
-        (though, along with Hawaiian & Alaskan residents, you may experience slightly
-        longer delivery times).Standard Economy Shipping takes between 5-10 business
-        days.Â If for any reason you need to receive your order in fewer than 5 business
-        days, you can expedite the processing of your order for an additional fee.Â Â Unfortunately,
-        we are unable to expedite shipping to our beloved Alaska, Hawaii and US territories
-        customers.Â Please note that if you have Foaming Gel in your order, 1-day
-        and 2-day shipping options are not available due to the fact that aerosol
-        canisters cannot be delivered by air.Â At this time, we don't ship internationally,
-        but we hope to sometime in the near future.Â 
-      created_at: &23 2017-02-21 02:35:02.225836000 Z
-      updated_at: &24 2017-02-21 02:35:02.225836000 Z
+      confidence: -60
+      conversation_id: 9
+      created_at: &23 2017-02-25 19:20:37.393688000 Z
+      updated_at: &24 2017-02-25 19:20:37.393688000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 9
-          type: *4
+          type: *5
           original_attribute: 
-          value: 9
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Where do you ship?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: We currently ship to the entire United States, Canada,
-            and all US Military locations around the world via their APO, FPO & DPO
-            addresses. In addition, we ship to Puerto Rico, Guam, the US Virgin Islands,
-            and Saipan (though, along with Hawaiian & Alaskan residents, you may experience
-            slightly longer delivery times).Standard Economy Shipping takes between
-            5-10 business days.Â If for any reason you need to receive your order
-            in fewer than 5 business days, you can expedite the processing of your
-            order for an additional fee.Â Â Unfortunately, we are unable to expedite
-            shipping to our beloved Alaska, Hawaii and US territories customers.Â Please
-            note that if you have Foaming Gel in your order, 1-day and 2-day shipping
-            options are not available due to the fact that aerosol canisters cannot
-            be delivered by air.Â At this time, we don't ship internationally, but
-            we hope to sometime in the near future.Â 
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 9
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -515,37 +520,53 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Do you offer free shipping?
-  :answer: !ruby/object:Answer
+  :answer: We currently ship to the entire United States, Canada, and all US Military
+    locations around the world via their APO, FPO & DPO addresses. In addition, we
+    ship to Puerto Rico, Guam, the US Virgin Islands, and Saipan (though, along with
+    Hawaiian & Alaskan residents, you may experience slightly longer delivery times).Standard
+    Economy Shipping takes between 5-10 business days.Â If for any reason you need
+    to receive your order in fewer than 5 business days, you can expedite the processing
+    of your order for an additional fee.Â Â Unfortunately, we are unable to expedite
+    shipping to our beloved Alaska, Hawaii and US territories customers.Â Please note
+    that if you have Foaming Gel in your order, 1-day and 2-day shipping options are
+    not available due to the fact that aerosol canisters cannot be delivered by air.Â At
+    this time, we don't ship internationally, but we hope to sometime in the near
+    future.Â 
+- :question: !ruby/object:Question
     raw_attributes:
       id: 10
+      query: Do you offer free shipping?
       company_id: 1
-      response_text: Within the United States, we offer free shipping on any order
-        over $10. In Canada, we do not offer free shipping. Our standard economy option
-        costs $6, but we're hoping to offer lower shipping costs to Canada in the
-        future.
-      created_at: &25 2017-02-21 02:35:02.234909000 Z
-      updated_at: &26 2017-02-21 02:35:02.234909000 Z
+      confidence: -60
+      conversation_id: 10
+      created_at: &25 2017-02-25 19:20:37.405634000 Z
+      updated_at: &26 2017-02-25 19:20:37.405634000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 10
-          type: *4
+          type: *5
           original_attribute: 
-          value: 10
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Do you offer free shipping?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: Within the United States, we offer free shipping
-            on any order over $10. In Canada, we do not offer free shipping. Our standard
-            economy option costs $6, but we're hoping to offer lower shipping costs
-            to Canada in the future.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 10
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -559,37 +580,44 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How can I get a travel blade cover?
-  :answer: !ruby/object:Answer
+  :answer: Within the United States, we offer free shipping on any order over $10.
+    In Canada, we do not offer free shipping. Our standard economy option costs $6,
+    but we're hoping to offer lower shipping costs to Canada in the future.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 11
+      query: How can I get a travel blade cover?
       company_id: 1
-      response_text: Travel blade covers can be purchased  for $1.It's worth mentioning
-        that you'll get free shipping on any order that's over $10 in the United States.
-        Otherwise, there's a $3 shipping charge. We recommend adding one to your next
-        blade order!Â 
-      created_at: &27 2017-02-21 02:35:02.241941000 Z
-      updated_at: &28 2017-02-21 02:35:02.241941000 Z
+      confidence: -60
+      conversation_id: 11
+      created_at: &27 2017-02-25 19:20:37.417693000 Z
+      updated_at: &28 2017-02-25 19:20:37.417693000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 11
-          type: *4
+          type: *5
           original_attribute: 
-          value: 11
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How can I get a travel blade cover?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: Travel blade covers can be purchased  for $1.It's
-            worth mentioning that you'll get free shipping on any order that's over
-            $10 in the United States. Otherwise, there's a $3 shipping charge. We
-            recommend adding one to your next blade order!Â 
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 11
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -603,124 +631,103 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: What's the difference between a Truman and a Winston?
-  :answer: !ruby/object:Answer
+  :answer: Travel blade covers can be purchased  for $1.It's worth mentioning that
+    you'll get free shipping on any order that's over $10 in the United States. Otherwise,
+    there's a $3 shipping charge. We recommend adding one to your next blade order!Â 
+- :question: !ruby/object:Question
     raw_attributes:
       id: 1
+      query: What's the difference between a Truman and a Winston?
       company_id: 1
-      response_text: 'The main difference between the Truman and the Winston are in
-        their material and weight. Just to clear up any confusion: they both use the
-        same blade and provide the same great shave.The Truman handle is designed
-        with a rubberized matte material, texturized grip pattern and weighted core
-        for maximum grip and control. The Winston has a metal core and is coated in
-        chrome with strategically placed rubberized grips for even more control while
-        you shave. Both razors are designed to optimize performance and control for
-        their given weight. As for the actual weight, the Truman''s weight (without
-        a cartridge) is 1.39 ounces and the Winston''s weight (without a cartridge)
-        is 1.32Â ounces.'
-      created_at: '2017-02-21 02:35:02.141064'
-      updated_at: '2017-02-21 02:35:02.141064'
+      confidence: -60
+      conversation_id: 1
+      created_at: '2017-02-25 19:20:37.308977'
+      updated_at: '2017-02-25 19:20:37.308977'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
           id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: id
             value_before_type_cast: 1
-            type: *4
+            type: *5
             original_attribute: 
-            value: 1
+          query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: query
+            value_before_type_cast: What's the difference between a Truman and a Winston?
+            type: *6
+            original_attribute: 
           company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: company_id
             value_before_type_cast: 1
-            type: *5
+            type: *1
             original_attribute: 
-          response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-            name: response_text
-            value_before_type_cast: 'The main difference between the Truman and the
-              Winston are in their material and weight. Just to clear up any confusion:
-              they both use the same blade and provide the same great shave.The Truman
-              handle is designed with a rubberized matte material, texturized grip
-              pattern and weighted core for maximum grip and control. The Winston
-              has a metal core and is coated in chrome with strategically placed rubberized
-              grips for even more control while you shave. Both razors are designed
-              to optimize performance and control for their given weight. As for the
-              actual weight, the Truman''s weight (without a cartridge) is 1.39 ounces
-              and the Winston''s weight (without a cartridge) is 1.32Â ounces.'
-            type: *6
+          confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: confidence
+            value_before_type_cast: -60
+            type: *1
+            original_attribute: 
+          conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: conversation_id
+            value_before_type_cast: 1
+            type: *1
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-21 02:35:02.141064'
+            value_before_type_cast: '2017-02-25 19:20:37.308977'
             type: *8
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-21 02:35:02.141064'
+            value_before_type_cast: '2017-02-25 19:20:37.308977'
             type: *10
             original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: I see there's a new Winston Handle and new blades! Tell me about them.
-  :answer: !ruby/object:Answer
+  :answer: 'The main difference between the Truman and the Winston are in their material
+    and weight. Just to clear up any confusion: they both use the same blade and provide
+    the same great shave.The Truman handle is designed with a rubberized matte material,
+    texturized grip pattern and weighted core for maximum grip and control. The Winston
+    has a metal core and is coated in chrome with strategically placed rubberized
+    grips for even more control while you shave. Both razors are designed to optimize
+    performance and control for their given weight. As for the actual weight, the
+    Truman''s weight (without a cartridge) is 1.39 ounces and the Winston''s weight
+    (without a cartridge) is 1.32Â ounces.'
+- :question: !ruby/object:Question
     raw_attributes:
       id: 12
+      query: I see there's a new Winston Handle and new blades! Tell me about them.
       company_id: 1
-      response_text: There are! We're so excited to introduce our new generation of
-        products. Check out https://closer.harrys.comFor our Winston Handle, we incorporated
-        some customer feedback and added additional features to improve functionality.
-        The beautiful chrome handle will now be accented withÂ a strategically placedÂ rubberized
-        grip for even more control while you shave. The polished, chrome finish reinforces
-        the Winston's classic, yet high quality, feel. It has the same substance and
-        controlÂ as the original while incorporating new features!Don't worry, while
-        the Winston handle has been upgraded, it still fits the same, high-quality
-        Harry's blades that you know and love. The new handle will fit both our new
-        and improved blades and the prior design, in case you still have some of those
-        around.Our new blade cartridgeÂ offers even more of what you need for a close
-        and comfortable shave. We've added a Precision Trimmer toÂ the top of the
-        cartridgeÂ for hard to reach placesÂ likeÂ under your nose and trimming/edgingÂ yourÂ sideburnsÂ andÂ facial
-        hair. Improved flexibility in the hinge allows for more comfortable glide
-        against the contours of your face while the aloe lubrication strip provides
-        a smooth finish.In the spirit of moving forward, our previous handle and blades
-        will no longer be available, but we know you'll love these products just as
-        much (or even more).
-      created_at: &29 2017-02-21 02:35:02.251238000 Z
-      updated_at: &30 2017-02-21 02:35:02.251238000 Z
+      confidence: -60
+      conversation_id: 12
+      created_at: &29 2017-02-25 19:20:37.434765000 Z
+      updated_at: &30 2017-02-25 19:20:37.434765000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 12
-          type: *4
+          type: *5
           original_attribute: 
-          value: 12
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: I see there's a new Winston Handle and new blades!
+            Tell me about them.
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: There are! We're so excited to introduce our new
-            generation of products. Check out https://closer.harrys.comFor our Winston
-            Handle, we incorporated some customer feedback and added additional features
-            to improve functionality. The beautiful chrome handle will now be accented
-            withÂ a strategically placedÂ rubberized grip for even more control while
-            you shave. The polished, chrome finish reinforces the Winston's classic,
-            yet high quality, feel. It has the same substance and controlÂ as the
-            original while incorporating new features!Don't worry, while the Winston
-            handle has been upgraded, it still fits the same, high-quality Harry's
-            blades that you know and love. The new handle will fit both our new and
-            improved blades and the prior design, in case you still have some of those
-            around.Our new blade cartridgeÂ offers even more of what you need for
-            a close and comfortable shave. We've added a Precision Trimmer toÂ the
-            top of the cartridgeÂ for hard to reach placesÂ likeÂ under your nose
-            and trimming/edgingÂ yourÂ sideburnsÂ andÂ facial hair. Improved flexibility
-            in the hinge allows for more comfortable glide against the contours of
-            your face while the aloe lubrication strip provides a smooth finish.In
-            the spirit of moving forward, our previous handle and blades will no longer
-            be available, but we know you'll love these products just as much (or
-            even more).
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 12
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -734,47 +741,58 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Do your blades have a trimmer blade on the back?
-  :answer: !ruby/object:Answer
+  :answer: There are! We're so excited to introduce our new generation of products.
+    Check out https://closer.harrys.comFor our Winston Handle, we incorporated some
+    customer feedback and added additional features to improve functionality. The
+    beautiful chrome handle will now be accented withÂ a strategically placedÂ rubberized
+    grip for even more control while you shave. The polished, chrome finish reinforces
+    the Winston's classic, yet high quality, feel. It has the same substance and controlÂ as
+    the original while incorporating new features!Don't worry, while the Winston handle
+    has been upgraded, it still fits the same, high-quality Harry's blades that you
+    know and love. The new handle will fit both our new and improved blades and the
+    prior design, in case you still have some of those around.Our new blade cartridgeÂ offers
+    even more of what you need for a close and comfortable shave. We've added a Precision
+    Trimmer toÂ the top of the cartridgeÂ for hard to reach placesÂ likeÂ under your
+    nose and trimming/edgingÂ yourÂ sideburnsÂ andÂ facial hair. Improved flexibility
+    in the hinge allows for more comfortable glide against the contours of your face
+    while the aloe lubrication strip provides a smooth finish.In the spirit of moving
+    forward, our previous handle and blades will no longer be available, but we know
+    you'll love these products just as much (or even more).
+- :question: !ruby/object:Question
     raw_attributes:
       id: 13
+      query: Do your blades have a trimmer blade on the back?
       company_id: 1
-      response_text: As of July 19, we do! Our second generation of blades offers
-        even more of what you need for a close and comfortable shave. We've added
-        a Precision Trimmer ("trimmer blade") Â to the top of the cartridge for detailed
-        shaving for hard to reach places (under your nose) and trimming/edging (sideburns,
-        shaping facial hair). Improved flexibility in the hinge allows for a more
-        comfortable glide against the contours of your face while the aloe lubrication
-        strip provides a smooth finish. Consumer tests showed a significant preference
-        for Gen 2 blades over Gen 1. It's our best shave yet and you can get more
-        information here:Â https://closer.harrys.com/
-      created_at: &31 2017-02-21 02:35:02.259300000 Z
-      updated_at: &32 2017-02-21 02:35:02.259300000 Z
+      confidence: -60
+      conversation_id: 13
+      created_at: &31 2017-02-25 19:20:37.443069000 Z
+      updated_at: &32 2017-02-25 19:20:37.443069000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 13
-          type: *4
+          type: *5
           original_attribute: 
-          value: 13
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Do your blades have a trimmer blade on the back?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: As of July 19, we do! Our second generation of blades
-            offers even more of what you need for a close and comfortable shave. We've
-            added a Precision Trimmer ("trimmer blade") Â to the top of the cartridge
-            for detailed shaving for hard to reach places (under your nose) and trimming/edging
-            (sideburns, shaping facial hair). Improved flexibility in the hinge allows
-            for a more comfortable glide against the contours of your face while the
-            aloe lubrication strip provides a smooth finish. Consumer tests showed
-            a significant preference for Gen 2 blades over Gen 1. It's our best shave
-            yet and you can get more information here:Â https://closer.harrys.com/
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 13
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -788,46 +806,49 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How often should I change my blades?
-  :answer: !ruby/object:Answer
+  :answer: As of July 19, we do! Our second generation of blades offers even more
+    of what you need for a close and comfortable shave. We've added a Precision Trimmer
+    ("trimmer blade") Â to the top of the cartridge for detailed shaving for hard
+    to reach places (under your nose) and trimming/edging (sideburns, shaping facial
+    hair). Improved flexibility in the hinge allows for a more comfortable glide against
+    the contours of your face while the aloe lubrication strip provides a smooth finish.
+    Consumer tests showed a significant preference for Gen 2 blades over Gen 1. It's
+    our best shave yet and you can get more information here:Â https://closer.harrys.com/
+- :question: !ruby/object:Question
     raw_attributes:
       id: 14
+      query: How often should I change my blades?
       company_id: 1
-      response_text: "Due to their fine steel and precision grinding, our blades are
-        incredibly durable. Our German partners attest that they will perform well
-        for long, long periods of time. Of course, because Harryâ\x80\x99s blades
-        also happen to be affordable, we couldnâ\x80\x99t blame you for wanting to
-        indulge in the luxury of changing them a little more frequently. Many guys
-        tell us that they like to change their blades every 6-8 shaves. Whether you
-        change blades every day or every month, weâ\x80\x99re here to help talk you
-        through it. Feel free to email us at help@harrys.com or call us at (888) 212.6855.Â "
-      created_at: &33 2017-02-21 02:35:02.267108000 Z
-      updated_at: &34 2017-02-21 02:35:02.267108000 Z
+      confidence: -60
+      conversation_id: 14
+      created_at: &33 2017-02-25 19:20:37.452241000 Z
+      updated_at: &34 2017-02-25 19:20:37.452241000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 14
-          type: *4
+          type: *5
           original_attribute: 
-          value: 14
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How often should I change my blades?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "Due to their fine steel and precision grinding,
-            our blades are incredibly durable. Our German partners attest that they
-            will perform well for long, long periods of time. Of course, because Harryâ\x80\x99s
-            blades also happen to be affordable, we couldnâ\x80\x99t blame you for
-            wanting to indulge in the luxury of changing them a little more frequently.
-            Many guys tell us that they like to change their blades every 6-8 shaves.
-            Whether you change blades every day or every month, weâ\x80\x99re here
-            to help talk you through it. Feel free to email us at help@harrys.com
-            or call us at (888) 212.6855.Â "
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 14
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -841,36 +862,49 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Can women shave with Harry's?
-  :answer: !ruby/object:Answer
+  :answer: "Due to their fine steel and precision grinding, our blades are incredibly
+    durable. Our German partners attest that they will perform well for long, long
+    periods of time. Of course, because Harryâ\x80\x99s blades also happen to be affordable,
+    we couldnâ\x80\x99t blame you for wanting to indulge in the luxury of changing
+    them a little more frequently. Many guys tell us that they like to change their
+    blades every 6-8 shaves. Whether you change blades every day or every month, weâ\x80\x99re
+    here to help talk you through it. Feel free to email us at help@harrys.com or
+    call us at (888) 212.6855.Â "
+- :question: !ruby/object:Question
     raw_attributes:
       id: 15
+      query: Can women shave with Harry's?
       company_id: 1
-      response_text: Although our razors are designed for guys with the face in mind,
-        lots of women are happy Harry's customers. Now that both the Truman and Winston
-        handles have added grip, they are ideal for shaving in the shower!
-      created_at: &35 2017-02-21 02:35:02.274253000 Z
-      updated_at: &36 2017-02-21 02:35:02.274253000 Z
+      confidence: -60
+      conversation_id: 15
+      created_at: &35 2017-02-25 19:20:37.461166000 Z
+      updated_at: &36 2017-02-25 19:20:37.461166000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 15
-          type: *4
+          type: *5
           original_attribute: 
-          value: 15
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Can women shave with Harry's?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: Although our razors are designed for guys with the
-            face in mind, lots of women are happy Harry's customers. Now that both
-            the Truman and Winston handles have added grip, they are ideal for shaving
-            in the shower!
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 15
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -884,54 +918,44 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Where are your products made?
-  :answer: !ruby/object:Answer
+  :answer: Although our razors are designed for guys with the face in mind, lots of
+    women are happy Harry's customers. Now that both the Truman and Winston handles
+    have added grip, they are ideal for shaving in the shower!
+- :question: !ruby/object:Question
     raw_attributes:
       id: 16
+      query: Where are your products made?
       company_id: 1
-      response_text: We looked all over the world to find great razors for you. Deep
-        in the heart of Germany, we found a company that has been making blades for
-        over 90 years. We buy some of the best steel Sweden has to offer, and then
-        we forge your blades in Germany in a small town near Stuttgart. Seriously.Our
-        handles were designed in close partnership with a really talented industrial
-        design firm right here in New York City. Then, we found an outstanding manufacturing
-        partner near Hong Kong who was able to bring our vision to life. We spent
-        a lot of time thinking about the ergonomics, weight, and texture of your handle.As
-        for the Shave Cream, Foaming Shave Gel and Post Shave Balm,Â we teamed up
-        with Mark & Jeff, talented chemists from just outside New York, to develop
-        formulas just for Harry's. Our blend of natural ingredients provides comfort
-        during the shave & soothes the skin after your shave.
-      created_at: &37 2017-02-21 02:35:02.283553000 Z
-      updated_at: &38 2017-02-21 02:35:02.283553000 Z
+      confidence: -60
+      conversation_id: 16
+      created_at: &37 2017-02-25 19:20:37.471848000 Z
+      updated_at: &38 2017-02-25 19:20:37.471848000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 16
-          type: *4
+          type: *5
           original_attribute: 
-          value: 16
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Where are your products made?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: We looked all over the world to find great razors
-            for you. Deep in the heart of Germany, we found a company that has been
-            making blades for over 90 years. We buy some of the best steel Sweden
-            has to offer, and then we forge your blades in Germany in a small town
-            near Stuttgart. Seriously.Our handles were designed in close partnership
-            with a really talented industrial design firm right here in New York City.
-            Then, we found an outstanding manufacturing partner near Hong Kong who
-            was able to bring our vision to life. We spent a lot of time thinking
-            about the ergonomics, weight, and texture of your handle.As for the Shave
-            Cream, Foaming Shave Gel and Post Shave Balm,Â we teamed up with Mark
-            & Jeff, talented chemists from just outside New York, to develop formulas
-            just for Harry's. Our blend of natural ingredients provides comfort during
-            the shave & soothes the skin after your shave.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 16
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -945,33 +969,53 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Do your blades contain nickel?
-  :answer: !ruby/object:Answer
+  :answer: We looked all over the world to find great razors for you. Deep in the
+    heart of Germany, we found a company that has been making blades for over 90 years.
+    We buy some of the best steel Sweden has to offer, and then we forge your blades
+    in Germany in a small town near Stuttgart. Seriously.Our handles were designed
+    in close partnership with a really talented industrial design firm right here
+    in New York City. Then, we found an outstanding manufacturing partner near Hong
+    Kong who was able to bring our vision to life. We spent a lot of time thinking
+    about the ergonomics, weight, and texture of your handle.As for the Shave Cream,
+    Foaming Shave Gel and Post Shave Balm,Â we teamed up with Mark & Jeff, talented
+    chemists from just outside New York, to develop formulas just for Harry's. Our
+    blend of natural ingredients provides comfort during the shave & soothes the skin
+    after your shave.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 17
+      query: Do your blades contain nickel?
       company_id: 1
-      response_text: The steel used in our blades contains a trace amount of nickel,
-        between 0.10% and 0.15%.
-      created_at: &39 2017-02-21 02:35:02.292323000 Z
-      updated_at: &40 2017-02-21 02:35:02.292323000 Z
+      confidence: -60
+      conversation_id: 17
+      created_at: &39 2017-02-25 19:20:37.481564000 Z
+      updated_at: &40 2017-02-25 19:20:37.481564000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 17
-          type: *4
+          type: *5
           original_attribute: 
-          value: 17
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Do your blades contain nickel?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: The steel used in our blades contains a trace amount
-            of nickel, between 0.10% and 0.15%.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 17
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -985,37 +1029,44 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Do I have to use both your razor and your gel or cream?
-  :answer: !ruby/object:Answer
+  :answer: The steel used in our blades contains a trace amount of nickel, between
+    0.10% and 0.15%.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 18
+      query: Do I have to use both your razor and your gel or cream?
       company_id: 1
-      response_text: Of course not. Our razors, Foaming Shave Gel, and Shave Cream
-        were developed to work as great, standalone products, regardless of whether
-        or not you use them together. That said, it never hurts to put great tires
-        on a fast car. We'll leave it to you from here.
-      created_at: &41 2017-02-21 02:35:02.300684000 Z
-      updated_at: &42 2017-02-21 02:35:02.300684000 Z
+      confidence: -60
+      conversation_id: 18
+      created_at: &41 2017-02-25 19:20:37.491868000 Z
+      updated_at: &42 2017-02-25 19:20:37.491868000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 18
-          type: *4
+          type: *5
           original_attribute: 
-          value: 18
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Do I have to use both your razor and your gel or
+            cream?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: Of course not. Our razors, Foaming Shave Gel, and
-            Shave Cream were developed to work as great, standalone products, regardless
-            of whether or not you use them together. That said, it never hurts to
-            put great tires on a fast car. We'll leave it to you from here.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 18
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1029,76 +1080,97 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Are your blades and handles compatible with other brands?
-  :answer: !ruby/object:Answer
+  :answer: Of course not. Our razors, Foaming Shave Gel, and Shave Cream were developed
+    to work as great, standalone products, regardless of whether or not you use them
+    together. That said, it never hurts to put great tires on a fast car. We'll leave
+    it to you from here.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 8
+      query: Are your blades and handles compatible with other brands?
       company_id: 1
-      response_text: Our blades are designed to fit with our handles exclusively,
-        and vice versa. They both complement each other really well and are designed
-        for control and precision.
-      created_at: '2017-02-21 02:35:02.213385'
-      updated_at: '2017-02-21 02:35:02.213385'
+      confidence: -60
+      conversation_id: 8
+      created_at: '2017-02-25 19:20:37.384117'
+      updated_at: '2017-02-25 19:20:37.384117'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
           id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: id
             value_before_type_cast: 8
-            type: *4
+            type: *5
             original_attribute: 
-            value: 8
+          query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: query
+            value_before_type_cast: Are your blades and handles compatible with other
+              brands?
+            type: *6
+            original_attribute: 
           company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: company_id
             value_before_type_cast: 1
-            type: *5
+            type: *1
             original_attribute: 
-          response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-            name: response_text
-            value_before_type_cast: Our blades are designed to fit with our handles
-              exclusively, and vice versa. They both complement each other really
-              well and are designed for control and precision.
-            type: *6
+          confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: confidence
+            value_before_type_cast: -60
+            type: *1
+            original_attribute: 
+          conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: conversation_id
+            value_before_type_cast: 8
+            type: *1
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-21 02:35:02.213385'
+            value_before_type_cast: '2017-02-25 19:20:37.384117'
             type: *8
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-21 02:35:02.213385'
+            value_before_type_cast: '2017-02-25 19:20:37.384117'
             type: *10
             original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How many blades are in your cartridges?
-  :answer: !ruby/object:Answer
+  :answer: Our blades are designed to fit with our handles exclusively, and vice versa.
+    They both complement each other really well and are designed for control and precision.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 19
+      query: How many blades are in your cartridges?
       company_id: 1
-      response_text: Each cartridge contains 5 evenly spaced, German-engineered razor
-        blades.
-      created_at: &43 2017-02-21 02:35:02.318806000 Z
-      updated_at: &44 2017-02-21 02:35:02.318806000 Z
+      confidence: -60
+      conversation_id: 19
+      created_at: &43 2017-02-25 19:20:37.502909000 Z
+      updated_at: &44 2017-02-25 19:20:37.502909000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 19
-          type: *4
+          type: *5
           original_attribute: 
-          value: 19
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How many blades are in your cartridges?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: Each cartridge contains 5 evenly spaced, German-engineered
-            razor blades.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 19
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1112,47 +1184,42 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: What's the best way to use your Shave Cream?
-  :answer: !ruby/object:Answer
+  :answer: Each cartridge contains 5 evenly spaced, German-engineered razor blades.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 20
+      query: What's the best way to use your Shave Cream?
       company_id: 1
-      response_text: We always recommend taking a nice, long shower before shaving
-        -- or at least rinsing your face well with warm water. This helps to hydrate
-        your whiskers and soften them up before you get to shaving.Â Once your skin
-        and hair are prepared, apply a thin layer of our moisturizing shave cream.
-        The amount needed may vary depending on how much stubble you have accumulated,
-        but a dollop the size of a half-inch thick Quarter would be a good place to
-        start. Then, spend 15-20 seconds massaging the cream into all the nooks and
-        crannies of your face and neck, pick up your favorite Harry's razor, and get
-        to shaving.
-      created_at: &45 2017-02-21 02:35:02.327553000 Z
-      updated_at: &46 2017-02-21 02:35:02.327553000 Z
+      confidence: -60
+      conversation_id: 20
+      created_at: &45 2017-02-25 19:20:37.511105000 Z
+      updated_at: &46 2017-02-25 19:20:37.511105000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 20
-          type: *4
+          type: *5
           original_attribute: 
-          value: 20
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: What's the best way to use your Shave Cream?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: We always recommend taking a nice, long shower before
-            shaving -- or at least rinsing your face well with warm water. This helps
-            to hydrate your whiskers and soften them up before you get to shaving.Â Once
-            your skin and hair are prepared, apply a thin layer of our moisturizing
-            shave cream. The amount needed may vary depending on how much stubble
-            you have accumulated, but a dollop the size of a half-inch thick Quarter
-            would be a good place to start. Then, spend 15-20 seconds massaging the
-            cream into all the nooks and crannies of your face and neck, pick up your
-            favorite Harry's razor, and get to shaving.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 20
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1166,37 +1233,49 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Do you test any of your products on animals?
-  :answer: !ruby/object:Answer
+  :answer: We always recommend taking a nice, long shower before shaving -- or at
+    least rinsing your face well with warm water. This helps to hydrate your whiskers
+    and soften them up before you get to shaving.Â Once your skin and hair are prepared,
+    apply a thin layer of our moisturizing shave cream. The amount needed may vary
+    depending on how much stubble you have accumulated, but a dollop the size of a
+    half-inch thick Quarter would be a good place to start. Then, spend 15-20 seconds
+    massaging the cream into all the nooks and crannies of your face and neck, pick
+    up your favorite Harry's razor, and get to shaving.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 21
+      query: Do you test any of your products on animals?
       company_id: 1
-      response_text: We do not perform animal testing on any of our products, and
-        that will never change. Some of us here in the office admittedly like to test
-        new products on ourselves from time to time, but we promise we do that by
-        choice!
-      created_at: &47 2017-02-21 02:35:02.334835000 Z
-      updated_at: &48 2017-02-21 02:35:02.334835000 Z
+      confidence: -60
+      conversation_id: 21
+      created_at: &47 2017-02-25 19:20:37.520431000 Z
+      updated_at: &48 2017-02-25 19:20:37.520431000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 21
-          type: *4
+          type: *5
           original_attribute: 
-          value: 21
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Do you test any of your products on animals?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: We do not perform animal testing on any of our products,
-            and that will never change. Some of us here in the office admittedly like
-            to test new products on ourselves from time to time, but we promise we
-            do that by choice!
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 21
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1210,41 +1289,45 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: What's the difference between your Foaming Shave Gel and Shave Cream?
-  :answer: !ruby/object:Answer
+  :answer: We do not perform animal testing on any of our products, and that will
+    never change. Some of us here in the office admittedly like to test new products
+    on ourselves from time to time, but we promise we do that by choice!
+- :question: !ruby/object:Question
     raw_attributes:
       id: 22
+      query: What's the difference between your Foaming Shave Gel and Shave Cream?
       company_id: 1
-      response_text: The choice between Foaming Shave Gel and Shave Cream is one of
-        preference. Our Foaming Shave Gel dispenses as a dense gel but quickly becomes
-        a foam upon application, providing cushion and protection during your shave,
-        while our Shave Cream applies more thinly but allows for an equally smooth
-        glide and close shave. Both products not only protect your face during the
-        shave, but continue to moisturize afterwards.
-      created_at: &49 2017-02-21 02:35:02.350333000 Z
-      updated_at: &50 2017-02-21 02:35:02.350333000 Z
+      confidence: -60
+      conversation_id: 22
+      created_at: &49 2017-02-25 19:20:37.529624000 Z
+      updated_at: &50 2017-02-25 19:20:37.529624000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 22
-          type: *4
+          type: *5
           original_attribute: 
-          value: 22
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: What's the difference between your Foaming Shave
+            Gel and Shave Cream?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: The choice between Foaming Shave Gel and Shave Cream
-            is one of preference. Our Foaming Shave Gel dispenses as a dense gel but
-            quickly becomes a foam upon application, providing cushion and protection
-            during your shave, while our Shave Cream applies more thinly but allows
-            for an equally smooth glide and close shave. Both products not only protect
-            your face during the shave, but continue to moisturize afterwards.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 22
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1258,37 +1341,47 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Have questions about ingredients?
-  :answer: !ruby/object:Answer
+  :answer: The choice between Foaming Shave Gel and Shave Cream is one of preference.
+    Our Foaming Shave Gel dispenses as a dense gel but quickly becomes a foam upon
+    application, providing cushion and protection during your shave, while our Shave
+    Cream applies more thinly but allows for an equally smooth glide and close shave.
+    Both products not only protect your face during the shave, but continue to moisturize
+    afterwards.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 23
+      query: Have questions about ingredients?
       company_id: 1
-      response_text: We care deeply about the quality of our products. There are no
-        parabens or sulfates in our formulations, and all products are both gluten-free
-        and vegan.If you need a full ingredient list for any reason, please reach
-        out to us and we'll send it your way.
-      created_at: &51 2017-02-21 02:35:02.356934000 Z
-      updated_at: &52 2017-02-21 02:35:02.356934000 Z
+      confidence: -60
+      conversation_id: 23
+      created_at: &51 2017-02-25 19:20:37.538515000 Z
+      updated_at: &52 2017-02-25 19:20:37.538515000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 23
-          type: *4
+          type: *5
           original_attribute: 
-          value: 23
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Have questions about ingredients?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: We care deeply about the quality of our products.
-            There are no parabens or sulfates in our formulations, and all products
-            are both gluten-free and vegan.If you need a full ingredient list for
-            any reason, please reach out to us and we'll send it your way.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 23
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1302,40 +1395,45 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Can I use Harry's to shave my head?
-  :answer: !ruby/object:Answer
+  :answer: We care deeply about the quality of our products. There are no parabens
+    or sulfates in our formulations, and all products are both gluten-free and vegan.If
+    you need a full ingredient list for any reason, please reach out to us and we'll
+    send it your way.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 24
+      query: Can I use Harry's to shave my head?
       company_id: 1
-      response_text: "Our razors are designed to shave your face, not your head. Weâ\x80\x99re
-        working onÂ developing products for head shaving but in the meantime, we recommend
-        that youÂ only use Harryâ\x80\x99s blades for the purpose they were designed
-        for: to shave your face.Â If you have any questions at all, please call or
-        email, weâ\x80\x99d love to discuss them withÂ you."
-      created_at: &53 2017-02-21 02:35:02.363291000 Z
-      updated_at: &54 2017-02-21 02:35:02.363291000 Z
+      confidence: -60
+      conversation_id: 24
+      created_at: &53 2017-02-25 19:20:37.549621000 Z
+      updated_at: &54 2017-02-25 19:20:37.549621000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 24
-          type: *4
+          type: *5
           original_attribute: 
-          value: 24
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Can I use Harry's to shave my head?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "Our razors are designed to shave your face, not
-            your head. Weâ\x80\x99re working onÂ developing products for head shaving
-            but in the meantime, we recommend that youÂ only use Harryâ\x80\x99s blades
-            for the purpose they were designed for: to shave your face.Â If you have
-            any questions at all, please call or email, weâ\x80\x99d love to discuss
-            them withÂ you."
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 24
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1349,33 +1447,47 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: The nozzle on my Foaming Shave Gel isn't working. What do I do?
-  :answer: !ruby/object:Answer
+  :answer: "Our razors are designed to shave your face, not your head. Weâ\x80\x99re
+    working onÂ developing products for head shaving but in the meantime, we recommend
+    that youÂ only use Harryâ\x80\x99s blades for the purpose they were designed for:
+    to shave your face.Â If you have any questions at all, please call or email, weâ\x80\x99d
+    love to discuss them withÂ you."
+- :question: !ruby/object:Question
     raw_attributes:
       id: 25
+      query: The nozzle on my Foaming Shave Gel isn't working. What do I do?
       company_id: 1
-      response_text: If your Foaming Shave Gel is acting stubborn, here's a trick
-        that might work:Shave to your heart's content!
-      created_at: &55 2017-02-21 02:35:02.369941000 Z
-      updated_at: &56 2017-02-21 02:35:02.369941000 Z
+      confidence: -60
+      conversation_id: 25
+      created_at: &55 2017-02-25 19:20:37.558795000 Z
+      updated_at: &56 2017-02-25 19:20:37.558795000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 25
-          type: *4
+          type: *5
           original_attribute: 
-          value: 25
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: The nozzle on my Foaming Shave Gel isn't working.
+            What do I do?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: If your Foaming Shave Gel is acting stubborn, here's
-            a trick that might work:Shave to your heart's content!
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 25
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1389,43 +1501,44 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How do I remove the blades from the plastic blade box?
-  :answer: !ruby/object:Answer
+  :answer: If your Foaming Shave Gel is acting stubborn, here's a trick that might
+    work:Shave to your heart's content!
+- :question: !ruby/object:Question
     raw_attributes:
       id: 26
+      query: How do I remove the blades from the plastic blade box?
       company_id: 1
-      response_text: 1.Â  Hold the blade box in one hand so that the green side is
-        on the top and the clear plastic is on the bottom. Position the box so that
-        the Mammoth is right-side up and Harrys.com is on the side closer to you.Â With
-        your other hand, push the green protruding lip on the side face you, up and
-        away from you. The box should open with relative ease.Insert the handle into
-        the blade cartridge, and pull back gently to remove the blade from the box.
-        Shave away!
-      created_at: &57 2017-02-21 02:35:02.376206000 Z
-      updated_at: &58 2017-02-21 02:35:02.376206000 Z
+      confidence: -60
+      conversation_id: 26
+      created_at: &57 2017-02-25 19:20:37.567075000 Z
+      updated_at: &58 2017-02-25 19:20:37.567075000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 26
-          type: *4
+          type: *5
           original_attribute: 
-          value: 26
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How do I remove the blades from the plastic blade
+            box?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: 1.Â  Hold the blade box in one hand so that the
-            green side is on the top and the clear plastic is on the bottom. Position
-            the box so that the Mammoth is right-side up and Harrys.com is on the
-            side closer to you.Â With your other hand, push the green protruding lip
-            on the side face you, up and away from you. The box should open with relative
-            ease.Insert the handle into the blade cartridge, and pull back gently
-            to remove the blade from the box. Shave away!
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 26
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1439,38 +1552,47 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Why did you change your blade box?
-  :answer: !ruby/object:Answer
+  :answer: 1.Â  Hold the blade box in one hand so that the green side is on the top
+    and the clear plastic is on the bottom. Position the box so that the Mammoth is
+    right-side up and Harrys.com is on the side closer to you.Â With your other hand,
+    push the green protruding lip on the side face you, up and away from you. The
+    box should open with relative ease.Insert the handle into the blade cartridge,
+    and pull back gently to remove the blade from the box. Shave away!
+- :question: !ruby/object:Question
     raw_attributes:
       id: 27
+      query: Why did you change your blade box?
       company_id: 1
-      response_text: "We always strive to give our customers the bestÂ experience
-        possible. Our new blade box offers increased durability, keeping your blades
-        in optimal condition until you are ready to use them. It's easy to use, water-friendly,
-        and 100% recyclable. Comes with the same Harryâ\x80\x99s blades youÂ love."
-      created_at: &59 2017-02-21 02:35:02.382716000 Z
-      updated_at: &60 2017-02-21 02:35:02.382716000 Z
+      confidence: -60
+      conversation_id: 27
+      created_at: &59 2017-02-25 19:20:37.574674000 Z
+      updated_at: &60 2017-02-25 19:20:37.574674000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 27
-          type: *4
+          type: *5
           original_attribute: 
-          value: 27
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Why did you change your blade box?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "We always strive to give our customers the bestÂ experience
-            possible. Our new blade box offers increased durability, keeping your
-            blades in optimal condition until you are ready to use them. It's easy
-            to use, water-friendly, and 100% recyclable. Comes with the same Harryâ\x80\x99s
-            blades youÂ love."
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 27
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1484,60 +1606,45 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Do you ever change your product prices?
-  :answer: !ruby/object:Answer
+  :answer: "We always strive to give our customers the bestÂ experience possible.
+    Our new blade box offers increased durability, keeping your blades in optimal
+    condition until you are ready to use them. It's easy to use, water-friendly, and
+    100% recyclable. Comes with the same Harryâ\x80\x99s blades youÂ love."
+- :question: !ruby/object:Question
     raw_attributes:
       id: 28
+      query: Do you ever change your product prices?
       company_id: 1
-      response_text: At Harry's, we strive to offer our customers the highest quality
-        products at the best value possible by designing, manufacturing andÂ selling
-        our products directly to you. As we grow, we are able to produce some products
-        more cost effectively and try to pass on some of those savings to our customers
-        by decreasing prices. In fact, we've been able to decrease the prices of our
-        Foaming Shave Gel and Post Shave Balm by a few dollars without changing the
-        quality or formula.Sometimes we experience an increase in price of raw materials
-        and labor, but still want to continue making products that meet high quality
-        standards. Therefore, we may need to increase prices slightly or decrease
-        the discount we offer on larger quantities. This year we decreased the discount
-        on larger quantities of our blades, while making sure that each blade still
-        costs $2 or less. In our 16-pack each blade is priced at $1.75 and in our
-        8-pack each blade is priced at $2.00.PricingÂ is something we take very seriously,
-        and whenever we change prices we always do it with the intent to deliver the
-        best quality products to our customers at the best possible value.
-      created_at: &61 2017-02-21 02:35:02.389099000 Z
-      updated_at: &62 2017-02-21 02:35:02.389099000 Z
+      confidence: -60
+      conversation_id: 28
+      created_at: &61 2017-02-25 19:20:37.583029000 Z
+      updated_at: &62 2017-02-25 19:20:37.583029000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 28
-          type: *4
+          type: *5
           original_attribute: 
-          value: 28
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Do you ever change your product prices?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: At Harry's, we strive to offer our customers the
-            highest quality products at the best value possible by designing, manufacturing
-            andÂ selling our products directly to you. As we grow, we are able to
-            produce some products more cost effectively and try to pass on some of
-            those savings to our customers by decreasing prices. In fact, we've been
-            able to decrease the prices of our Foaming Shave Gel and Post Shave Balm
-            by a few dollars without changing the quality or formula.Sometimes we
-            experience an increase in price of raw materials and labor, but still
-            want to continue making products that meet high quality standards. Therefore,
-            we may need to increase prices slightly or decrease the discount we offer
-            on larger quantities. This year we decreased the discount on larger quantities
-            of our blades, while making sure that each blade still costs $2 or less.
-            In our 16-pack each blade is priced at $1.75 and in our 8-pack each blade
-            is priced at $2.00.PricingÂ is something we take very seriously, and whenever
-            we change prices we always do it with the intent to deliver the best quality
-            products to our customers at the best possible value.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 28
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1551,65 +1658,56 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Where do you ship and how long does it take?
-  :answer: !ruby/object:Answer
+  :answer: At Harry's, we strive to offer our customers the highest quality products
+    at the best value possible by designing, manufacturing andÂ selling our products
+    directly to you. As we grow, we are able to produce some products more cost effectively
+    and try to pass on some of those savings to our customers by decreasing prices.
+    In fact, we've been able to decrease the prices of our Foaming Shave Gel and Post
+    Shave Balm by a few dollars without changing the quality or formula.Sometimes
+    we experience an increase in price of raw materials and labor, but still want
+    to continue making products that meet high quality standards. Therefore, we may
+    need to increase prices slightly or decrease the discount we offer on larger quantities.
+    This year we decreased the discount on larger quantities of our blades, while
+    making sure that each blade still costs $2 or less. In our 16-pack each blade
+    is priced at $1.75 and in our 8-pack each blade is priced at $2.00.PricingÂ is
+    something we take very seriously, and whenever we change prices we always do it
+    with the intent to deliver the best quality products to our customers at the best
+    possible value.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 29
+      query: Where do you ship and how long does it take?
       company_id: 1
-      response_text: 'Note for Holiday Delivery: While we work hard to ensure that
-        everyone gets their order quickly, friends in Alaska, Hawaii and U.S. Territories
-        may experience shipping delays of up to a 4 weeks. We, unfortunately, cannot
-        guarantee that you will receive gift orders before the Holiday season at this
-        time. We''re so sorry about that! Harry''s still makes a great gift, but it
-        might be a bit belated. We currently ship to the entire United States, Canada,
-        and all US Military locations around the world via their APO, FPO & DPO addresses.
-        In addition, we ship to Puerto Rico, Guam, the US Virgin Islands, and Saipan
-        (though, along with Hawaiian & Alaskan residents, you may experience slightly
-        longer delivery times).Standard Economy Shipping takes between 5-10 business
-        days.Â If for any reason you need to receive your order in fewer than 5 business
-        days, you can expedite the processing of your order for an additional fee.Â Â Unfortunately,
-        we are unable to expedite shipping to our beloved Alaska, Hawaii and US territories
-        customers.Â Please note that if you have Foaming Gel in your order, 1-day
-        and 2-day shipping options are not available due to the fact that aerosol
-        canisters cannot be delivered by air.Â At this time, we don''t ship internationally,
-        but we hope to sometime in the near future.Â '
-      created_at: &63 2017-02-21 02:35:02.395458000 Z
-      updated_at: &64 2017-02-21 02:35:02.395458000 Z
+      confidence: -60
+      conversation_id: 29
+      created_at: &63 2017-02-25 19:20:37.593709000 Z
+      updated_at: &64 2017-02-25 19:20:37.593709000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 29
-          type: *4
+          type: *5
           original_attribute: 
-          value: 29
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Where do you ship and how long does it take?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: 'Note for Holiday Delivery: While we work hard to
-            ensure that everyone gets their order quickly, friends in Alaska, Hawaii
-            and U.S. Territories may experience shipping delays of up to a 4 weeks.
-            We, unfortunately, cannot guarantee that you will receive gift orders
-            before the Holiday season at this time. We''re so sorry about that! Harry''s
-            still makes a great gift, but it might be a bit belated. We currently
-            ship to the entire United States, Canada, and all US Military locations
-            around the world via their APO, FPO & DPO addresses. In addition, we ship
-            to Puerto Rico, Guam, the US Virgin Islands, and Saipan (though, along
-            with Hawaiian & Alaskan residents, you may experience slightly longer
-            delivery times).Standard Economy Shipping takes between 5-10 business
-            days.Â If for any reason you need to receive your order in fewer than
-            5 business days, you can expedite the processing of your order for an
-            additional fee.Â Â Unfortunately, we are unable to expedite shipping to
-            our beloved Alaska, Hawaii and US territories customers.Â Please note
-            that if you have Foaming Gel in your order, 1-day and 2-day shipping options
-            are not available due to the fact that aerosol canisters cannot be delivered
-            by air.Â At this time, we don''t ship internationally, but we hope to
-            sometime in the near future.Â '
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 29
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1623,51 +1721,58 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How do you ship?
-  :answer: !ruby/object:Answer
+  :answer: 'Note for Holiday Delivery: While we work hard to ensure that everyone
+    gets their order quickly, friends in Alaska, Hawaii and U.S. Territories may experience
+    shipping delays of up to a 4 weeks. We, unfortunately, cannot guarantee that you
+    will receive gift orders before the Holiday season at this time. We''re so sorry
+    about that! Harry''s still makes a great gift, but it might be a bit belated.
+    We currently ship to the entire United States, Canada, and all US Military locations
+    around the world via their APO, FPO & DPO addresses. In addition, we ship to Puerto
+    Rico, Guam, the US Virgin Islands, and Saipan (though, along with Hawaiian & Alaskan
+    residents, you may experience slightly longer delivery times).Standard Economy
+    Shipping takes between 5-10 business days.Â If for any reason you need to receive
+    your order in fewer than 5 business days, you can expedite the processing of your
+    order for an additional fee.Â Â Unfortunately, we are unable to expedite shipping
+    to our beloved Alaska, Hawaii and US territories customers.Â Please note that
+    if you have Foaming Gel in your order, 1-day and 2-day shipping options are not
+    available due to the fact that aerosol canisters cannot be delivered by air.Â At
+    this time, we don''t ship internationally, but we hope to sometime in the near
+    future.Â '
+- :question: !ruby/object:Question
     raw_attributes:
       id: 30
+      query: How do you ship?
       company_id: 1
-      response_text: When you select our free shipping option, we sendÂ our packages
-        using either DHL SmartMail or a service called FedEx SmartPost. Both DHL SmartMail
-        and FedEx pick up your package for the first half of the journey, and then
-        pass it off to the USPS -- so it goes from your local Post Office to your
-        doorstep.Â You can ship anywhere the USPS ships, including physical addresses
-        and PO Boxes.Expedited orders will ship via FedEx, and be delivered right
-        to your door! Speedy shipments are great, but please note that expedited shipments
-        can't be delivered to PO Boxes, or contain our Foaming Shave Gel.If you're
-        ordering in Canada, all orders will ship via Canada Post.Â Regardless of how
-        you're shipping, you'll receive a tracking number from us in your inbox as
-        soon as it ships!Â 
-      created_at: &65 2017-02-21 02:35:02.402615000 Z
-      updated_at: &66 2017-02-21 02:35:02.402615000 Z
+      confidence: -60
+      conversation_id: 30
+      created_at: &65 2017-02-25 19:20:37.608016000 Z
+      updated_at: &66 2017-02-25 19:20:37.608016000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 30
-          type: *4
+          type: *5
           original_attribute: 
-          value: 30
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How do you ship?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: When you select our free shipping option, we sendÂ our
-            packages using either DHL SmartMail or a service called FedEx SmartPost.
-            Both DHL SmartMail and FedEx pick up your package for the first half of
-            the journey, and then pass it off to the USPS -- so it goes from your
-            local Post Office to your doorstep.Â You can ship anywhere the USPS ships,
-            including physical addresses and PO Boxes.Expedited orders will ship via
-            FedEx, and be delivered right to your door! Speedy shipments are great,
-            but please note that expedited shipments can't be delivered to PO Boxes,
-            or contain our Foaming Shave Gel.If you're ordering in Canada, all orders
-            will ship via Canada Post.Â Regardless of how you're shipping, you'll
-            receive a tracking number from us in your inbox as soon as it ships!Â 
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 30
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1681,40 +1786,51 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How do I change or cancel my order?
-  :answer: !ruby/object:Answer
+  :answer: When you select our free shipping option, we sendÂ our packages using either
+    DHL SmartMail or a service called FedEx SmartPost. Both DHL SmartMail and FedEx
+    pick up your package for the first half of the journey, and then pass it off to
+    the USPS -- so it goes from your local Post Office to your doorstep.Â You can
+    ship anywhere the USPS ships, including physical addresses and PO Boxes.Expedited
+    orders will ship via FedEx, and be delivered right to your door! Speedy shipments
+    are great, but please note that expedited shipments can't be delivered to PO Boxes,
+    or contain our Foaming Shave Gel.If you're ordering in Canada, all orders will
+    ship via Canada Post.Â Regardless of how you're shipping, you'll receive a tracking
+    number from us in your inbox as soon as it ships!Â 
+- :question: !ruby/object:Question
     raw_attributes:
       id: 31
+      query: How do I change or cancel my order?
       company_id: 1
-      response_text: We try to fill and send your order as quickly as possible, which
-        may limit our ability to add items to your order or prevent a package from
-        shipping. If you're on a shave plan, you can change the timing of your shipments
-        on yourÂ . For other orders, please feel free to reach out to our Customer
-        Experience team and we'll do our best to get you taken care of.
-      created_at: &67 2017-02-21 02:35:02.410518000 Z
-      updated_at: &68 2017-02-21 02:35:02.410518000 Z
+      confidence: -60
+      conversation_id: 31
+      created_at: &67 2017-02-25 19:20:37.620566000 Z
+      updated_at: &68 2017-02-25 19:20:37.620566000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 31
-          type: *4
+          type: *5
           original_attribute: 
-          value: 31
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How do I change or cancel my order?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: We try to fill and send your order as quickly as
-            possible, which may limit our ability to add items to your order or prevent
-            a package from shipping. If you're on a shave plan, you can change the
-            timing of your shipments on yourÂ . For other orders, please feel free
-            to reach out to our Customer Experience team and we'll do our best to
-            get you taken care of.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 31
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1728,43 +1844,46 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: What is your return policy?
-  :answer: !ruby/object:Answer
+  :answer: We try to fill and send your order as quickly as possible, which may limit
+    our ability to add items to your order or prevent a package from shipping. If
+    you're on a shave plan, you can change the timing of your shipments on yourÂ .
+    For other orders, please feel free to reach out to our Customer Experience team
+    and we'll do our best to get you taken care of.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 32
+      query: What is your return policy?
       company_id: 1
-      response_text: "We love the products weâ\x80\x99ve made, and we think you will
-        too.Â If, after 5-8 shaves, you find that you're unhappy forÂ any reason,
-        just let us know so that we can help you return your products within 30 days
-        of receipt for a full refund.Â It's helpful to remember it does take some
-        time to adjust to a new shave system. Experimenting with the angle and pressure
-        should help you find the right approach to giving you a great shave with our
-        razor."
-      created_at: &69 2017-02-21 02:35:02.416848000 Z
-      updated_at: &70 2017-02-21 02:35:02.416848000 Z
+      confidence: -60
+      conversation_id: 32
+      created_at: &69 2017-02-25 19:20:37.631514000 Z
+      updated_at: &70 2017-02-25 19:20:37.631514000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 32
-          type: *4
+          type: *5
           original_attribute: 
-          value: 32
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: What is your return policy?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "We love the products weâ\x80\x99ve made, and we
-            think you will too.Â If, after 5-8 shaves, you find that you're unhappy
-            forÂ any reason, just let us know so that we can help you return your
-            products within 30 days of receipt for a full refund.Â It's helpful to
-            remember it does take some time to adjust to a new shave system. Experimenting
-            with the angle and pressure should help you find the right approach to
-            giving you a great shave with our razor."
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 32
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1778,46 +1897,47 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Can I send a gift from Harry's to my friends?
-  :answer: !ruby/object:Answer
+  :answer: "We love the products weâ\x80\x99ve made, and we think you will too.Â If,
+    after 5-8 shaves, you find that you're unhappy forÂ any reason, just let us know
+    so that we can help you return your products within 30 days of receipt for a full
+    refund.Â It's helpful to remember it does take some time to adjust to a new shave
+    system. Experimenting with the angle and pressure should help you find the right
+    approach to giving you a great shave with our razor."
+- :question: !ruby/object:Question
     raw_attributes:
       id: 33
+      query: Can I send a gift from Harry's to my friends?
       company_id: 1
-      response_text: "The fact that youâ\x80\x99re asking this question likely means
-        that youâ\x80\x99re an exceptionally caring and classy person. You can (and
-        should) send Harryâ\x80\x99s as a gift to your friends and loved ones. Weâ\x80\x99ve
-        tried to make your gift more special by letting you add a personalized note
-        with your Harryâ\x80\x99s gift, and shipping it in a protective bag to make
-        it as presentable as possible. Just be sure to add a new shipping address
-        at checkout â\x80\x94 unless you wanted to gift it to yourself, that is. You'll
-        need to placeÂ individualÂ orders if more than one shipping address is required.Â "
-      created_at: &71 2017-02-21 02:35:02.423785000 Z
-      updated_at: &72 2017-02-21 02:35:02.423785000 Z
+      confidence: -60
+      conversation_id: 33
+      created_at: &71 2017-02-25 19:20:37.639597000 Z
+      updated_at: &72 2017-02-25 19:20:37.639597000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 33
-          type: *4
+          type: *5
           original_attribute: 
-          value: 33
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Can I send a gift from Harry's to my friends?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "The fact that youâ\x80\x99re asking this question
-            likely means that youâ\x80\x99re an exceptionally caring and classy person.
-            You can (and should) send Harryâ\x80\x99s as a gift to your friends and
-            loved ones. Weâ\x80\x99ve tried to make your gift more special by letting
-            you add a personalized note with your Harryâ\x80\x99s gift, and shipping
-            it in a protective bag to make it as presentable as possible. Just be
-            sure to add a new shipping address at checkout â\x80\x94 unless you wanted
-            to gift it to yourself, that is. You'll need to placeÂ individualÂ orders
-            if more than one shipping address is required.Â "
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 33
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1831,37 +1951,49 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Do you offer free shipping?
-  :answer: !ruby/object:Answer
+  :answer: "The fact that youâ\x80\x99re asking this question likely means that youâ\x80\x99re
+    an exceptionally caring and classy person. You can (and should) send Harryâ\x80\x99s
+    as a gift to your friends and loved ones. Weâ\x80\x99ve tried to make your gift
+    more special by letting you add a personalized note with your Harryâ\x80\x99s
+    gift, and shipping it in a protective bag to make it as presentable as possible.
+    Just be sure to add a new shipping address at checkout â\x80\x94 unless you wanted
+    to gift it to yourself, that is. You'll need to placeÂ individualÂ orders if more
+    than one shipping address is required.Â "
+- :question: !ruby/object:Question
     raw_attributes:
       id: 34
+      query: Do you offer free shipping?
       company_id: 1
-      response_text: Within the United States, we offer free shipping on any order
-        over $10. In Canada, we do not offer free shipping. Our standard economy option
-        costs $6, but we're hoping to offer lower shipping costs to Canada in the
-        future.Â 
-      created_at: &73 2017-02-21 02:35:02.431325000 Z
-      updated_at: &74 2017-02-21 02:35:02.431325000 Z
+      confidence: -60
+      conversation_id: 34
+      created_at: &73 2017-02-25 19:20:37.648543000 Z
+      updated_at: &74 2017-02-25 19:20:37.648543000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 34
-          type: *4
+          type: *5
           original_attribute: 
-          value: 34
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Do you offer free shipping?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: Within the United States, we offer free shipping
-            on any order over $10. In Canada, we do not offer free shipping. Our standard
-            economy option costs $6, but we're hoping to offer lower shipping costs
-            to Canada in the future.Â 
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 34
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1875,49 +2007,44 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Why does my order have a $6 shipping fee?
-  :answer: !ruby/object:Answer
+  :answer: Within the United States, we offer free shipping on any order over $10.
+    In Canada, we do not offer free shipping. Our standard economy option costs $6,
+    but we're hoping to offer lower shipping costs to Canada in the future.Â 
+- :question: !ruby/object:Question
     raw_attributes:
       id: 35
+      query: Why does my order have a $6 shipping fee?
       company_id: 1
-      response_text: You must be one of our Canadian friends! We contribute equally
-        to your shipping costs on all orders, regardless of the transportation mode
-        or location. In some cases - like sending orders via Economy in the US - this
-        means shipping will be free. For orders in Canada, the costs are significantly
-        higher, leaving a remainder of $6 after our contribution is applied.We want
-        you to know that the $6 fee only applies to shipping and will never go above
-        $6 regardless of order size (unless you select an expedited option). We're
-        committed to making sure you get your Harry's on time and we're constantly
-        looking for ways to improve the process so that we can deliver the best experience
-        possible.
-      created_at: &75 2017-02-21 02:35:02.438935000 Z
-      updated_at: &76 2017-02-21 02:35:02.438935000 Z
+      confidence: -60
+      conversation_id: 35
+      created_at: &75 2017-02-25 19:20:37.656426000 Z
+      updated_at: &76 2017-02-25 19:20:37.656426000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 35
-          type: *4
+          type: *5
           original_attribute: 
-          value: 35
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Why does my order have a $6 shipping fee?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: You must be one of our Canadian friends! We contribute
-            equally to your shipping costs on all orders, regardless of the transportation
-            mode or location. In some cases - like sending orders via Economy in the
-            US - this means shipping will be free. For orders in Canada, the costs
-            are significantly higher, leaving a remainder of $6 after our contribution
-            is applied.We want you to know that the $6 fee only applies to shipping
-            and will never go above $6 regardless of order size (unless you select
-            an expedited option). We're committed to making sure you get your Harry's
-            on time and we're constantly looking for ways to improve the process so
-            that we can deliver the best experience possible.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 35
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -1931,143 +2058,159 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How does your Free Trial work?
-  :answer: !ruby/object:Answer
+  :answer: You must be one of our Canadian friends! We contribute equally to your
+    shipping costs on all orders, regardless of the transportation mode or location.
+    In some cases - like sending orders via Economy in the US - this means shipping
+    will be free. For orders in Canada, the costs are significantly higher, leaving
+    a remainder of $6 after our contribution is applied.We want you to know that the
+    $6 fee only applies to shipping and will never go above $6 regardless of order
+    size (unless you select an expedited option). We're committed to making sure you
+    get your Harry's on time and we're constantly looking for ways to improve the
+    process so that we can deliver the best experience possible.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 2
+      query: How does your Free Trial work?
       company_id: 1
-      response_text: "First, congratulations on signing up for a Free Trial -- youâ\x80\x99re
-        in for a great shaving experience.You can subscribe to a Shave Plan and get
-        a trial box of shave supplies, on us â\x80\x94 just cover the $3 shipping.Two
-        weeks after you receive your Free Trial, weâ\x80\x99ll send you the first
-        shipment of your Shave Plan. Each shipment lasts about 3 months, and youâ\x80\x99ll
-        be billed $15 for each shipment.Â You can cancel or modify your plan at anytime
-        after your Free Trial order by visiting yourÂ "
-      created_at: '2017-02-21 02:35:02.158754'
-      updated_at: '2017-02-21 02:35:02.158754'
+      confidence: -60
+      conversation_id: 2
+      created_at: '2017-02-25 19:20:37.316747'
+      updated_at: '2017-02-25 19:20:37.316747'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
           id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: id
             value_before_type_cast: 2
-            type: *4
+            type: *5
             original_attribute: 
-            value: 2
+          query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: query
+            value_before_type_cast: How does your Free Trial work?
+            type: *6
+            original_attribute: 
           company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: company_id
             value_before_type_cast: 1
-            type: *5
+            type: *1
             original_attribute: 
-          response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-            name: response_text
-            value_before_type_cast: "First, congratulations on signing up for a Free
-              Trial -- youâ\x80\x99re in for a great shaving experience.You can subscribe
-              to a Shave Plan and get a trial box of shave supplies, on us â\x80\x94
-              just cover the $3 shipping.Two weeks after you receive your Free Trial,
-              weâ\x80\x99ll send you the first shipment of your Shave Plan. Each shipment
-              lasts about 3 months, and youâ\x80\x99ll be billed $15 for each shipment.Â You
-              can cancel or modify your plan at anytime after your Free Trial order
-              by visiting yourÂ "
-            type: *6
+          confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: confidence
+            value_before_type_cast: -60
+            type: *1
+            original_attribute: 
+          conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: conversation_id
+            value_before_type_cast: 2
+            type: *1
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-21 02:35:02.158754'
+            value_before_type_cast: '2017-02-25 19:20:37.316747'
             type: *8
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-21 02:35:02.158754'
+            value_before_type_cast: '2017-02-25 19:20:37.316747'
             type: *10
             original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How do I modify my Shave Plan?
-  :answer: !ruby/object:Answer
+  :answer: "First, congratulations on signing up for a Free Trial -- youâ\x80\x99re
+    in for a great shaving experience.You can subscribe to a Shave Plan and get a
+    trial box of shave supplies, on us â\x80\x94 just cover the $3 shipping.Two weeks
+    after you receive your Free Trial, weâ\x80\x99ll send you the first shipment of
+    your Shave Plan. Each shipment lasts about 3 months, and youâ\x80\x99ll be billed
+    $15 for each shipment.Â You can cancel or modify your plan at anytime after your
+    Free Trial order by visiting yourÂ "
+- :question: !ruby/object:Question
     raw_attributes:
       id: 3
+      query: How do I modify my Shave Plan?
       company_id: 1
-      response_text: "Youâ\x80\x99re in complete control of your plan, and can change
-        or cancel anytime by visiting your . This section allows you to make changes
-        to your plan, including add or remove product, or changing the cadence of
-        your shipments, which you can do by clicking into each section on your personal
-        shave plan."
-      created_at: '2017-02-21 02:35:02.168456'
-      updated_at: '2017-02-21 02:35:02.168456'
+      confidence: -60
+      conversation_id: 3
+      created_at: '2017-02-25 19:20:37.332323'
+      updated_at: '2017-02-25 19:20:37.332323'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
           id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: id
             value_before_type_cast: 3
-            type: *4
+            type: *5
             original_attribute: 
-            value: 3
+          query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: query
+            value_before_type_cast: How do I modify my Shave Plan?
+            type: *6
+            original_attribute: 
           company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: company_id
             value_before_type_cast: 1
-            type: *5
+            type: *1
             original_attribute: 
-          response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-            name: response_text
-            value_before_type_cast: "Youâ\x80\x99re in complete control of your plan,
-              and can change or cancel anytime by visiting your . This section allows
-              you to make changes to your plan, including add or remove product, or
-              changing the cadence of your shipments, which you can do by clicking
-              into each section on your personal shave plan."
-            type: *6
+          confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: confidence
+            value_before_type_cast: -60
+            type: *1
+            original_attribute: 
+          conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+            name: conversation_id
+            value_before_type_cast: 3
+            type: *1
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-21 02:35:02.168456'
+            value_before_type_cast: '2017-02-25 19:20:37.332323'
             type: *8
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-21 02:35:02.168456'
+            value_before_type_cast: '2017-02-25 19:20:37.332323'
             type: *10
             original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Do I need to sign up for a Free Trial?
-  :answer: !ruby/object:Answer
+  :answer: "Youâ\x80\x99re in complete control of your plan, and can change or cancel
+    anytime by visiting your . This section allows you to make changes to your plan,
+    including add or remove product, or changing the cadence of your shipments, which
+    you can do by clicking into each section on your personal shave plan."
+- :question: !ruby/object:Question
     raw_attributes:
       id: 36
+      query: Do I need to sign up for a Free Trial?
       company_id: 1
-      response_text: 'In short: not if you don''t want to -- no membership or contracts
-        are necessary. We created the Free Trial to give more people an amazing deal
-        to try out our products. We think our shave plans are super convenient and
-        since you can modify or cancel at anytime it''s easy to control; that way
-        you get what you want, when you want it. If you''re unsure our customer service
-        team is happy to give you advice or answer any of your questions. Â If subscriptions
-        just aren''t your thing, you can always  on your own time on our site.'
-      created_at: &77 2017-02-21 02:35:02.450680000 Z
-      updated_at: &78 2017-02-21 02:35:02.450680000 Z
+      confidence: -60
+      conversation_id: 36
+      created_at: &77 2017-02-25 19:20:37.674553000 Z
+      updated_at: &78 2017-02-25 19:20:37.674553000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 36
-          type: *4
+          type: *5
           original_attribute: 
-          value: 36
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Do I need to sign up for a Free Trial?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: 'In short: not if you don''t want to -- no membership
-            or contracts are necessary. We created the Free Trial to give more people
-            an amazing deal to try out our products. We think our shave plans are
-            super convenient and since you can modify or cancel at anytime it''s easy
-            to control; that way you get what you want, when you want it. If you''re
-            unsure our customer service team is happy to give you advice or answer
-            any of your questions. Â If subscriptions just aren''t your thing, you
-            can always  on your own time on our site.'
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 36
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2081,45 +2224,48 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How do I cancel my Shave Plan or Free Trial online?
-  :answer: !ruby/object:Answer
+  :answer: 'In short: not if you don''t want to -- no membership or contracts are
+    necessary. We created the Free Trial to give more people an amazing deal to try
+    out our products. We think our shave plans are super convenient and since you
+    can modify or cancel at anytime it''s easy to control; that way you get what you
+    want, when you want it. If you''re unsure our customer service team is happy to
+    give you advice or answer any of your questions. Â If subscriptions just aren''t
+    your thing, you can always  on your own time on our site.'
+- :question: !ruby/object:Question
     raw_attributes:
       id: 37
+      query: How do I cancel my Shave Plan or Free Trial online?
       company_id: 1
-      response_text: "We hate to see you go, but you can remove items from your Plan,
-        or cancel the whole Plan, right in your profile by visiting your  Here, youâ\x80\x99re
-        in complete control of your shave Plan, and can add or remove product, change
-        your cadence or next send date, or update your billing and shipping information.If
-        you want to cancel the whole Plan, simply click â\x80\x9CCancel Planâ\x80\x9D
-        in the lower right-hand corner.We'd also love your feedback as to why you
-        wanted to cancel, so feel free to send us a note at help@harrys.com with your
-        thoughts!"
-      created_at: &79 2017-02-21 02:35:02.457140000 Z
-      updated_at: &80 2017-02-21 02:35:02.457140000 Z
+      confidence: -60
+      conversation_id: 37
+      created_at: &79 2017-02-25 19:20:37.682933000 Z
+      updated_at: &80 2017-02-25 19:20:37.682933000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 37
-          type: *4
+          type: *5
           original_attribute: 
-          value: 37
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How do I cancel my Shave Plan or Free Trial online?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "We hate to see you go, but you can remove items
-            from your Plan, or cancel the whole Plan, right in your profile by visiting
-            your  Here, youâ\x80\x99re in complete control of your shave Plan, and
-            can add or remove product, change your cadence or next send date, or update
-            your billing and shipping information.If you want to cancel the whole
-            Plan, simply click â\x80\x9CCancel Planâ\x80\x9D in the lower right-hand
-            corner.We'd also love your feedback as to why you wanted to cancel, so
-            feel free to send us a note at help@harrys.com with your thoughts!"
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 37
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2133,43 +2279,48 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: What comes in my Free Trial?
-  :answer: !ruby/object:Answer
+  :answer: "We hate to see you go, but you can remove items from your Plan, or cancel
+    the whole Plan, right in your profile by visiting your  Here, youâ\x80\x99re in
+    complete control of your shave Plan, and can add or remove product, change your
+    cadence or next send date, or update your billing and shipping information.If
+    you want to cancel the whole Plan, simply click â\x80\x9CCancel Planâ\x80\x9D
+    in the lower right-hand corner.We'd also love your feedback as to why you wanted
+    to cancel, so feel free to send us a note at help@harrys.com with your thoughts!"
+- :question: !ruby/object:Question
     raw_attributes:
       id: 38
+      query: What comes in my Free Trial?
       company_id: 1
-      response_text: "When you sign up for one of our recurring Shave Plans, through
-        our Free Trial, youâ\x80\x99ll receive a Truman handle with a Blade attached,
-        2oz Foaming Shave Gel, and a Travel Blade Cover. The products are free, just
-        cover the $3 shipping.Already a Harry's customer but just getting a Shave
-        Plan for the first time? Don't worry, you'll get one free handle, too! You
-        can keep it as a back up or pass it along to a friend or family member who
-        might like a great shave."
-      created_at: &81 2017-02-21 02:35:02.466332000 Z
-      updated_at: &82 2017-02-21 02:35:02.466332000 Z
+      confidence: -60
+      conversation_id: 38
+      created_at: &81 2017-02-25 19:20:37.692583000 Z
+      updated_at: &82 2017-02-25 19:20:37.692583000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 38
-          type: *4
+          type: *5
           original_attribute: 
-          value: 38
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: What comes in my Free Trial?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "When you sign up for one of our recurring Shave
-            Plans, through our Free Trial, youâ\x80\x99ll receive a Truman handle
-            with a Blade attached, 2oz Foaming Shave Gel, and a Travel Blade Cover.
-            The products are free, just cover the $3 shipping.Already a Harry's customer
-            but just getting a Shave Plan for the first time? Don't worry, you'll
-            get one free handle, too! You can keep it as a back up or pass it along
-            to a friend or family member who might like a great shave."
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 38
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2183,35 +2334,47 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: What forms of payment do you accept?
-  :answer: !ruby/object:Answer
+  :answer: "When you sign up for one of our recurring Shave Plans, through our Free
+    Trial, youâ\x80\x99ll receive a Truman handle with a Blade attached, 2oz Foaming
+    Shave Gel, and a Travel Blade Cover. The products are free, just cover the $3
+    shipping.Already a Harry's customer but just getting a Shave Plan for the first
+    time? Don't worry, you'll get one free handle, too! You can keep it as a back
+    up or pass it along to a friend or family member who might like a great shave."
+- :question: !ruby/object:Question
     raw_attributes:
       id: 39
+      query: What forms of payment do you accept?
       company_id: 1
-      response_text: We accept Visa, MasterCard, American Express, and Discover. And
-        we rarely turn down homemade cookies. However, we do not accept PayPal or
-        pre-paid cards at this time.Â 
-      created_at: &83 2017-02-21 02:35:02.472833000 Z
-      updated_at: &84 2017-02-21 02:35:02.472833000 Z
+      confidence: -60
+      conversation_id: 39
+      created_at: &83 2017-02-25 19:20:37.701346000 Z
+      updated_at: &84 2017-02-25 19:20:37.701346000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 39
-          type: *4
+          type: *5
           original_attribute: 
-          value: 39
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: What forms of payment do you accept?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: We accept Visa, MasterCard, American Express, and
-            Discover. And we rarely turn down homemade cookies. However, we do not
-            accept PayPal or pre-paid cards at this time.Â 
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 39
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2225,39 +2388,45 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: "I see 'Stripe' on my bank statement - whatâ\x80\x99s that?"
-  :answer: !ruby/object:Answer
+  :answer: We accept Visa, MasterCard, American Express, and Discover. And we rarely
+    turn down homemade cookies. However, we do not accept PayPal or pre-paid cards
+    at this time.Â 
+- :question: !ruby/object:Question
     raw_attributes:
       id: 40
+      query: "I see 'Stripe' on my bank statement - whatâ\x80\x99s that?"
       company_id: 1
-      response_text: Stripe is one of our payment partners. In some cases, you might
-        see 'Stripe' (or a variation of Stripe) on your credit card statement for
-        the first 24 hours.Â Within a day, Harry's should appear on your statement
-        in its place. If you have any questions or concerns about this, just reach
-        outÂ and we can help confirm your order!
-      created_at: &85 2017-02-21 02:35:02.479779000 Z
-      updated_at: &86 2017-02-21 02:35:02.479779000 Z
+      confidence: -60
+      conversation_id: 40
+      created_at: &85 2017-02-25 19:20:37.710080000 Z
+      updated_at: &86 2017-02-25 19:20:37.710080000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 40
-          type: *4
+          type: *5
           original_attribute: 
-          value: 40
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: "I see 'Stripe' on my bank statement - whatâ\x80\x99s
+            that?"
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: Stripe is one of our payment partners. In some cases,
-            you might see 'Stripe' (or a variation of Stripe) on your credit card
-            statement for the first 24 hours.Â Within a day, Harry's should appear
-            on your statement in its place. If you have any questions or concerns
-            about this, just reach outÂ and we can help confirm your order!
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 40
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2271,52 +2440,46 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: I am purchasing from Canada. Why am I having trouble checking out?
-  :answer: !ruby/object:Answer
+  :answer: Stripe is one of our payment partners. In some cases, you might see 'Stripe'
+    (or a variation of Stripe) on your credit card statement for the first 24 hours.Â Within
+    a day, Harry's should appear on your statement in its place. If you have any questions
+    or concerns about this, just reach outÂ and we can help confirm your order!
+- :question: !ruby/object:Question
     raw_attributes:
       id: 41
+      query: I am purchasing from Canada. Why am I having trouble checking out?
       company_id: 1
-      response_text: 'We understand this can be frustrating when you''re just trying
-        to get your shave on. Some Canadian banks don''t verify via billing address
-        (which is a main verification method we use), so when we request that verification
-        from your bank, you see an error message -- not because the billing address
-        is wrong, but because the bank simply does not provide that verification service.If
-        you happen to have an Apt/Unit, try giving this a shot: when you enter your
-        billing address, enter your unit number followed by a hyphen and then your
-        street address in line 1. So, if you live in Apt. 35 at 5 John St, address
-        line 1 would read 35-5 John St.If you don''t have an Apt/Unit or are still
-        getting an error after trying the above, the best thing to do is try another
-        card. We apologize for the inconvenience!'
-      created_at: &87 2017-02-21 02:35:02.486864000 Z
-      updated_at: &88 2017-02-21 02:35:02.486864000 Z
+      confidence: -60
+      conversation_id: 41
+      created_at: &87 2017-02-25 19:20:37.717693000 Z
+      updated_at: &88 2017-02-25 19:20:37.717693000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 41
-          type: *4
+          type: *5
           original_attribute: 
-          value: 41
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: I am purchasing from Canada. Why am I having trouble
+            checking out?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: 'We understand this can be frustrating when you''re
-            just trying to get your shave on. Some Canadian banks don''t verify via
-            billing address (which is a main verification method we use), so when
-            we request that verification from your bank, you see an error message
-            -- not because the billing address is wrong, but because the bank simply
-            does not provide that verification service.If you happen to have an Apt/Unit,
-            try giving this a shot: when you enter your billing address, enter your
-            unit number followed by a hyphen and then your street address in line
-            1. So, if you live in Apt. 35 at 5 John St, address line 1 would read
-            35-5 John St.If you don''t have an Apt/Unit or are still getting an error
-            after trying the above, the best thing to do is try another card. We apologize
-            for the inconvenience!'
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 41
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2330,48 +2493,52 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How do I use my redemption code?
-  :answer: !ruby/object:Answer
+  :answer: 'We understand this can be frustrating when you''re just trying to get
+    your shave on. Some Canadian banks don''t verify via billing address (which is
+    a main verification method we use), so when we request that verification from
+    your bank, you see an error message -- not because the billing address is wrong,
+    but because the bank simply does not provide that verification service.If you
+    happen to have an Apt/Unit, try giving this a shot: when you enter your billing
+    address, enter your unit number followed by a hyphen and then your street address
+    in line 1. So, if you live in Apt. 35 at 5 John St, address line 1 would read
+    35-5 John St.If you don''t have an Apt/Unit or are still getting an error after
+    trying the above, the best thing to do is try another card. We apologize for the
+    inconvenience!'
+- :question: !ruby/object:Question
     raw_attributes:
       id: 42
+      query: How do I use my redemption code?
       company_id: 1
-      response_text: "First, thatâ\x80\x99s so cool that you have one! Youâ\x80\x99ll
-        need to first need to go to harrys.com/redeem and enter your coupon code.
-        Once you do so, you should see those items that the code is valid for pop
-        up into your cart -- please note that the order total will be $0.00.If for
-        any reason this process does not work, try adding those same items (that the
-        coupon code is valid for) to your cart, proceed through checkout, and click
-        the â\x80\x9CApply Coupon Codeâ\x80\x9D link on the Payment Details screen.
-        Entering in your code will then apply the discount.Your coupon code is good
-        to go for 90 days (unless otherwise noted) after it was first generated."
-      created_at: &89 2017-02-21 02:35:02.493788000 Z
-      updated_at: &90 2017-02-21 02:35:02.493788000 Z
+      confidence: -60
+      conversation_id: 42
+      created_at: &89 2017-02-25 19:20:37.726560000 Z
+      updated_at: &90 2017-02-25 19:20:37.726560000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 42
-          type: *4
+          type: *5
           original_attribute: 
-          value: 42
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How do I use my redemption code?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "First, thatâ\x80\x99s so cool that you have one!
-            Youâ\x80\x99ll need to first need to go to harrys.com/redeem and enter
-            your coupon code. Once you do so, you should see those items that the
-            code is valid for pop up into your cart -- please note that the order
-            total will be $0.00.If for any reason this process does not work, try
-            adding those same items (that the coupon code is valid for) to your cart,
-            proceed through checkout, and click the â\x80\x9CApply Coupon Codeâ\x80\x9D
-            link on the Payment Details screen. Entering in your code will then apply
-            the discount.Your coupon code is good to go for 90 days (unless otherwise
-            noted) after it was first generated."
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 42
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2385,38 +2552,51 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: "There is a $1 charge on my bank statement - whatâ\x80\x99s that about?"
-  :answer: !ruby/object:Answer
+  :answer: "First, thatâ\x80\x99s so cool that you have one! Youâ\x80\x99ll need to
+    first need to go to harrys.com/redeem and enter your coupon code. Once you do
+    so, you should see those items that the code is valid for pop up into your cart
+    -- please note that the order total will be $0.00.If for any reason this process
+    does not work, try adding those same items (that the coupon code is valid for)
+    to your cart, proceed through checkout, and click the â\x80\x9CApply Coupon Codeâ\x80\x9D
+    link on the Payment Details screen. Entering in your code will then apply the
+    discount.Your coupon code is good to go for 90 days (unless otherwise noted) after
+    it was first generated."
+- :question: !ruby/object:Question
     raw_attributes:
       id: 43
+      query: "There is a $1 charge on my bank statement - whatâ\x80\x99s that about?"
       company_id: 1
-      response_text: "Awesome question! Donâ\x80\x99t worry, that $1 is merely a holding
-        charge. As soon as your order is shipped out, you will be charged for exactly
-        the total of your order, and that $1 will drop off immediately. It's just
-        your bank talking to our bank saying 'Yup, this is a valid account.'Â "
-      created_at: &91 2017-02-21 02:35:02.500569000 Z
-      updated_at: &92 2017-02-21 02:35:02.500569000 Z
+      confidence: -60
+      conversation_id: 43
+      created_at: &91 2017-02-25 19:20:37.734487000 Z
+      updated_at: &92 2017-02-25 19:20:37.734487000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 43
-          type: *4
+          type: *5
           original_attribute: 
-          value: 43
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: "There is a $1 charge on my bank statement - whatâ\x80\x99s
+            that about?"
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "Awesome question! Donâ\x80\x99t worry, that $1
-            is merely a holding charge. As soon as your order is shipped out, you
-            will be charged for exactly the total of your order, and that $1 will
-            drop off immediately. It's just your bank talking to our bank saying 'Yup,
-            this is a valid account.'Â "
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 43
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2430,43 +2610,45 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Can I purchase Harry's products at retail locations?
-  :answer: !ruby/object:Answer
+  :answer: "Awesome question! Donâ\x80\x99t worry, that $1 is merely a holding charge.
+    As soon as your order is shipped out, you will be charged for exactly the total
+    of your order, and that $1 will drop off immediately. It's just your bank talking
+    to our bank saying 'Yup, this is a valid account.'Â "
+- :question: !ruby/object:Question
     raw_attributes:
       id: 44
+      query: Can I purchase Harry's products at retail locations?
       company_id: 1
-      response_text: 'Yes! We are super excited about our great partnerships with
-        Target, J.Crew, Barney''s, and Nordstrom. Many of their locations across the
-        US and Canada carry our sets. Not all locations do just yet, so we recommend
-        contacting your local stores to check for availability.One note: Our retail
-        partners are a great place to get started or purchase gifts, but our refill
-        products are only available at www.harrys.com or Target (both online and in
-        stores).'
-      created_at: &93 2017-02-21 02:35:02.511670000 Z
-      updated_at: &94 2017-02-21 02:35:02.511670000 Z
+      confidence: -60
+      conversation_id: 44
+      created_at: &93 2017-02-25 19:20:37.745976000 Z
+      updated_at: &94 2017-02-25 19:20:37.745976000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 44
-          type: *4
+          type: *5
           original_attribute: 
-          value: 44
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Can I purchase Harry's products at retail locations?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: 'Yes! We are super excited about our great partnerships
-            with Target, J.Crew, Barney''s, and Nordstrom. Many of their locations
-            across the US and Canada carry our sets. Not all locations do just yet,
-            so we recommend contacting your local stores to check for availability.One
-            note: Our retail partners are a great place to get started or purchase
-            gifts, but our refill products are only available at www.harrys.com or
-            Target (both online and in stores).'
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 44
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2480,41 +2662,47 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Where is your factory?
-  :answer: !ruby/object:Answer
+  :answer: 'Yes! We are super excited about our great partnerships with Target, J.Crew,
+    Barney''s, and Nordstrom. Many of their locations across the US and Canada carry
+    our sets. Not all locations do just yet, so we recommend contacting your local
+    stores to check for availability.One note: Our retail partners are a great place
+    to get started or purchase gifts, but our refill products are only available at
+    www.harrys.com or Target (both online and in stores).'
+- :question: !ruby/object:Question
     raw_attributes:
       id: 45
+      query: Where is your factory?
       company_id: 1
-      response_text: "The factory is in Eisfeld, Germany â\x80\x94 nestled between
-        Munich and Frankfurt. Itâ\x80\x99s in a beautiful region thatâ\x80\x99s home
-        to some of the best manufacturing and engineering companies in the world.You
-        can read more about it on our  Â Although we produce our blades in Germany,
-        Harryâ\x80\x99s products are currently only available in the US and Canada.
-        We hope to expand abroad in the future.Â "
-      created_at: &95 2017-02-21 02:35:02.519909000 Z
-      updated_at: &96 2017-02-21 02:35:02.519909000 Z
+      confidence: -60
+      conversation_id: 45
+      created_at: &95 2017-02-25 19:20:37.754005000 Z
+      updated_at: &96 2017-02-25 19:20:37.754005000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 45
-          type: *4
+          type: *5
           original_attribute: 
-          value: 45
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Where is your factory?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: "The factory is in Eisfeld, Germany â\x80\x94 nestled
-            between Munich and Frankfurt. Itâ\x80\x99s in a beautiful region thatâ\x80\x99s
-            home to some of the best manufacturing and engineering companies in the
-            world.You can read more about it on our  Â Although we produce our blades
-            in Germany, Harryâ\x80\x99s products are currently only available in the
-            US and Canada. We hope to expand abroad in the future.Â "
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 45
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2528,39 +2716,47 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: Do you have a Mobile App?
-  :answer: !ruby/object:Answer
+  :answer: "The factory is in Eisfeld, Germany â\x80\x94 nestled between Munich and
+    Frankfurt. Itâ\x80\x99s in a beautiful region thatâ\x80\x99s home to some of the
+    best manufacturing and engineering companies in the world.You can read more about
+    it on our  Â Although we produce our blades in Germany, Harryâ\x80\x99s products
+    are currently only available in the US and Canada. We hope to expand abroad in
+    the future.Â "
+- :question: !ruby/object:Question
     raw_attributes:
       id: 46
+      query: Do you have a Mobile App?
       company_id: 1
-      response_text: We do and it's great!  provides a super convenient option for
-        ordering and re-ordering shave supplies. Download and install the app on your
-        mobile device in order to easily browse through our products and place orders
-        using existing account information. The app is currently optimized for iOS
-        9.0 and up.
-      created_at: &97 2017-02-21 02:35:02.526758000 Z
-      updated_at: &98 2017-02-21 02:35:02.526758000 Z
+      confidence: -60
+      conversation_id: 46
+      created_at: &97 2017-02-25 19:20:37.761329000 Z
+      updated_at: &98 2017-02-25 19:20:37.761329000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 46
-          type: *4
+          type: *5
           original_attribute: 
-          value: 46
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: Do you have a Mobile App?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: We do and it's great!  provides a super convenient
-            option for ordering and re-ordering shave supplies. Download and install
-            the app on your mobile device in order to easily browse through our products
-            and place orders using existing account information. The app is currently
-            optimized for iOS 9.0 and up.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 46
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2574,40 +2770,45 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: How do I remove something from my cart in the app?
-  :answer: !ruby/object:Answer
+  :answer: We do and it's great!  provides a super convenient option for ordering
+    and re-ordering shave supplies. Download and install the app on your mobile device
+    in order to easily browse through our products and place orders using existing
+    account information. The app is currently optimized for iOS 9.0 and up.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 47
+      query: How do I remove something from my cart in the app?
       company_id: 1
-      response_text: If you're on the Checkout screen, tap the back arrow in the top
-        left-hand corner of your screen. Once you're on the Cart screen you can tap
-        the minus sign under any product to decrease the quantity of that item in
-        your order.If you'd like to remove an item from your cart completely, swipe
-        left on that item and tap the 'Delete' button that appears to the right.
-      created_at: &99 2017-02-21 02:35:02.535949000 Z
-      updated_at: &100 2017-02-21 02:35:02.535949000 Z
+      confidence: -60
+      conversation_id: 47
+      created_at: &99 2017-02-25 19:20:37.769479000 Z
+      updated_at: &100 2017-02-25 19:20:37.769479000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 47
-          type: *4
+          type: *5
           original_attribute: 
-          value: 47
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: How do I remove something from my cart in the app?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: If you're on the Checkout screen, tap the back arrow
-            in the top left-hand corner of your screen. Once you're on the Cart screen
-            you can tap the minus sign under any product to decrease the quantity
-            of that item in your order.If you'd like to remove an item from your cart
-            completely, swipe left on that item and tap the 'Delete' button that appears
-            to the right.
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 47
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2621,42 +2822,47 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
-- :question: I'm checking out in the app, how do I apply my Coupon Code?
-  :answer: !ruby/object:Answer
+  :answer: If you're on the Checkout screen, tap the back arrow in the top left-hand
+    corner of your screen. Once you're on the Cart screen you can tap the minus sign
+    under any product to decrease the quantity of that item in your order.If you'd
+    like to remove an item from your cart completely, swipe left on that item and
+    tap the 'Delete' button that appears to the right.
+- :question: !ruby/object:Question
     raw_attributes:
       id: 48
+      query: I'm checking out in the app, how do I apply my Coupon Code?
       company_id: 1
-      response_text: You can apply your coupon code on the 'Checkout' screen under
-        your order summary. Just tap the 'Add' button on the right side of the screen
-        and enter your code. Our coupon codes are not case sensitive. Most of our
-        coupon codes will only work if you're using it on your first order. If you're
-        a returning customer, feel free to pass your code along to a friend who may
-        want to try us out for the first time - we would really appreciate it!
-      created_at: &101 2017-02-21 02:35:02.542344000 Z
-      updated_at: &102 2017-02-21 02:35:02.542344000 Z
+      confidence: -60
+      conversation_id: 48
+      created_at: &101 2017-02-25 19:20:37.777698000 Z
+      updated_at: &102 2017-02-25 19:20:37.777698000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 48
-          type: *4
+          type: *5
           original_attribute: 
-          value: 48
+        query: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: query
+          value_before_type_cast: I'm checking out in the app, how do I apply my Coupon
+            Code?
+          type: *6
+          original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: *5
+          type: *1
           original_attribute: 
-        response_text: !ruby/object:ActiveRecord::Attribute::FromDatabase
-          name: response_text
-          value_before_type_cast: You can apply your coupon code on the 'Checkout'
-            screen under your order summary. Just tap the 'Add' button on the right
-            side of the screen and enter your code. Our coupon codes are not case
-            sensitive. Most of our coupon codes will only work if you're using it
-            on your first order. If you're a returning customer, feel free to pass
-            your code along to a friend who may want to try us out for the first time
-            - we would really appreciate it!
-          type: *6
+        confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: confidence
+          value_before_type_cast: -60
+          type: *1
+          original_attribute: 
+        conversation_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
+          name: conversation_id
+          value_before_type_cast: 48
+          type: *1
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
@@ -2670,3 +2876,9 @@
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
+  :answer: You can apply your coupon code on the 'Checkout' screen under your order
+    summary. Just tap the 'Add' button on the right side of the screen and enter your
+    code. Our coupon codes are not case sensitive. Most of our coupon codes will only
+    work if you're using it on your first order. If you're a returning customer, feel
+    free to pass your code along to a friend who may want to try us out for the first
+    time - we would really appreciate it!

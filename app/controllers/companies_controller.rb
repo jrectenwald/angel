@@ -64,7 +64,7 @@ class CompaniesController < ApplicationController
   def answer
     company = Company.find(params["company_id"])
     question = params["question"]
-    questions = Question.where(company_id: company.id).pluck(:query, :conversation_id)
+    questions = company.questions.pluck(:query, :conversation_id)
     questions = questions.select {|q| q[0] && q[1]}
     conversation_ids = questions.map {|q| q[1]}.uniq
     classifier = ClassifierReborn::Bayes.new(*conversation_ids)
@@ -72,7 +72,7 @@ class CompaniesController < ApplicationController
       classifier.train question[1], question[0]
     end
     @answer = classifier.classify_with_score question
-    redirect_to conversation_url(@answer[0])
+    redirect_to dashboard_conversations_url(id: @answer[0], question: question, answer: "answer_1")
   end
 
   private

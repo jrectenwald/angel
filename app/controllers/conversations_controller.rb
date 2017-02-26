@@ -1,5 +1,5 @@
 class ConversationsController < ApplicationController
-  before_action :set_conversation, only: [:show, :edit, :update, :destroy]
+  before_action :set_conversation, only: [:show, :edit, :update, :destroy, :dashboard]
 
   # GET /conversations
   # GET /conversations.json
@@ -59,6 +59,10 @@ class ConversationsController < ApplicationController
       format.html { redirect_to conversations_url, notice: 'Conversation was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+
+  def dashboard
+    @question = params[:question]
   end
 
   private

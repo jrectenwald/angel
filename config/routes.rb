@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
+
+  root to: "companies#index"
+
   resources :questions
-  resources :conversations
+  resources :conversations do
+    collection do
+      get "dashboard"
+    end
+  end
   resources :companies
   resources :companies do
     post "answer"
