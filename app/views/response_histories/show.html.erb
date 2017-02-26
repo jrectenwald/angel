@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @response_history.user.name %>
+</p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @response_history.question.query %>
+</p>
+
+<p>
+  <strong>Answer:</strong>
+  <%= @response_history.question.conversation.answer_1 %>
+</p>
+
+<p>
+  <strong>Product: </strong>
+  <p>
+  </p>
+  <p>
+    <%= @response_history.order.product.name %>
+  </p>
+
+</p>
+
+<%= link_to 'Edit', edit_response_history_path(@response_history) %> |
+<%= link_to 'Back', response_histories_path %>

@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  resources :users
+  resources :response_histories
+  resources :products
+  resources :orders
   root to: "companies#index"
 
   resources :questions
@@ -13,6 +17,5 @@ Rails.application.routes.draw do
     post "answer"
   end
   resources :faqs
-  resources :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

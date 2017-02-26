@@ -7,8 +7,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 1
-      created_at: &2 2017-02-26 20:44:53.713609000 Z
-      updated_at: &3 2017-02-26 20:44:53.713609000 Z
+      created_at: &2 2017-02-26 21:33:49.429336000 Z
+      updated_at: &3 2017-02-26 21:33:49.429336000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -88,8 +88,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 2
-      created_at: &7 2017-02-26 20:44:53.722464000 Z
-      updated_at: &9 2017-02-26 20:44:53.722464000 Z
+      created_at: &7 2017-02-26 21:33:49.439415000 Z
+      updated_at: &9 2017-02-26 21:33:49.439415000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -143,8 +143,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 3
-      created_at: &11 2017-02-26 20:44:53.731386000 Z
-      updated_at: &12 2017-02-26 20:44:53.731386000 Z
+      created_at: &11 2017-02-26 21:33:49.446913000 Z
+      updated_at: &12 2017-02-26 21:33:49.446913000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -195,8 +195,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 4
-      created_at: &13 2017-02-26 20:44:53.739859000 Z
-      updated_at: &14 2017-02-26 20:44:53.739859000 Z
+      created_at: &13 2017-02-26 21:33:49.455414000 Z
+      updated_at: &14 2017-02-26 21:33:49.455414000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -254,8 +254,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 5
-      created_at: &15 2017-02-26 20:44:53.749732000 Z
-      updated_at: &16 2017-02-26 20:44:53.749732000 Z
+      created_at: &15 2017-02-26 21:33:49.464212000 Z
+      updated_at: &16 2017-02-26 21:33:49.464212000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -319,8 +319,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 6
-      created_at: &17 2017-02-26 20:44:53.758712000 Z
-      updated_at: &18 2017-02-26 20:44:53.758712000 Z
+      created_at: &17 2017-02-26 21:33:49.471611000 Z
+      updated_at: &18 2017-02-26 21:33:49.471611000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -372,8 +372,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 7
-      created_at: &19 2017-02-26 20:44:53.767080000 Z
-      updated_at: &20 2017-02-26 20:44:53.767080000 Z
+      created_at: &19 2017-02-26 21:33:49.485690000 Z
+      updated_at: &20 2017-02-26 21:33:49.485690000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -428,8 +428,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 8
-      created_at: &21 2017-02-26 20:44:53.776553000 Z
-      updated_at: &22 2017-02-26 20:44:53.776553000 Z
+      created_at: &21 2017-02-26 21:33:49.494020000 Z
+      updated_at: &22 2017-02-26 21:33:49.494020000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -479,8 +479,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 9
-      created_at: &23 2017-02-26 20:44:53.790520000 Z
-      updated_at: &24 2017-02-26 20:44:53.790520000 Z
+      created_at: &23 2017-02-26 21:33:49.502851000 Z
+      updated_at: &24 2017-02-26 21:33:49.502851000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -539,8 +539,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 10
-      created_at: &25 2017-02-26 20:44:53.800063000 Z
-      updated_at: &26 2017-02-26 20:44:53.800063000 Z
+      created_at: &25 2017-02-26 21:33:49.511688000 Z
+      updated_at: &26 2017-02-26 21:33:49.511688000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -590,8 +590,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 11
-      created_at: &27 2017-02-26 20:44:53.810197000 Z
-      updated_at: &28 2017-02-26 20:44:53.810197000 Z
+      created_at: &27 2017-02-26 21:33:49.519787000 Z
+      updated_at: &28 2017-02-26 21:33:49.519787000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -641,8 +641,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 1
-      created_at: '2017-02-26 20:44:53.713609'
-      updated_at: '2017-02-26 20:44:53.713609'
+      created_at: '2017-02-26 21:33:49.429336'
+      updated_at: '2017-02-26 21:33:49.429336'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
@@ -673,12 +673,12 @@
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-26 20:44:53.713609'
+            value_before_type_cast: '2017-02-26 21:33:49.429336'
             type: *8
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-26 20:44:53.713609'
+            value_before_type_cast: '2017-02-26 21:33:49.429336'
             type: *10
             original_attribute: 
     new_record: false
@@ -699,8 +699,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 12
-      created_at: &29 2017-02-26 20:44:53.820651000 Z
-      updated_at: &30 2017-02-26 20:44:53.820651000 Z
+      created_at: &29 2017-02-26 21:33:49.529685000 Z
+      updated_at: &30 2017-02-26 21:33:49.529685000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -765,8 +765,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 13
-      created_at: &31 2017-02-26 20:44:53.829078000 Z
-      updated_at: &32 2017-02-26 20:44:53.829078000 Z
+      created_at: &31 2017-02-26 21:33:49.541253000 Z
+      updated_at: &32 2017-02-26 21:33:49.541253000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -821,8 +821,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 14
-      created_at: &33 2017-02-26 20:44:53.837735000 Z
-      updated_at: &34 2017-02-26 20:44:53.837735000 Z
+      created_at: &33 2017-02-26 21:33:49.550364000 Z
+      updated_at: &34 2017-02-26 21:33:49.550364000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -877,8 +877,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 15
-      created_at: &35 2017-02-26 20:44:53.846314000 Z
-      updated_at: &36 2017-02-26 20:44:53.846314000 Z
+      created_at: &35 2017-02-26 21:33:49.561561000 Z
+      updated_at: &36 2017-02-26 21:33:49.561561000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -928,8 +928,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 16
-      created_at: &37 2017-02-26 20:44:53.855275000 Z
-      updated_at: &38 2017-02-26 20:44:53.855275000 Z
+      created_at: &37 2017-02-26 21:33:49.572525000 Z
+      updated_at: &38 2017-02-26 21:33:49.572525000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -988,8 +988,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 17
-      created_at: &39 2017-02-26 20:44:53.863669000 Z
-      updated_at: &40 2017-02-26 20:44:53.863669000 Z
+      created_at: &39 2017-02-26 21:33:49.596488000 Z
+      updated_at: &40 2017-02-26 21:33:49.596488000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1038,8 +1038,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 18
-      created_at: &41 2017-02-26 20:44:53.871483000 Z
-      updated_at: &42 2017-02-26 20:44:53.871483000 Z
+      created_at: &41 2017-02-26 21:33:49.604521000 Z
+      updated_at: &42 2017-02-26 21:33:49.604521000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1091,8 +1091,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 8
-      created_at: '2017-02-26 20:44:53.776553'
-      updated_at: '2017-02-26 20:44:53.776553'
+      created_at: '2017-02-26 21:33:49.494020'
+      updated_at: '2017-02-26 21:33:49.494020'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
@@ -1124,12 +1124,12 @@
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-26 20:44:53.776553'
+            value_before_type_cast: '2017-02-26 21:33:49.494020'
             type: *8
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-26 20:44:53.776553'
+            value_before_type_cast: '2017-02-26 21:33:49.494020'
             type: *10
             original_attribute: 
     new_record: false
@@ -1143,8 +1143,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 19
-      created_at: &43 2017-02-26 20:44:53.880838000 Z
-      updated_at: &44 2017-02-26 20:44:53.880838000 Z
+      created_at: &43 2017-02-26 21:33:49.613802000 Z
+      updated_at: &44 2017-02-26 21:33:49.613802000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1192,8 +1192,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 20
-      created_at: &45 2017-02-26 20:44:53.904044000 Z
-      updated_at: &46 2017-02-26 20:44:53.904044000 Z
+      created_at: &45 2017-02-26 21:33:49.621170000 Z
+      updated_at: &46 2017-02-26 21:33:49.621170000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1248,8 +1248,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 21
-      created_at: &47 2017-02-26 20:44:53.910825000 Z
-      updated_at: &48 2017-02-26 20:44:53.910825000 Z
+      created_at: &47 2017-02-26 21:33:49.627802000 Z
+      updated_at: &48 2017-02-26 21:33:49.627802000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1299,8 +1299,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 22
-      created_at: &49 2017-02-26 20:44:53.918892000 Z
-      updated_at: &50 2017-02-26 20:44:53.918892000 Z
+      created_at: &49 2017-02-26 21:33:49.634271000 Z
+      updated_at: &50 2017-02-26 21:33:49.634271000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1354,8 +1354,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 23
-      created_at: &51 2017-02-26 20:44:53.926768000 Z
-      updated_at: &52 2017-02-26 20:44:53.926768000 Z
+      created_at: &51 2017-02-26 21:33:49.641500000 Z
+      updated_at: &52 2017-02-26 21:33:49.641500000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1406,8 +1406,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 24
-      created_at: &53 2017-02-26 20:44:53.934154000 Z
-      updated_at: &54 2017-02-26 20:44:53.934154000 Z
+      created_at: &53 2017-02-26 21:33:49.648228000 Z
+      updated_at: &54 2017-02-26 21:33:49.648228000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1459,8 +1459,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 25
-      created_at: &55 2017-02-26 20:44:53.941481000 Z
-      updated_at: &56 2017-02-26 20:44:53.941481000 Z
+      created_at: &55 2017-02-26 21:33:49.655086000 Z
+      updated_at: &56 2017-02-26 21:33:49.655086000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1510,8 +1510,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 26
-      created_at: &57 2017-02-26 20:44:53.949765000 Z
-      updated_at: &58 2017-02-26 20:44:53.949765000 Z
+      created_at: &57 2017-02-26 21:33:49.662687000 Z
+      updated_at: &58 2017-02-26 21:33:49.662687000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1565,8 +1565,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 27
-      created_at: &59 2017-02-26 20:44:53.956828000 Z
-      updated_at: &60 2017-02-26 20:44:53.956828000 Z
+      created_at: &59 2017-02-26 21:33:49.670594000 Z
+      updated_at: &60 2017-02-26 21:33:49.670594000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1617,8 +1617,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 28
-      created_at: &61 2017-02-26 20:44:53.963704000 Z
-      updated_at: &62 2017-02-26 20:44:53.963704000 Z
+      created_at: &61 2017-02-26 21:33:49.678328000 Z
+      updated_at: &62 2017-02-26 21:33:49.678328000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1680,8 +1680,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 29
-      created_at: &63 2017-02-26 20:44:53.970309000 Z
-      updated_at: &64 2017-02-26 20:44:53.970309000 Z
+      created_at: &63 2017-02-26 21:33:49.688974000 Z
+      updated_at: &64 2017-02-26 21:33:49.688974000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1745,8 +1745,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 30
-      created_at: &65 2017-02-26 20:44:53.977860000 Z
-      updated_at: &66 2017-02-26 20:44:53.977860000 Z
+      created_at: &65 2017-02-26 21:33:49.695980000 Z
+      updated_at: &66 2017-02-26 21:33:49.695980000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1803,8 +1803,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 31
-      created_at: &67 2017-02-26 20:44:53.985108000 Z
-      updated_at: &68 2017-02-26 20:44:53.985108000 Z
+      created_at: &67 2017-02-26 21:33:49.703667000 Z
+      updated_at: &68 2017-02-26 21:33:49.703667000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1856,8 +1856,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 32
-      created_at: &69 2017-02-26 20:44:54.000493000 Z
-      updated_at: &70 2017-02-26 20:44:54.000493000 Z
+      created_at: &69 2017-02-26 21:33:49.712352000 Z
+      updated_at: &70 2017-02-26 21:33:49.712352000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1910,8 +1910,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 33
-      created_at: &71 2017-02-26 20:44:54.008362000 Z
-      updated_at: &72 2017-02-26 20:44:54.008362000 Z
+      created_at: &71 2017-02-26 21:33:49.719423000 Z
+      updated_at: &72 2017-02-26 21:33:49.719423000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -1966,8 +1966,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 34
-      created_at: &73 2017-02-26 20:44:54.014828000 Z
-      updated_at: &74 2017-02-26 20:44:54.014828000 Z
+      created_at: &73 2017-02-26 21:33:49.731336000 Z
+      updated_at: &74 2017-02-26 21:33:49.731336000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2017,8 +2017,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 35
-      created_at: &75 2017-02-26 20:44:54.021448000 Z
-      updated_at: &76 2017-02-26 20:44:54.021448000 Z
+      created_at: &75 2017-02-26 21:33:49.738667000 Z
+      updated_at: &76 2017-02-26 21:33:49.738667000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2074,8 +2074,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 2
-      created_at: '2017-02-26 20:44:53.722464'
-      updated_at: '2017-02-26 20:44:53.722464'
+      created_at: '2017-02-26 21:33:49.439415'
+      updated_at: '2017-02-26 21:33:49.439415'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
@@ -2106,12 +2106,12 @@
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-26 20:44:53.722464'
+            value_before_type_cast: '2017-02-26 21:33:49.439415'
             type: *8
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-26 20:44:53.722464'
+            value_before_type_cast: '2017-02-26 21:33:49.439415'
             type: *10
             original_attribute: 
     new_record: false
@@ -2130,8 +2130,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 3
-      created_at: '2017-02-26 20:44:53.731386'
-      updated_at: '2017-02-26 20:44:53.731386'
+      created_at: '2017-02-26 21:33:49.446913'
+      updated_at: '2017-02-26 21:33:49.446913'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
@@ -2162,12 +2162,12 @@
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-26 20:44:53.731386'
+            value_before_type_cast: '2017-02-26 21:33:49.446913'
             type: *8
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-26 20:44:53.731386'
+            value_before_type_cast: '2017-02-26 21:33:49.446913'
             type: *10
             original_attribute: 
     new_record: false
@@ -2183,8 +2183,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 36
-      created_at: &77 2017-02-26 20:44:54.031785000 Z
-      updated_at: &78 2017-02-26 20:44:54.031785000 Z
+      created_at: &77 2017-02-26 21:33:49.748079000 Z
+      updated_at: &78 2017-02-26 21:33:49.748079000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2238,8 +2238,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 37
-      created_at: &79 2017-02-26 20:44:54.040936000 Z
-      updated_at: &80 2017-02-26 20:44:54.040936000 Z
+      created_at: &79 2017-02-26 21:33:49.754697000 Z
+      updated_at: &80 2017-02-26 21:33:49.754697000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2293,8 +2293,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 38
-      created_at: &81 2017-02-26 20:44:54.048011000 Z
-      updated_at: &82 2017-02-26 20:44:54.048011000 Z
+      created_at: &81 2017-02-26 21:33:49.762434000 Z
+      updated_at: &82 2017-02-26 21:33:49.762434000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2347,8 +2347,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 39
-      created_at: &83 2017-02-26 20:44:54.055763000 Z
-      updated_at: &84 2017-02-26 20:44:54.055763000 Z
+      created_at: &83 2017-02-26 21:33:49.770138000 Z
+      updated_at: &84 2017-02-26 21:33:49.770138000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2398,8 +2398,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 40
-      created_at: &85 2017-02-26 20:44:54.062392000 Z
-      updated_at: &86 2017-02-26 20:44:54.062392000 Z
+      created_at: &85 2017-02-26 21:33:49.778953000 Z
+      updated_at: &86 2017-02-26 21:33:49.778953000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2451,8 +2451,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 41
-      created_at: &87 2017-02-26 20:44:54.069135000 Z
-      updated_at: &88 2017-02-26 20:44:54.069135000 Z
+      created_at: &87 2017-02-26 21:33:49.789472000 Z
+      updated_at: &88 2017-02-26 21:33:49.789472000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2511,8 +2511,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 42
-      created_at: &89 2017-02-26 20:44:54.076893000 Z
-      updated_at: &90 2017-02-26 20:44:54.076893000 Z
+      created_at: &89 2017-02-26 21:33:49.798393000 Z
+      updated_at: &90 2017-02-26 21:33:49.798393000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2568,8 +2568,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 43
-      created_at: &91 2017-02-26 20:44:54.083405000 Z
-      updated_at: &92 2017-02-26 20:44:54.083405000 Z
+      created_at: &91 2017-02-26 21:33:49.808097000 Z
+      updated_at: &92 2017-02-26 21:33:49.808097000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2621,8 +2621,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 44
-      created_at: &93 2017-02-26 20:44:54.093603000 Z
-      updated_at: &94 2017-02-26 20:44:54.093603000 Z
+      created_at: &93 2017-02-26 21:33:49.816926000 Z
+      updated_at: &94 2017-02-26 21:33:49.816926000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2675,8 +2675,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 45
-      created_at: &95 2017-02-26 20:44:54.101182000 Z
-      updated_at: &96 2017-02-26 20:44:54.101182000 Z
+      created_at: &95 2017-02-26 21:33:49.824790000 Z
+      updated_at: &96 2017-02-26 21:33:49.824790000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2729,8 +2729,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 46
-      created_at: &97 2017-02-26 20:44:54.107878000 Z
-      updated_at: &98 2017-02-26 20:44:54.107878000 Z
+      created_at: &97 2017-02-26 21:33:49.832994000 Z
+      updated_at: &98 2017-02-26 21:33:49.832994000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2781,8 +2781,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 47
-      created_at: &99 2017-02-26 20:44:54.114415000 Z
-      updated_at: &100 2017-02-26 20:44:54.114415000 Z
+      created_at: &99 2017-02-26 21:33:49.839684000 Z
+      updated_at: &100 2017-02-26 21:33:49.839684000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
@@ -2834,8 +2834,8 @@
       company_id: 1
       confidence: -60
       conversation_id: 48
-      created_at: &101 2017-02-26 20:44:54.121835000 Z
-      updated_at: &102 2017-02-26 20:44:54.121835000 Z
+      created_at: &101 2017-02-26 21:33:49.846327000 Z
+      updated_at: &102 2017-02-26 21:33:49.846327000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
