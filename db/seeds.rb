@@ -59,12 +59,120 @@ User.create(
   email: "lisa@angelintelligence.io",
   phone1: "917.825.9441",
   phone2: "212.397.3748",
-  password: "angelbean17"
+  password: "angelbean15"
 )
 
 
+User.create(
+  name: "Caroline Davidson",
+  age: 30,
+  address: "9 west 57th street",
+  city: "New York City",
+  state: "New York",
+  zip: 10022,
+  email: "caroline@beanstalk.vc",
+  phone1: "970.420.6932",
+  phone2: "212.212.2121",
+  password: "angelbean16"
+
+  User.create(
+    name: "Ken Seiff",
+    age: 29,
+    address: "9 west 57th street",
+    city: "New York City",
+    state: "New York",
+    zip: 10022,
+    email: "Ken@seiff.com",
+    phone1: "917.257.6643",
+    phone2: "646.365.5002",
+    password: "angelbean17"
+
+    User.create(
+      name: "Andrew Fine",
+      age: 29,
+      address: "9 west 57th street",
+      city: "New York City",
+      state: "New York",
+      zip: 10022,
+      email: "andrew.fine@noveltmt.com",
+      phone1: "212-201-8241",
+      phone2: "917-660-4307",
+      password: "angelbean18"
+
+      User.create(
+        name: "Fred Taylor",
+        age: 39,
+        address: "9 west 57th street",
+        city: "New York City",
+        state: "New York",
+        zip: 10022,
+        email: "Ffred.taylor2@verizon.net",
+        phone1: "214.957.4090",
+        phone2: "646.365.5002",
+        password: "angelbean19"
+
+        User.create(
+          name: "Marko Bon",
+          age: 29,
+          address: "9 west 57th street",
+          city: "New York City",
+          state: "New York",
+          zip: 10022,
+          email: "bon.marko@gmail.com",
+          phone1: "917.723.9886",
+          phone2: "646.365.5002",
+          password: "angelbean20"
+
+          User.create(
+            name: "Jeanne Bliss",
+            age: 29,
+            address: "9 west 57th street",
+            city: "New York City",
+            state: "New York",
+            zip: 10022,
+            email: "jeanne@customerbliss.com",
+            phone1: "425.444.7654",
+            phone2: "646.365.5002",
+            password: "angelbean21"
+
+            User.create(
+              name: "Christian Flores",
+              age: 29,
+              address: "9 west 57th street",
+              city: "New York City",
+              state: "New York",
+              zip: 10022,
+              email: "christian@angelintelligence.io",
+              phone1: "425.444.7654",
+              phone2: "646.365.5002",
+              password: "angelbean22"
+
+              User.create(
+                name: "Adam Covalt",
+                age: 29,
+                address: "45 W 25th street",
+                city: "New York City",
+                state: "New York",
+                zip: 10010,
+                email: "acovalt@bonobos.com",
+                phone1: "425.444.7654",
+                phone2: "646.365.5002",
+                password: "angelbean23"
+
+                User.create(
+                  name: "Katie Rogers",
+                  age: 29,
+                  address: "161 avenue of the americas",
+                  city: "New York City",
+                  state: "New York",
+                  zip: 10013,
+                  email: "katie@harrys.com",
+                  phone1: "907.317.4345",
+                  phone2: "646.979.6495",
+                password: "angelbean24"
 
 #llbean
+
 # doc = Nokogiri::HTML(open('https://www.llbean.com/llb/shop/510618?nav=gn-hp'))
 # qa_blocks = doc.css("#mainbody > div.mainBody.left > div > div:nth-child(5) > div")[1..-1]
 # ll_bean = File.open("ll_bean.yml",  "w")
