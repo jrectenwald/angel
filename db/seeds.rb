@@ -236,9 +236,6 @@ links.each do |link|
   image_url = image_url.element(tag_name:"img").src
   option_types = browser.elements(class:"product---input---3pyEh")
   color = browser.element(class:"radio_group_swatch---selectedValuePresentation---13vn2").text
-  # colors = option_types[0].elements(class: "swatch---swatch---3EWrH", tag_name: "div")
-  # colors = colors.map { |e| e.title }
-
   fits = option_types[1].elements(class: "text_tag---text---3FCj_")
   fits = fits.map { |e| e.text }
   waists = option_types[2].elements(class: "text_tag---text---3FCj_")
@@ -260,56 +257,3 @@ links.each do |link|
     end
   end
 end
-#llbean
-
-# doc = Nokogiri::HTML(open('https://www.llbean.com/llb/shop/510618?nav=gn-hp'))
-# qa_blocks = doc.css("#mainbody > div.mainBody.left > div > div:nth-child(5) > div")[1..-1]
-# ll_bean = File.open("ll_bean.yml",  "w")
-# company = Company.create(name: "Llbean")
-# ll_bean << qa_blocks.each_with_object({faqs: []}) do |qa, hash|
-#   question = qa.css("p").first.text.strip
-#   answer = qa.css("span").text.strip
-#   Faq.find_or_create_by(question: question, answer: answer, company_id: company.id,
-# image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg")
-#   hash[:faqs] << {question: question, answer: answer}
-# end.to_yaml
-# ll_bean.close
-#
-
-
-#serena and lily
-# doc = Nokogiri::HTML(open('http://www.serenaandlily.com/faqs/CS-faqs.html'))
-# qa_blocks = doc.css('.faqquestion')
-# serena_and_lily = File.open("serena_and_lily.yml", "w")
-# company = Company.create(name: "Serena and Lily")
-# serena_and_lily << qa_blocks.each_with_object({faqs: []}) do |qa, hash|
-#   question = qa.css(".question").text.strip
-#   answer = qa.css(".answer").text.strip
-#   Faq.find_or_create_by(question: question, answer: answer, company_id: company.id,
-# image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg")
-#   hash[:faqs] << {question: question, answer: answer}
-# end.to_yaml
-# serena_and_lily.close
-
-#Raden faq
-# doc = Nokogiri::HTML(open('https://www.raden.com/support?gclid=CL_Rzb_w-dECFcWEswodtLcIYg'))
-# qa_blocks = doc.css('.faq')
-# raden = File.open("raden.yml", "w")
-# company = Company.create(name: "Raden")
-# raden << qa_blocks.each_with_object({faqs: []}) do |qa, hash|
-#   question = qa.css('.question').text.strip
-#   answer = qa.css(".answer").text.strip
-#   Faq.find_or_create_by(question: question, answer: answer, company_id: company.id,
-image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg")
-#   hash[:faqs] << {question: question, answer: answer}
-# end.to_yaml
-
-#Raden faq
-# doc = Nokogiri::HTML(open('https://www.raden.com/start'))
-# qa_blocks = doc.css('.faq')
-# raden << qa_blocks.each_with_object({faqs: []}) do |qa, hash|
-#   question = qa.css('.question').text.strip
-#   answer = qa.css(".answer").text.strip
-#   hash[:faqs] << {question: question, answer: answer}
-# end.to_yaml
-# raden.close
