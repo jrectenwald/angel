@@ -7,14 +7,14 @@
       company_id: 1
       confidence: -60
       conversation_id: 1
-      created_at: &2 2017-02-26 21:33:49.429336000 Z
-      updated_at: &3 2017-02-26 21:33:49.429336000 Z
+      created_at: &2 2017-02-28 15:28:52.121432000 Z
+      updated_at: &3 2017-02-28 15:28:52.121432000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 1
-          type: &5 !ruby/object:ActiveModel::Type::Integer
+          type: &1 !ruby/object:ActiveModel::Type::Integer
             precision: 
             scale: 
             limit: 
@@ -26,7 +26,7 @@
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: What's the difference between a Truman and a Winston?
-          type: &6 !ruby/object:ActiveModel::Type::String
+          type: &5 !ruby/object:ActiveModel::Type::String
             precision: 
             scale: 
             limit: 
@@ -34,14 +34,7 @@
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
           value_before_type_cast: 1
-          type: &1 !ruby/object:ActiveModel::Type::Integer
-            precision: 
-            scale: 
-            limit: 
-            range: !ruby/range
-              begin: -2147483648
-              end: 2147483648
-              excl: true
+          type: *1
           original_attribute: 
         confidence: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: confidence
@@ -56,9 +49,9 @@
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
           value_before_type_cast: *2
-          type: &8 !ruby/marshalable:ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
+          type: &7 !ruby/marshalable:ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
             :__v2__: []
-            []: &4 !ruby/object:ActiveRecord::Type::DateTime
+            []: &4 !ruby/object:ActiveRecord::ConnectionAdapters::PostgreSQL::OID::DateTime
               precision: 
               scale: 
               limit: 
@@ -66,7 +59,7 @@
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
           value_before_type_cast: *3
-          type: &10 !ruby/marshalable:ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
+          type: &9 !ruby/marshalable:ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
             :__v2__: []
             []: *4
           original_attribute: 
@@ -88,19 +81,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 2
-      created_at: &7 2017-02-26 21:33:49.439415000 Z
-      updated_at: &9 2017-02-26 21:33:49.439415000 Z
+      created_at: &6 2017-02-28 15:28:52.130306000 Z
+      updated_at: &8 2017-02-28 15:28:52.130306000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 2
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How does your Free Trial work?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -119,13 +112,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *7
-          type: *8
+          value_before_type_cast: *6
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *9
-          type: *10
+          value_before_type_cast: *8
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -143,19 +136,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 3
-      created_at: &11 2017-02-26 21:33:49.446913000 Z
-      updated_at: &12 2017-02-26 21:33:49.446913000 Z
+      created_at: &10 2017-02-28 15:28:52.149145000 Z
+      updated_at: &11 2017-02-28 15:28:52.149145000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 3
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How do I modify my Shave Plan?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -174,13 +167,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *11
-          type: *8
+          value_before_type_cast: *10
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *12
-          type: *10
+          value_before_type_cast: *11
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -195,19 +188,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 4
-      created_at: &13 2017-02-26 21:33:49.455414000 Z
-      updated_at: &14 2017-02-26 21:33:49.455414000 Z
+      created_at: &12 2017-02-28 15:28:52.158330000 Z
+      updated_at: &13 2017-02-28 15:28:52.158330000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 4
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Can't login or forgot password?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -226,13 +219,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *13
-          type: *8
+          value_before_type_cast: *12
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *14
-          type: *10
+          value_before_type_cast: *13
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -254,19 +247,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 5
-      created_at: &15 2017-02-26 21:33:49.464212000 Z
-      updated_at: &16 2017-02-26 21:33:49.464212000 Z
+      created_at: &14 2017-02-28 15:28:52.169606000 Z
+      updated_at: &15 2017-02-28 15:28:52.169606000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 5
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How long will my order take to arrive?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -285,13 +278,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *15
-          type: *8
+          value_before_type_cast: *14
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *16
-          type: *10
+          value_before_type_cast: *15
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -319,19 +312,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 6
-      created_at: &17 2017-02-26 21:33:49.471611000 Z
-      updated_at: &18 2017-02-26 21:33:49.471611000 Z
+      created_at: &16 2017-02-28 15:28:52.179745000 Z
+      updated_at: &17 2017-02-28 15:28:52.179745000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 6
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How do I remove the blade cartridge from my handle?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -350,13 +343,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *17
-          type: *8
+          value_before_type_cast: *16
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *18
-          type: *10
+          value_before_type_cast: *17
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -372,19 +365,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 7
-      created_at: &19 2017-02-26 21:33:49.485690000 Z
-      updated_at: &20 2017-02-26 21:33:49.485690000 Z
+      created_at: &18 2017-02-28 15:28:52.189549000 Z
+      updated_at: &19 2017-02-28 15:28:52.189549000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 7
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How often should I change my blades?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -403,13 +396,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *19
-          type: *8
+          value_before_type_cast: *18
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *20
-          type: *10
+          value_before_type_cast: *19
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -428,20 +421,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 8
-      created_at: &21 2017-02-26 21:33:49.494020000 Z
-      updated_at: &22 2017-02-26 21:33:49.494020000 Z
+      created_at: &20 2017-02-28 15:28:52.208744000 Z
+      updated_at: &21 2017-02-28 15:28:52.208744000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 8
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Are your blades and handles compatible with other
             brands?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -460,13 +453,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *21
-          type: *8
+          value_before_type_cast: *20
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *22
-          type: *10
+          value_before_type_cast: *21
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -479,19 +472,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 9
-      created_at: &23 2017-02-26 21:33:49.502851000 Z
-      updated_at: &24 2017-02-26 21:33:49.502851000 Z
+      created_at: &22 2017-02-28 15:28:52.215375000 Z
+      updated_at: &23 2017-02-28 15:28:52.215375000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 9
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Where do you ship?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -510,13 +503,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *23
-          type: *8
+          value_before_type_cast: *22
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *24
-          type: *10
+          value_before_type_cast: *23
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -539,19 +532,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 10
-      created_at: &25 2017-02-26 21:33:49.511688000 Z
-      updated_at: &26 2017-02-26 21:33:49.511688000 Z
+      created_at: &24 2017-02-28 15:28:52.221041000 Z
+      updated_at: &25 2017-02-28 15:28:52.221041000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 10
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Do you offer free shipping?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -570,13 +563,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *25
-          type: *8
+          value_before_type_cast: *24
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *26
-          type: *10
+          value_before_type_cast: *25
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -590,19 +583,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 11
-      created_at: &27 2017-02-26 21:33:49.519787000 Z
-      updated_at: &28 2017-02-26 21:33:49.519787000 Z
+      created_at: &26 2017-02-28 15:28:52.226867000 Z
+      updated_at: &27 2017-02-28 15:28:52.226867000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 11
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How can I get a travel blade cover?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -621,13 +614,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *27
-          type: *8
+          value_before_type_cast: *26
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *28
-          type: *10
+          value_before_type_cast: *27
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -641,20 +634,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 1
-      created_at: '2017-02-26 21:33:49.429336'
-      updated_at: '2017-02-26 21:33:49.429336'
+      created_at: '2017-02-28 15:28:52.121432'
+      updated_at: '2017-02-28 15:28:52.121432'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
           id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: id
             value_before_type_cast: 1
-            type: *5
+            type: *1
             original_attribute: 
           query: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: query
             value_before_type_cast: What's the difference between a Truman and a Winston?
-            type: *6
+            type: *5
             original_attribute: 
           company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: company_id
@@ -673,13 +666,13 @@
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-26 21:33:49.429336'
-            type: *8
+            value_before_type_cast: '2017-02-28 15:28:52.121432'
+            type: *7
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-26 21:33:49.429336'
-            type: *10
+            value_before_type_cast: '2017-02-28 15:28:52.121432'
+            type: *9
             original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -699,20 +692,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 12
-      created_at: &29 2017-02-26 21:33:49.529685000 Z
-      updated_at: &30 2017-02-26 21:33:49.529685000 Z
+      created_at: &28 2017-02-28 15:28:52.234447000 Z
+      updated_at: &29 2017-02-28 15:28:52.234447000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 12
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: I see there's a new Winston Handle and new blades!
             Tell me about them.
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -731,13 +724,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *29
-          type: *8
+          value_before_type_cast: *28
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *30
-          type: *10
+          value_before_type_cast: *29
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -765,19 +758,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 13
-      created_at: &31 2017-02-26 21:33:49.541253000 Z
-      updated_at: &32 2017-02-26 21:33:49.541253000 Z
+      created_at: &30 2017-02-28 15:28:52.242436000 Z
+      updated_at: &31 2017-02-28 15:28:52.242436000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 13
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Do your blades have a trimmer blade on the back?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -796,13 +789,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *31
-          type: *8
+          value_before_type_cast: *30
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *32
-          type: *10
+          value_before_type_cast: *31
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -821,19 +814,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 14
-      created_at: &33 2017-02-26 21:33:49.550364000 Z
-      updated_at: &34 2017-02-26 21:33:49.550364000 Z
+      created_at: &32 2017-02-28 15:28:52.250078000 Z
+      updated_at: &33 2017-02-28 15:28:52.250078000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 14
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How often should I change my blades?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -852,13 +845,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *33
-          type: *8
+          value_before_type_cast: *32
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *34
-          type: *10
+          value_before_type_cast: *33
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -877,19 +870,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 15
-      created_at: &35 2017-02-26 21:33:49.561561000 Z
-      updated_at: &36 2017-02-26 21:33:49.561561000 Z
+      created_at: &34 2017-02-28 15:28:52.256494000 Z
+      updated_at: &35 2017-02-28 15:28:52.256494000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 15
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Can women shave with Harry's?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -908,13 +901,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *35
-          type: *8
+          value_before_type_cast: *34
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *36
-          type: *10
+          value_before_type_cast: *35
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -928,19 +921,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 16
-      created_at: &37 2017-02-26 21:33:49.572525000 Z
-      updated_at: &38 2017-02-26 21:33:49.572525000 Z
+      created_at: &36 2017-02-28 15:28:52.263052000 Z
+      updated_at: &37 2017-02-28 15:28:52.263052000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 16
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Where are your products made?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -959,13 +952,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *37
-          type: *8
+          value_before_type_cast: *36
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *38
-          type: *10
+          value_before_type_cast: *37
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -988,19 +981,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 17
-      created_at: &39 2017-02-26 21:33:49.596488000 Z
-      updated_at: &40 2017-02-26 21:33:49.596488000 Z
+      created_at: &38 2017-02-28 15:28:52.269436000 Z
+      updated_at: &39 2017-02-28 15:28:52.269436000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 17
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Do your blades contain nickel?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1019,13 +1012,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *39
-          type: *8
+          value_before_type_cast: *38
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *40
-          type: *10
+          value_before_type_cast: *39
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1038,20 +1031,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 18
-      created_at: &41 2017-02-26 21:33:49.604521000 Z
-      updated_at: &42 2017-02-26 21:33:49.604521000 Z
+      created_at: &40 2017-02-28 15:28:52.275896000 Z
+      updated_at: &41 2017-02-28 15:28:52.275896000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 18
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Do I have to use both your razor and your gel or
             cream?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1070,13 +1063,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *41
-          type: *8
+          value_before_type_cast: *40
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *42
-          type: *10
+          value_before_type_cast: *41
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1091,21 +1084,21 @@
       company_id: 1
       confidence: -60
       conversation_id: 8
-      created_at: '2017-02-26 21:33:49.494020'
-      updated_at: '2017-02-26 21:33:49.494020'
+      created_at: '2017-02-28 15:28:52.208744'
+      updated_at: '2017-02-28 15:28:52.208744'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
           id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: id
             value_before_type_cast: 8
-            type: *5
+            type: *1
             original_attribute: 
           query: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: query
             value_before_type_cast: Are your blades and handles compatible with other
               brands?
-            type: *6
+            type: *5
             original_attribute: 
           company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: company_id
@@ -1124,13 +1117,13 @@
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-26 21:33:49.494020'
-            type: *8
+            value_before_type_cast: '2017-02-28 15:28:52.208744'
+            type: *7
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-26 21:33:49.494020'
-            type: *10
+            value_before_type_cast: '2017-02-28 15:28:52.208744'
+            type: *9
             original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1143,19 +1136,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 19
-      created_at: &43 2017-02-26 21:33:49.613802000 Z
-      updated_at: &44 2017-02-26 21:33:49.613802000 Z
+      created_at: &42 2017-02-28 15:28:52.284429000 Z
+      updated_at: &43 2017-02-28 15:28:52.284429000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 19
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How many blades are in your cartridges?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1174,13 +1167,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *43
-          type: *8
+          value_before_type_cast: *42
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *44
-          type: *10
+          value_before_type_cast: *43
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1192,19 +1185,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 20
-      created_at: &45 2017-02-26 21:33:49.621170000 Z
-      updated_at: &46 2017-02-26 21:33:49.621170000 Z
+      created_at: &44 2017-02-28 15:28:52.291336000 Z
+      updated_at: &45 2017-02-28 15:28:52.291336000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 20
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: What's the best way to use your Shave Cream?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1223,13 +1216,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *45
-          type: *8
+          value_before_type_cast: *44
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *46
-          type: *10
+          value_before_type_cast: *45
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1248,19 +1241,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 21
-      created_at: &47 2017-02-26 21:33:49.627802000 Z
-      updated_at: &48 2017-02-26 21:33:49.627802000 Z
+      created_at: &46 2017-02-28 15:28:52.297848000 Z
+      updated_at: &47 2017-02-28 15:28:52.297848000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 21
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Do you test any of your products on animals?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1279,13 +1272,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *47
-          type: *8
+          value_before_type_cast: *46
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *48
-          type: *10
+          value_before_type_cast: *47
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1299,20 +1292,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 22
-      created_at: &49 2017-02-26 21:33:49.634271000 Z
-      updated_at: &50 2017-02-26 21:33:49.634271000 Z
+      created_at: &48 2017-02-28 15:28:52.304626000 Z
+      updated_at: &49 2017-02-28 15:28:52.304626000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 22
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: What's the difference between your Foaming Shave
             Gel and Shave Cream?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1331,13 +1324,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *49
-          type: *8
+          value_before_type_cast: *48
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *50
-          type: *10
+          value_before_type_cast: *49
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1354,19 +1347,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 23
-      created_at: &51 2017-02-26 21:33:49.641500000 Z
-      updated_at: &52 2017-02-26 21:33:49.641500000 Z
+      created_at: &50 2017-02-28 15:28:52.311313000 Z
+      updated_at: &51 2017-02-28 15:28:52.311313000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 23
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Have questions about ingredients?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1385,13 +1378,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *51
-          type: *8
+          value_before_type_cast: *50
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *52
-          type: *10
+          value_before_type_cast: *51
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1406,19 +1399,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 24
-      created_at: &53 2017-02-26 21:33:49.648228000 Z
-      updated_at: &54 2017-02-26 21:33:49.648228000 Z
+      created_at: &52 2017-02-28 15:28:52.317793000 Z
+      updated_at: &53 2017-02-28 15:28:52.317793000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 24
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Can I use Harry's to shave my head?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1437,13 +1430,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *53
-          type: *8
+          value_before_type_cast: *52
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *54
-          type: *10
+          value_before_type_cast: *53
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1459,20 +1452,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 25
-      created_at: &55 2017-02-26 21:33:49.655086000 Z
-      updated_at: &56 2017-02-26 21:33:49.655086000 Z
+      created_at: &54 2017-02-28 15:28:52.324495000 Z
+      updated_at: &55 2017-02-28 15:28:52.324495000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 25
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: The nozzle on my Foaming Shave Gel isn't working.
             What do I do?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1491,13 +1484,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *55
-          type: *8
+          value_before_type_cast: *54
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *56
-          type: *10
+          value_before_type_cast: *55
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1510,20 +1503,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 26
-      created_at: &57 2017-02-26 21:33:49.662687000 Z
-      updated_at: &58 2017-02-26 21:33:49.662687000 Z
+      created_at: &56 2017-02-28 15:28:52.331287000 Z
+      updated_at: &57 2017-02-28 15:28:52.331287000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 26
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How do I remove the blades from the plastic blade
             box?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1542,13 +1535,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *57
-          type: *8
+          value_before_type_cast: *56
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *58
-          type: *10
+          value_before_type_cast: *57
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1565,19 +1558,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 27
-      created_at: &59 2017-02-26 21:33:49.670594000 Z
-      updated_at: &60 2017-02-26 21:33:49.670594000 Z
+      created_at: &58 2017-02-28 15:28:52.337661000 Z
+      updated_at: &59 2017-02-28 15:28:52.337661000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 27
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Why did you change your blade box?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1596,13 +1589,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *59
-          type: *8
+          value_before_type_cast: *58
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *60
-          type: *10
+          value_before_type_cast: *59
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1617,19 +1610,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 28
-      created_at: &61 2017-02-26 21:33:49.678328000 Z
-      updated_at: &62 2017-02-26 21:33:49.678328000 Z
+      created_at: &60 2017-02-28 15:28:52.343972000 Z
+      updated_at: &61 2017-02-28 15:28:52.343972000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 28
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Do you ever change your product prices?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1648,13 +1641,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *61
-          type: *8
+          value_before_type_cast: *60
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *62
-          type: *10
+          value_before_type_cast: *61
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1680,19 +1673,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 29
-      created_at: &63 2017-02-26 21:33:49.688974000 Z
-      updated_at: &64 2017-02-26 21:33:49.688974000 Z
+      created_at: &62 2017-02-28 15:28:52.350508000 Z
+      updated_at: &63 2017-02-28 15:28:52.350508000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 29
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Where do you ship and how long does it take?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1711,13 +1704,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *63
-          type: *8
+          value_before_type_cast: *62
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *64
-          type: *10
+          value_before_type_cast: *63
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1745,19 +1738,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 30
-      created_at: &65 2017-02-26 21:33:49.695980000 Z
-      updated_at: &66 2017-02-26 21:33:49.695980000 Z
+      created_at: &64 2017-02-28 15:28:52.357838000 Z
+      updated_at: &65 2017-02-28 15:28:52.357838000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 30
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How do you ship?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1776,13 +1769,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *65
-          type: *8
+          value_before_type_cast: *64
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *66
-          type: *10
+          value_before_type_cast: *65
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1803,19 +1796,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 31
-      created_at: &67 2017-02-26 21:33:49.703667000 Z
-      updated_at: &68 2017-02-26 21:33:49.703667000 Z
+      created_at: &66 2017-02-28 15:28:52.364413000 Z
+      updated_at: &67 2017-02-28 15:28:52.364413000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 31
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How do I change or cancel my order?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1834,13 +1827,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *67
-          type: *8
+          value_before_type_cast: *66
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *68
-          type: *10
+          value_before_type_cast: *67
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1856,19 +1849,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 32
-      created_at: &69 2017-02-26 21:33:49.712352000 Z
-      updated_at: &70 2017-02-26 21:33:49.712352000 Z
+      created_at: &68 2017-02-28 15:28:52.370935000 Z
+      updated_at: &69 2017-02-28 15:28:52.370935000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 32
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: What is your return policy?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1887,13 +1880,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *69
-          type: *8
+          value_before_type_cast: *68
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *70
-          type: *10
+          value_before_type_cast: *69
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1910,19 +1903,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 33
-      created_at: &71 2017-02-26 21:33:49.719423000 Z
-      updated_at: &72 2017-02-26 21:33:49.719423000 Z
+      created_at: &70 2017-02-28 15:28:52.377946000 Z
+      updated_at: &71 2017-02-28 15:28:52.377946000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 33
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Can I send a gift from Harry's to my friends?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1941,13 +1934,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *71
-          type: *8
+          value_before_type_cast: *70
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *72
-          type: *10
+          value_before_type_cast: *71
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -1966,19 +1959,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 34
-      created_at: &73 2017-02-26 21:33:49.731336000 Z
-      updated_at: &74 2017-02-26 21:33:49.731336000 Z
+      created_at: &72 2017-02-28 15:28:52.384423000 Z
+      updated_at: &73 2017-02-28 15:28:52.384423000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 34
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Do you offer free shipping?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -1997,13 +1990,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *73
-          type: *8
+          value_before_type_cast: *72
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *74
-          type: *10
+          value_before_type_cast: *73
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2017,19 +2010,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 35
-      created_at: &75 2017-02-26 21:33:49.738667000 Z
-      updated_at: &76 2017-02-26 21:33:49.738667000 Z
+      created_at: &74 2017-02-28 15:28:52.391931000 Z
+      updated_at: &75 2017-02-28 15:28:52.391931000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 35
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Why does my order have a $6 shipping fee?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2048,13 +2041,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *75
-          type: *8
+          value_before_type_cast: *74
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *76
-          type: *10
+          value_before_type_cast: *75
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2074,20 +2067,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 2
-      created_at: '2017-02-26 21:33:49.439415'
-      updated_at: '2017-02-26 21:33:49.439415'
+      created_at: '2017-02-28 15:28:52.130306'
+      updated_at: '2017-02-28 15:28:52.130306'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
           id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: id
             value_before_type_cast: 2
-            type: *5
+            type: *1
             original_attribute: 
           query: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: query
             value_before_type_cast: How does your Free Trial work?
-            type: *6
+            type: *5
             original_attribute: 
           company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: company_id
@@ -2106,13 +2099,13 @@
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-26 21:33:49.439415'
-            type: *8
+            value_before_type_cast: '2017-02-28 15:28:52.130306'
+            type: *7
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-26 21:33:49.439415'
-            type: *10
+            value_before_type_cast: '2017-02-28 15:28:52.130306'
+            type: *9
             original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2130,20 +2123,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 3
-      created_at: '2017-02-26 21:33:49.446913'
-      updated_at: '2017-02-26 21:33:49.446913'
+      created_at: '2017-02-28 15:28:52.149145'
+      updated_at: '2017-02-28 15:28:52.149145'
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes: !ruby/object:ActiveRecord::LazyAttributeHash
         delegate_hash:
           id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: id
             value_before_type_cast: 3
-            type: *5
+            type: *1
             original_attribute: 
           query: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: query
             value_before_type_cast: How do I modify my Shave Plan?
-            type: *6
+            type: *5
             original_attribute: 
           company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: company_id
@@ -2162,13 +2155,13 @@
             original_attribute: 
           created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: created_at
-            value_before_type_cast: '2017-02-26 21:33:49.446913'
-            type: *8
+            value_before_type_cast: '2017-02-28 15:28:52.149145'
+            type: *7
             original_attribute: 
           updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
             name: updated_at
-            value_before_type_cast: '2017-02-26 21:33:49.446913'
-            type: *10
+            value_before_type_cast: '2017-02-28 15:28:52.149145'
+            type: *9
             original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2183,19 +2176,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 36
-      created_at: &77 2017-02-26 21:33:49.748079000 Z
-      updated_at: &78 2017-02-26 21:33:49.748079000 Z
+      created_at: &76 2017-02-28 15:28:52.402453000 Z
+      updated_at: &77 2017-02-28 15:28:52.402453000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 36
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Do I need to sign up for a Free Trial?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2214,13 +2207,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *77
-          type: *8
+          value_before_type_cast: *76
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *78
-          type: *10
+          value_before_type_cast: *77
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2238,19 +2231,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 37
-      created_at: &79 2017-02-26 21:33:49.754697000 Z
-      updated_at: &80 2017-02-26 21:33:49.754697000 Z
+      created_at: &78 2017-02-28 15:28:52.408866000 Z
+      updated_at: &79 2017-02-28 15:28:52.408866000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 37
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How do I cancel my Shave Plan or Free Trial online?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2269,13 +2262,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *79
-          type: *8
+          value_before_type_cast: *78
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *80
-          type: *10
+          value_before_type_cast: *79
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2293,19 +2286,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 38
-      created_at: &81 2017-02-26 21:33:49.762434000 Z
-      updated_at: &82 2017-02-26 21:33:49.762434000 Z
+      created_at: &80 2017-02-28 15:28:52.415298000 Z
+      updated_at: &81 2017-02-28 15:28:52.415298000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 38
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: What comes in my Free Trial?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2324,13 +2317,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *81
-          type: *8
+          value_before_type_cast: *80
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *82
-          type: *10
+          value_before_type_cast: *81
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2347,19 +2340,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 39
-      created_at: &83 2017-02-26 21:33:49.770138000 Z
-      updated_at: &84 2017-02-26 21:33:49.770138000 Z
+      created_at: &82 2017-02-28 15:28:52.421547000 Z
+      updated_at: &83 2017-02-28 15:28:52.421547000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 39
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: What forms of payment do you accept?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2378,13 +2371,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *83
-          type: *8
+          value_before_type_cast: *82
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *84
-          type: *10
+          value_before_type_cast: *83
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2398,20 +2391,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 40
-      created_at: &85 2017-02-26 21:33:49.778953000 Z
-      updated_at: &86 2017-02-26 21:33:49.778953000 Z
+      created_at: &84 2017-02-28 15:28:52.430400000 Z
+      updated_at: &85 2017-02-28 15:28:52.430400000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 40
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: "I see 'Stripe' on my bank statement - whatâ\x80\x99s
             that?"
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2430,13 +2423,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *85
-          type: *8
+          value_before_type_cast: *84
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *86
-          type: *10
+          value_before_type_cast: *85
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2451,20 +2444,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 41
-      created_at: &87 2017-02-26 21:33:49.789472000 Z
-      updated_at: &88 2017-02-26 21:33:49.789472000 Z
+      created_at: &86 2017-02-28 15:28:52.441052000 Z
+      updated_at: &87 2017-02-28 15:28:52.441052000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 41
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: I am purchasing from Canada. Why am I having trouble
             checking out?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2483,13 +2476,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *87
-          type: *8
+          value_before_type_cast: *86
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *88
-          type: *10
+          value_before_type_cast: *87
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2511,19 +2504,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 42
-      created_at: &89 2017-02-26 21:33:49.798393000 Z
-      updated_at: &90 2017-02-26 21:33:49.798393000 Z
+      created_at: &88 2017-02-28 15:28:52.447755000 Z
+      updated_at: &89 2017-02-28 15:28:52.447755000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 42
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How do I use my redemption code?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2542,13 +2535,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *89
-          type: *8
+          value_before_type_cast: *88
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *90
-          type: *10
+          value_before_type_cast: *89
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2568,20 +2561,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 43
-      created_at: &91 2017-02-26 21:33:49.808097000 Z
-      updated_at: &92 2017-02-26 21:33:49.808097000 Z
+      created_at: &90 2017-02-28 15:28:52.459561000 Z
+      updated_at: &91 2017-02-28 15:28:52.459561000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 43
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: "There is a $1 charge on my bank statement - whatâ\x80\x99s
             that about?"
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2600,13 +2593,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *91
-          type: *8
+          value_before_type_cast: *90
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *92
-          type: *10
+          value_before_type_cast: *91
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2621,19 +2614,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 44
-      created_at: &93 2017-02-26 21:33:49.816926000 Z
-      updated_at: &94 2017-02-26 21:33:49.816926000 Z
+      created_at: &92 2017-02-28 15:28:52.468460000 Z
+      updated_at: &93 2017-02-28 15:28:52.468460000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 44
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Can I purchase Harry's products at retail locations?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2652,13 +2645,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *93
-          type: *8
+          value_before_type_cast: *92
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *94
-          type: *10
+          value_before_type_cast: *93
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2675,19 +2668,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 45
-      created_at: &95 2017-02-26 21:33:49.824790000 Z
-      updated_at: &96 2017-02-26 21:33:49.824790000 Z
+      created_at: &94 2017-02-28 15:28:52.475289000 Z
+      updated_at: &95 2017-02-28 15:28:52.475289000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 45
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Where is your factory?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2706,13 +2699,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *95
-          type: *8
+          value_before_type_cast: *94
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *96
-          type: *10
+          value_before_type_cast: *95
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2729,19 +2722,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 46
-      created_at: &97 2017-02-26 21:33:49.832994000 Z
-      updated_at: &98 2017-02-26 21:33:49.832994000 Z
+      created_at: &96 2017-02-28 15:28:52.480992000 Z
+      updated_at: &97 2017-02-28 15:28:52.480992000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 46
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: Do you have a Mobile App?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2760,13 +2753,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *97
-          type: *8
+          value_before_type_cast: *96
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *98
-          type: *10
+          value_before_type_cast: *97
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2781,19 +2774,19 @@
       company_id: 1
       confidence: -60
       conversation_id: 47
-      created_at: &99 2017-02-26 21:33:49.839684000 Z
-      updated_at: &100 2017-02-26 21:33:49.839684000 Z
+      created_at: &98 2017-02-28 15:28:52.486881000 Z
+      updated_at: &99 2017-02-28 15:28:52.486881000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 47
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: How do I remove something from my cart in the app?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2812,13 +2805,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *99
-          type: *8
+          value_before_type_cast: *98
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *100
-          type: *10
+          value_before_type_cast: *99
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1
@@ -2834,20 +2827,20 @@
       company_id: 1
       confidence: -60
       conversation_id: 48
-      created_at: &101 2017-02-26 21:33:49.846327000 Z
-      updated_at: &102 2017-02-26 21:33:49.846327000 Z
+      created_at: &100 2017-02-28 15:28:52.495466000 Z
+      updated_at: &101 2017-02-28 15:28:52.495466000 Z
     attributes: !ruby/object:ActiveRecord::AttributeSet
       attributes:
         id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: id
           value_before_type_cast: 48
-          type: *5
+          type: *1
           original_attribute: 
         query: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: query
           value_before_type_cast: I'm checking out in the app, how do I apply my Coupon
             Code?
-          type: *6
+          type: *5
           original_attribute: 
         company_id: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: company_id
@@ -2866,13 +2859,13 @@
           original_attribute: 
         created_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: created_at
-          value_before_type_cast: *101
-          type: *8
+          value_before_type_cast: *100
+          type: *7
           original_attribute: 
         updated_at: !ruby/object:ActiveRecord::Attribute::FromDatabase
           name: updated_at
-          value_before_type_cast: *102
-          type: *10
+          value_before_type_cast: *101
+          type: *9
           original_attribute: 
     new_record: false
     active_record_yaml_version: 1

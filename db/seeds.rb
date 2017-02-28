@@ -1,32 +1,34 @@
-#harrys
-doc = Nokogiri::HTML(open('https://www.harrys.com/help'))
-qa_blocks = doc.css('.question-answer-block')
-harrys = File.open("harrys.yml", "w")
+# #harrys
 company = Company.find_or_create_by(name: "Harrys")
-harrys << qa_blocks.each_with_object({faqs: []}) do |qa, hash|
-  question = qa.css('.question').text.strip
-  answer = qa.css('.answer').css('div > text()').map { |e| e.text }.join.strip
-  if question && answer
-    conversation = Conversation.find_or_create_by(answer_1: answer)
-    question = Question.find_or_create_by(query: question, confidence: -60, company_id: company.id,
-    conversation_id: conversation.id)
-    hash[:faqs] << {question: question, answer: answer}
-  end
-end.to_yaml
-harrys.close
+# doc = Nokogiri::HTML(open('https://www.harrys.com/help'))
+# qa_blocks = doc.css('.question-answer-block')
+# harrys = File.open("harrys.yml", "w")
+# company = Company.find_or_create_by(name: "Harrys")
+# harrys << qa_blocks.each_with_object({faqs: []}) do |qa, hash|
+#   question = qa.css('.question').text.strip
+#   answer = qa.css('.answer').css('div > text()').map { |e| e.text }.join.strip
+#   if question && answer
+#     conversation = Conversation.find_or_create_by(answer_1: answer)
+#     question = Question.find_or_create_by(query: question, confidence: -60, company_id: company.id,
+#     conversation_id: conversation.id)
+#     hash[:faqs] << {question: question, answer: answer}
+#   end
+# end.to_yaml
+# harrys.close
 
 # parse csv File
 require 'csv'
 csv_text = File.read('harrys_conversations.csv', :encoding => "windows-1251:utf-8")
 csv=CSV.parse(csv_text, headers:true)
 company = Company.find_or_create_by(name: "Harrys")
+
 csv.each do |row|
-  conversation = Conversation.find_or_create_by(answer_1: row[2], answer_2: row[4], answer_3: row[6])
-  question = Question.find_or_create_by(query: row[1], confidence: -60, company_id: company.id, conversation_id: conversation.id)
+  conversation = Conversation.find_or_create_by(answer_1: row[5], answer_2: row[7], answer_3: row[9])
+  question = Question.find_or_create_by(query: row[4], confidence: -60, company_id: company.id, conversation_id: conversation.id)
 end
 
-doc = Nokogiri::HTML(open('https://bonobos.com/help'))
-help_links = doc.css(".col-md-4 a")
+# doc = Nokogiri::HTML(open('https://bonobos.com/help'))
+# help_links = doc.css(".col-md-4 a")
 #
 # company = Company.find_or_create_by(name: "Bonobos")
 # browser = Watir::Browser.new
@@ -212,8 +214,8 @@ Product.create(
   company_id: company.id,
   image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/8875d415200f24b9c66ed69a341ab43b42215ed6.jpg"
 )
-company = Company.find_by(name: "Harrys")
 
+company = Company.find_by(name: "Harrys")
 20.times do
   user_id = User.order("RANDOM()").limit(1).first.id
   product_id = Product.order("RANDOM()").limit(1).first.id

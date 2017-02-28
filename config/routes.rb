@@ -17,5 +17,17 @@ Rails.application.routes.draw do
     post "answer"
   end
   resources :faqs
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  scope '/api' do
+    scope '/companies' do
+      get '/' => 'api#companies'
+      get '/:company_id/questions' => 'api#questions'
+      get '/:company_id/conversations' => 'api#conversations'
+      get '/:company_id/conversation' => 'api#conversation'
+    end
+    scope '/users' do
+      get '/' => 'api#users'
+      get '/:user_id' => 'api#user'
+    end
+  end
 end
