@@ -223,6 +223,43 @@ company = Company.find_by(name: "Harrys")
   ResponseHistory.create(user_id: user_id, question_id: question_id, order_id: order.id)
 end
 
+company = Company.find_or_create_by(name: "Bonobos")
+browser = Watir::Browser.new
+browser.goto "https://bonobos.com/shop/pants-and-bottoms/chinos"
+browser.button(class: "close").click
+links=browser.elements(class:"category-item").map { |e| e.links.first.href}
+links.each do |link|
+  browser.goto link
+  name = browser.element(class:"summary---name---2z4RC").text
+  price = browser.element(class:"summary---fullPrice---fHdE-").text.gsub("$","").to_f
+  image_url = browser.element(class: "product---carouselImage---1FZa1")
+  image_url = image_url.element(tag_name:"img").src
+  option_types = browser.elements(class:"product---input---3pyEh")
+  color = browser.element(class:"radio_group_swatch---selectedValuePresentation---13vn2").text
+  # colors = option_types[0].elements(class: "swatch---swatch---3EWrH", tag_name: "div")
+  # colors = colors.map { |e| e.title }
+
+  fits = option_types[1].elements(class: "text_tag---text---3FCj_")
+  fits = fits.map { |e| e.text }
+  waists = option_types[2].elements(class: "text_tag---text---3FCj_")
+  waists = waists.map { |e| e.text }
+  lengths = option_types[3].elements(class: "text_tag---text---3FCj_")
+  lengths = lengths.map { |e| e.text }
+  fits.each do |fit|
+    waists.each do |waist|
+      lengths.each do |length|
+        Product.find_or_create_by(name: name,
+                                  company_id: company.id,
+                                  price: price,
+                                  color: color,
+                                  size: "#{waist}x#{length}",
+                                  fit: fit,
+                                  image_url: image_url
+                                )
+      end
+    end
+  end
+end
 #llbean
 
 # doc = Nokogiri::HTML(open('https://www.llbean.com/llb/shop/510618?nav=gn-hp'))
@@ -233,7 +270,7 @@ end
 #   question = qa.css("p").first.text.strip
 #   answer = qa.css("span").text.strip
 #   Faq.find_or_create_by(question: question, answer: answer, company_id: company.id,
-image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg")
+# image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg")
 #   hash[:faqs] << {question: question, answer: answer}
 # end.to_yaml
 # ll_bean.close
@@ -249,7 +286,7 @@ image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachment
 #   question = qa.css(".question").text.strip
 #   answer = qa.css(".answer").text.strip
 #   Faq.find_or_create_by(question: question, answer: answer, company_id: company.id,
-image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg")
+# image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg")
 #   hash[:faqs] << {question: question, answer: answer}
 # end.to_yaml
 # serena_and_lily.close
