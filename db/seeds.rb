@@ -28,27 +28,27 @@ end
 
 doc = Nokogiri::HTML(open('https://bonobos.com/help'))
 help_links = doc.css(".col-md-4 a")
-
-company = Company.find_or_create_by(name: "Bonobos")
-browser = Watir::Browser.new
-browser.goto "https://bonobos.com/help"
-browser.button(class: "close").click
-iframe = browser.iframe(class:"desk-iframe")
-sidebar = iframe.elements(class:"col-md-4")
-help_links = sidebar.map {|a| a.links.first.href}
-help_links.each do |link|
-  browser.goto link
-  question_blocks = browser.elements(class: "article")
-  question_blocks.each do |question_block|
-    query = question_block.text
-    question_block.click
-    answer = question_block.element(class: "body", tag_name: "article").text
-    conversation = Conversation.find_or_create_by(answer_1: answer)
-    question = Question.find_or_create_by(query: query, confidence: -60, company_id: company.id,
-    image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg", conversation_id: conversation.id)
-  end
-end
-
+#
+# company = Company.find_or_create_by(name: "Bonobos")
+# browser = Watir::Browser.new
+# browser.goto "https://bonobos.com/help"
+# browser.button(class: "close").click
+# iframe = browser.iframe(class:"desk-iframe")
+# sidebar = iframe.elements(class:"col-md-4")
+# help_links = sidebar.map {|a| a.links.first.href}
+# help_links.each do |link|
+#   browser.goto link
+#   question_blocks = browser.elements(class: "article")
+#   question_blocks.each do |question_block|
+#     query = question_block.text
+#     question_block.click
+#     answer = question_block.element(class: "body", tag_name: "article").text
+#     conversation = Conversation.find_or_create_by(answer_1: answer)
+#     question = Question.find_or_create_by(query: query, confidence: -60, company_id: company.id,
+#     image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg", conversation_id: conversation.id)
+#   end
+# end
+#
 
 
 
@@ -222,38 +222,38 @@ company = Company.find_by(name: "Harrys")
   order = Order.create(user_id: user_id, product_id: product_id, quantity: rand(3) + 1)
   ResponseHistory.create(user_id: user_id, question_id: question_id, order_id: order.id)
 end
-
-company = Company.find_or_create_by(name: "Bonobos")
-browser = Watir::Browser.new
-browser.goto "https://bonobos.com/shop/pants-and-bottoms/chinos"
-browser.button(class: "close").click
-links=browser.elements(class:"category-item").map { |e| e.links.first.href}
-links.each do |link|
-  browser.goto link
-  name = browser.element(class:"summary---name---2z4RC").text
-  price = browser.element(class:"summary---fullPrice---fHdE-").text.gsub("$","").to_f
-  image_url = browser.element(class: "product---carouselImage---1FZa1")
-  image_url = image_url.element(tag_name:"img").src
-  option_types = browser.elements(class:"product---input---3pyEh")
-  color = browser.element(class:"radio_group_swatch---selectedValuePresentation---13vn2").text
-  fits = option_types[1].elements(class: "text_tag---text---3FCj_")
-  fits = fits.map { |e| e.text }
-  waists = option_types[2].elements(class: "text_tag---text---3FCj_")
-  waists = waists.map { |e| e.text }
-  lengths = option_types[3].elements(class: "text_tag---text---3FCj_")
-  lengths = lengths.map { |e| e.text }
-  fits.each do |fit|
-    waists.each do |waist|
-      lengths.each do |length|
-        Product.find_or_create_by(name: name,
-                                  company_id: company.id,
-                                  price: price,
-                                  color: color,
-                                  size: "#{waist}x#{length}",
-                                  fit: fit,
-                                  image_url: image_url
-                                )
-      end
-    end
-  end
-end
+#
+# company = Company.find_or_create_by(name: "Bonobos")
+# browser = Watir::Browser.new
+# browser.goto "https://bonobos.com/shop/pants-and-bottoms/chinos"
+# browser.button(class: "close").click
+# links=browser.elements(class:"category-item").map { |e| e.links.first.href}
+# links.each do |link|
+#   browser.goto link
+#   name = browser.element(class:"summary---name---2z4RC").text
+#   price = browser.element(class:"summary---fullPrice---fHdE-").text.gsub("$","").to_f
+#   image_url = browser.element(class: "product---carouselImage---1FZa1")
+#   image_url = image_url.element(tag_name:"img").src
+#   option_types = browser.elements(class:"product---input---3pyEh")
+#   color = browser.element(class:"radio_group_swatch---selectedValuePresentation---13vn2").text
+#   fits = option_types[1].elements(class: "text_tag---text---3FCj_")
+#   fits = fits.map { |e| e.text }
+#   waists = option_types[2].elements(class: "text_tag---text---3FCj_")
+#   waists = waists.map { |e| e.text }
+#   lengths = option_types[3].elements(class: "text_tag---text---3FCj_")
+#   lengths = lengths.map { |e| e.text }
+#   fits.each do |fit|
+#     waists.each do |waist|
+#       lengths.each do |length|
+#         Product.find_or_create_by(name: name,
+#                                   company_id: company.id,
+#                                   price: price,
+#                                   color: color,
+#                                   size: "#{waist}x#{length}",
+#                                   fit: fit,
+#                                   image_url: image_url
+#                                 )
+#       end
+#     end
+#   end
+# end
