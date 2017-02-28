@@ -9,7 +9,7 @@ harrys << qa_blocks.each_with_object({faqs: []}) do |qa, hash|
   if question && answer
     conversation = Conversation.find_or_create_by(answer_1: answer)
     question = Question.find_or_create_by(query: question, confidence: -60, company_id: company.id,
-    image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg", conversation_id: conversation.id)
+    conversation_id: conversation.id)
     hash[:faqs] << {question: question, answer: answer}
   end
 end.to_yaml
@@ -22,8 +22,7 @@ csv=CSV.parse(csv_text, headers:true)
 company = Company.find_or_create_by(name: "Harrys")
 csv.each do |row|
   conversation = Conversation.find_or_create_by(answer_1: row[2], answer_2: row[4], answer_3: row[6])
-  question = Question.find_or_create_by(query: row[1], confidence: -60, company_id: company.id,
-  image_url: "https://harrysx-a.akamaihd.net/assets/images/index_images/attachments/551f682db5a708e31b1881a1d9943da93f626e7f.jpg", conversation_id: conversation.id)
+  question = Question.find_or_create_by(query: row[1], confidence: -60, company_id: company.id, conversation_id: conversation.id)
 end
 
 doc = Nokogiri::HTML(open('https://bonobos.com/help'))
